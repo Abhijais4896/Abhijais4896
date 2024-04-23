@@ -9,7 +9,7 @@
 
 - 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/abhishekjaiswal076/](https://www.linkedin.com/in/abhishekjaiswal076/)
 
-- 💬 Ask me about :::**Python,Linux,Data Visualization,SQL,MongoDb,PowerBI,EDA,A/B Testing,ML Algorithms,Tensorflow,Pytorch,Neural Networks,Deep Learning,NLP,Computer Vision,Gen AI,LLM,MLOPs,docker,kubernetes,Jenkins,Airflow,BentoMl,DVC**
+- 💬 Ask me about ::: **Python, Linux, Data Visualization, SQL, MongoDb, PowerBI, EDA, A/B Testing, ML Algorithms, Tensorflow, Pytorch, Neural Networks, Deep Learning, NLP, Computer Vision, Gen AI, LLM, MLOPs, docker, kubernetes, Jenkins, Airflow, BentoMl, DVC**
 
 - 📫 How to reach me **abhishek.77647@gmail.com**
 
