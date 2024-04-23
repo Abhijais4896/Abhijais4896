@@ -1,7 +1,7 @@
 ![MasterHead](https://private-user-images.githubusercontent.com/74038190/243078834-72903324-cf57-4e90-80a6-ed3c9734e0ed.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYxOTAzNjgsIm5iZiI6MTcwNjE5MDA2OCwicGF0aCI6Ii83NDAzODE5MC8yNDMwNzg4MzQtNzI5MDMzMjQtY2Y1Ny00ZTkwLTgwYTYtZWQzYzk3MzRlMGVkLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTI1VDEzNDEwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY0OTg2N2JhNzI1YWM1NGQxMzY0NjEwOTFiMTQyZjI2YmU5MGRlY2NkZTQ5ZDllZDI3ZjNjMzdiNzcwZWM0ODQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.OJsiQ8wLmnbVpkG5lVpqm4WeY3xbeznaXp312IEwkMo)
 <h1 align="center">Hi 👋, I'm Abhishek jaiswal</h1>
 <h3 align="center">I am a passionate and driven B.Tech student immersed in Data Science & Machine Learning</h3>
-<img align="right" alt="Busy in coding" width="400" src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif">
+<img align="right" alt="Busy in coding" width="400" src="https://giphy.com/gifs/content-jasper-ai-5k5vZwRFZR5aZeniqb">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abhijais4896&label=Profile%20views&color=0e75b6&style=flat" alt="abhijais4896" /> </p>
 
