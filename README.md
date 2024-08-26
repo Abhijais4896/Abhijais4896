@@ -1,4 +1,4 @@
-![MasterHead](https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif)
+![MasterHead](https://www.digitalsolutionservices.com/img/services/web%20development.gif)
 <h1 align="center">Hi 👋, I'm Abhishek jaiswal</h1>
 <h3 align="center">I am a passionate and driven B.Tech student immersed in Full Stack Web Development, Cloud and Devops</h3>
 <img align="right" alt="Busy in coding" width="500" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXhjNW1ra2doN3Vxc3czaWNvbGl1NDRiZ2xraWd5YmV0bGRhbTkybiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif">
