@@ -13,7 +13,7 @@
 
 - 📝 I regularly write articles on [https://dev.to/abhishekjaiswal_4896](https://dev.to/abhishekjaiswal_4896)
 
-- 💬 Ask me about **Python | Machine learning| Devops | MlOps | Algorithmic trading| LLM | Gen AI**
+- 💬 Ask me about **Python | Machine learning| Devops | MlOps | Deep Learning | Transformers | LLM | Gen AI**
 
 - 📫 How to reach me **abhishek.77647@gmail.com**
 
