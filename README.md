@@ -7,9 +7,9 @@
 
 <p align="left"> <a href="https://twitter.com/abhishek_4896" target="blank"><img src="https://img.shields.io/twitter/follow/abhishek_4896?logo=twitter&style=for-the-badge" alt="abhishek_4896" /></a> </p>
 
-- 🔭 I’m currently working on **Machine Learning, Deep Learning, Algorithmic & Quant Trading**
+- 🔭 I’m currently working on **Machine Learning, Deep Learning, MLOps*
 
-- 🌱 I’m currently learning **Data science, Machine learning, Deep learning, Generative AI, Agentic AI, NLP, Transformers, Algo & Quant Trading**
+- 🌱 I’m currently learning **Data science, Machine learning, Deep learning, Generative AI, Agentic AI, NLP, Transformers**
 
 - 👯 I’m looking to collaborate on **ML Projects, Data science projects, Data analytics projects**
 
