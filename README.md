@@ -6,6 +6,12 @@
 
 <a href="https://www.bestpractices.dev/projects/11227"><img src="https://www.bestpractices.dev/projects/11227/badge"></a>
 
+
+## 🌐 Connect with Me  
+
+[![Follow on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=abhishekjaiswal076)
+
+
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=abhijais4896" alt="abhijais4896" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/abhishek_4896" target="blank"><img src="https://img.shields.io/twitter/follow/abhishek_4896?logo=twitter&style=for-the-badge" alt="abhishek_4896" /></a> </p>
