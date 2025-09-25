@@ -11,10 +11,15 @@
 
 [![Follow on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=abhishekjaiswal076)
 
+[![Follow on GitHub](https://img.shields.io/badge/GitHub-Follow-blue?style=for-the-badge&logo=github)](https://github.com/Abhijais4896)
+
+[![Follow on Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/abhishek_4896)
+
+[![View on Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/abhishekjaiswal4896)
+
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=abhijais4896" alt="abhijais4896" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/abhishek_4896" target="blank"><img src="https://img.shields.io/twitter/follow/abhishek_4896?logo=twitter&style=for-the-badge" alt="abhishek_4896" /></a> </p>
 
 - 🔭 I’m currently working on **Machine Learning, Deep Learning, MLOps*
 
