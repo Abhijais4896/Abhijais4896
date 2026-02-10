@@ -31,6 +31,7 @@
 
 - 📫 How to reach me **abhishek.77647@gmail.com**
 
+              
 - ⚡ Fun fact **An AI-generated text prediction model was trained to write a Harry Potter novel.**
 
 ### Blogs posts
