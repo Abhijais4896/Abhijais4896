@@ -5,7 +5,7 @@
 
 
 <h1 align="center">Hi 👋, I'm Abhishek Jaiswal</h1>
-<h3 align="center">Automating Cloud & AI Infrastructure | DevOps, MLOps, LLMOps, AIOps Enthusiast</h3>
+<h3 align="center">Building Cloud Infrastructure | DevOps, MLOps, LLMOps, AIOps Enthusiast</h3>
 
 <a href="https://www.bestpractices.dev/projects/11227"><img src="https://www.bestpractices.dev/projects/11227/badge"></a>
 
@@ -17,17 +17,17 @@
 
 - 🔭 I’m currently working on **cloud-native infrastructure projects leveraging Kubernetes, Docker, Helm, Terraform, and implementing Observability & DevSecOps best practices**
 
-- 🌱 I’m currently learning **AI infrastructure optimization: latency, cost, and observability for AI workloads**
+- 🌱 I’m currently learning **Cloud infrastructure optimization: latency, cost, and observability for production workloads**
 
-- 👯 I’m looking to collaborate on **cloud-native AI infrastructure projects integrating MLOps, LLMOps, and AIOps best practices**
+- 👯 I’m looking to collaborate on **cloud-native infrastructure projects integrating MLOps, LLMOps, and AIOps best practices**
 
-- 🤝 I’m looking for help with **open-source contributions in cutting-edge DevOps and AI infrastructure projects**
+- 🤝 I’m looking for help with **open-source contributions in cutting-edge DevOps and cloud infrastructure projects**
 
 - 👨‍💻 All of my projects are available at [https://github.com/Abhijais4896](https://github.com/Abhijais4896)
 
 - 📝 I regularly write articles on [https://dev.to/abhishekjaiswal_4896](https://dev.to/abhishekjaiswal_4896)
 
-- 💬 Ask me about **LLMs, RAG pipelines, agentic AI systems, MLOps workflows, and building production-ready AI applications.**
+- 💬 Ask me about **DevOps, RAG pipelines, agentic AI systems, MLOps workflows, and building production-ready infrastructure.**
 
 - 📫 How to reach me **abhishek.77647@gmail.com**
 
