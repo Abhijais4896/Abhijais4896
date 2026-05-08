@@ -2,6 +2,8 @@
   <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" alt="animated" />
 </p>
 
+<a href="https://u8views.com/github/Abhijais4896"><img src="https://u8views.com/api/v1/github/profiles/126854907/views/day-week-month-total-count.svg"></a>
+
 <h1 align="center">Hi 👋, I'm Abhishek Jaiswal</h1>
 <h3 align="center">AI/ML Engineer | Generative AI | Agentic AI | MLOps & LLMOps | Python | FastAPI | Deep Learning | PyTorch & TensorFlow | LangChain | Scalable AI Infrastructure</h3>
 
