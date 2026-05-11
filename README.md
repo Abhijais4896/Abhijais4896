@@ -8,6 +8,9 @@
 # 👨‍💻 About Me:
  👋 I’m a Cloud & DevOps Engineer and Open Source Contributor, passionate about building scalable, reliable, and secure cloud infrastructure. I specialize in automating, deploying, and monitoring cloud-native applications, ensuring they run efficiently and reliably in production environments.I’ve implemented projects such as cloud-native deployments, automated CI/CD pipelines, Kubernetes-based scalable applications, and infrastructure automation workflows using Terraform and GitOps principles.
 
+<div align="center">
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+</div>
 
  <a href="https://u8views.com/github/Abhijais4896"><img src="https://u8views.com/api/v1/github/profiles/126854907/views/day-week-month-total-count.svg"></a>
 
@@ -29,6 +32,8 @@
 
 ### 🔼 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Abhijais4896&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+
 
 ---
 [![](https://komarev.com/ghpvc/?username=Abhijais4896&icon=0&color=0)](https://visitcount.itsvg.in)
