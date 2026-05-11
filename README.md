@@ -1,6 +1,15 @@
-# 👋« About Me:
- Cloud & DevOps Engineer | Open Source Contributor | AWS | Kubernetes | Docker | Linux | Scripting | Terraform | CI/CD | ArgoCD | MLOps & AIOps | DevSecOps | Monitoring & Observability | Scalable Cloud Infrastructure
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" alt="animated" />
+</p>
 
+
+<h1 align="center">Hi 👋, I'm Abhishek Jaiswal</h1>
+
+# 👨‍💻 About Me:
+ 👋 I’m a Cloud & DevOps Engineer and Open Source Contributor, passionate about building scalable, reliable, and secure cloud infrastructure. I specialize in automating, deploying, and monitoring cloud-native applications, ensuring they run efficiently and reliably in production environments.I’ve implemented projects such as cloud-native deployments, automated CI/CD pipelines, Kubernetes-based scalable applications, and infrastructure automation workflows using Terraform and GitOps principles.
+
+
+ <a href="https://u8views.com/github/Abhijais4896"><img src="https://u8views.com/api/v1/github/profiles/126854907/views/day-week-month-total-count.svg"></a>
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhishekjaiswal076) [![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/Abhishek-Jaiswal-2414) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Abhishek_4896) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhishek.77647@gmail.com) 
