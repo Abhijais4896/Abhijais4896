@@ -1,17 +1,21 @@
 <p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:8A2BE2&height=250&section=header&text=Abhishek%20Jaiswal&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20|%20GenAI%20|%20Agentic%20AI%20|%20MLOps&descAlignY=60"/>
+</p>
+
+
+<p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" alt="animated" />
 </p>
 
-<img width="1983" height="793" alt="ChatGPT Image Jul 27, 2026, 09_43_54 AM" src="https://github.com/user-attachments/assets/ab87e296-5f56-4758-a542-b224bc0a090a" />
 
+<h1 align="center">Hi 👋, I'm Abhishek Jaiswal
 
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=AI+Engineer;Agentic+AI+Developer;Building+Production+AI+Systems;MLOps+%7C+LLMOps+%7C+FastAPI;Always+Learning+Something+New..." />
+</p>
+</h1>
 
-<h1 align="center">Hi 👋, I'm Abhishek Jaiswal</h1>
-
-
-
-
-# 💫 About Me:
+# 💫 About Me: 
 🤖 I’m currently working on AI agents, RAG applications, and production-ready AI systems.<br>🤝 I’m looking to collaborate on AI, GenAI, and Agentic AI projects.<br>🙌 I’m looking for help with production-grade AI system design and open-source contributions.<br>📚 I’m currently learning Agentic AI, MLOps, and AI system design.<br>💡 Ask me about AI product development, RAG pipelines, and multi-agent systems.<br>🚀 Fun fact: I love building AI projects almost as much as I love learning new technologies.<br>
 
 <div align="center">
@@ -52,11 +56,17 @@
 </p>
 
 # 📊 GitHub Stats:
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=1200&pause=300&color=58A6FF&center=true&vCenter=true&repeat=true&width=900&lines=Booting+AI+Copilot...;Loading+Memory...;Loading+Vector+Database...;Spawning+Research+Agent...;Spawning+Coding+Agent...;Spawning+Reviewer+Agent...;Agent+Communication+Established...;System+Online" alt="Typing SVG" />
+</p>
+
 ![](https://github-readme-stats.shion.dev/api?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=Abhijais4896&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
+
 ![](https://github-profile-trophy.vercel.app/?username=Abhijais4896&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
@@ -67,4 +77,6 @@
 
 ---
 [![](https://komarev.com/ghpvc/?username=Abhijais4896&icon=0&color=0)](https://visitcount.itsvg.in)
+
+
 
