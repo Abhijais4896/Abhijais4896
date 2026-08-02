@@ -2,6 +2,16 @@
   <img src="hologram-profile-card-animated.svg" width="900" alt="Hologram Profile Card">
 </p>
 
+![Level](https://img.shields.io/badge/LEVEL-AI_Engineer-00F5FF?style=for-the-badge)
+
+![Quest](https://img.shields.io/badge/QUEST-Multi_Agent_Systems-8A2BE2?style=for-the-badge)
+
+![XP](https://img.shields.io/badge/XP-Always_Learning-00C853?style=for-the-badge)
+
+![Mode](https://img.shields.io/badge/MODE-Building-FF6B35?style=for-the-badge)
+
+![Focus](https://img.shields.io/badge/FOCUS-Production_AI_Systems-2962FF?style=for-the-badge)
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" alt="animated" />
 </p>
