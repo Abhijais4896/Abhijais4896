@@ -56,6 +56,31 @@
   <img src="ai-neon-divider.svg" width="100%">
 </p>
 
+## 💼 Work Experience :
+
+### 🧠 Machine Learning Intern — Alfido Tech
+
+**Dec 2025 – Jun 2026**
+
+Worked on practical machine learning tasks including data preprocessing, feature engineering, model training, and evaluation. Gained hands-on experience building and improving ML workflows using Python and standard ML libraries.
+
+**Focus:** `Python` `Machine Learning` `Data Preprocessing` `Feature Engineering` `Model Evaluation`
+
+---
+
+### 🤖 Machine Learning Intern — CodTech IT Solutions
+
+**Jun 2025 – Dec 2025**
+
+Worked on developing and evaluating machine learning models while handling data preparation and experimentation. Built practical experience with ML workflows and applying machine learning techniques to real-world datasets.
+
+**Focus:** `Python` `Machine Learning` `Pandas` `Scikit-learn` `Model Training` `Data Analysis`
+
+<p align="center">
+  <img src="ai-neon-divider.svg" width="100%">
+</p>
+
+
 
 ## 🚀 My Portfolio Projects :
 
