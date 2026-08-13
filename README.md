@@ -11,6 +11,9 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Cloud+%26+DevOps+Engineer;Platform+Engineering+%7C+Cloud+Native;Kubernetes+%7C+Terraform+%7C+GitOps;AWS+%7C+Azure+%7C+GCP+%7C+Multi-Cloud;DevOps+%7C+SRE+%7C+Observability+%7C+FinOps;AI+Infrastructure+%7C+MLOps+%7C+AIOps;Building+Reliable+%26+Scalable+Systems..." />
 </p>
 
+<p align="center">
+  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
+</p>
 
 # <h1 align="center">💫 About Me
 🚀 I am currently working on "cloud-native DevOps and AI Infrastructure projects", focusing on "Kubernetes, AWS, Azure, GCP, Terraform, GitOps, CI/CD, observability, FinOps, and platform engineering", while exploring "GPU infrastructure, model serving, MLOps, and AIOps". <br>🤝 I am looking to collaborate on "open-source projects, cloud-native DevOps, Kubernetes, Platform Engineering, GitOps, AI Infrastructure, MLOps, and AIOps", while working with others to build "scalable, reliable, and production-ready systems". <br>🔍 I am looking for help with "advanced Kubernetes, Platform Engineering, Cloud Infrastructure, AI Infrastructure, and open-source contributions", while learning from experienced engineers and collaborating on real-world DevOps challenges. <br>📚 I am currently learning "advanced Kubernetes, Platform Engineering, Multi-Cloud, GitOps, Observability, FinOps, and AI Infrastructure", with a focus on "GPU workloads, model serving, MLOps, and AIOps". <br>💬 Ask me about "Kubernetes, Cloud & DevOps, Platform Engineering, GitOps, AI Infrastructure, MLOps, AIOps, FinOps, or open-source contributions." <br>😄 **Fun Fact:** I enjoy turning complex infrastructure problems into automated solutions—and I’m always curious about what happens when you put **AI + Kubernetes + DevOps** together.<br><br><br>
@@ -20,6 +23,10 @@
 </div>
 
 <a href="https://u8views.com/github/Abhijais4896"><img src="https://u8views.com/api/v1/github/profiles/126854907/views/day-week-month-total-count.svg"></a>
+
+<p align="center">
+  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
+</p>
 
 # <h1 align="center"> 🌐 Socials
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhishekjaiswal076) [![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/Abhishek-Jaiswal-2414) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Abhishek_4896) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhishek.77647@gmail.com)
@@ -33,9 +40,16 @@
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/abhishekjaiswal076](https://www.linkedin.com/in/abhishekjaiswal076)
 
+<p align="center">
+  <img src="ai-neon-divider.svg" width="100%">
+</p>
   
 # <h1 align="center">💻 Tech Stack
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![OpenStack](https://img.shields.io/badge/Openstack-%23f01742.svg?style=for-the-badge&logo=openstack&logoColor=white) ![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=for-the-badge&logo=datadog&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black) ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Strapi](https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=Apache%20Flink&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) ![CockroachLabs](https://img.shields.io/badge/Cockroach%20Labs-6933FF?style=for-the-badge&logo=Cockroach%20Labs&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![CircleCI](https://img.shields.io/badge/circleci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Packer](https://img.shields.io/badge/packer-%23E7EEF0.svg?style=for-the-badge&logo=packer&logoColor=%2302A8EF) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD) ![Splunk](https://img.shields.io/badge/splunk-%23000000.svg?style=for-the-badge&logo=splunk&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
+
+<p align="center">
+  <img src="ai-neon-divider.svg" width="100%">
+</p>
 
 <h1 align="center">💼 Work Experience</h1>
 
@@ -78,6 +92,10 @@ Worked on Azure-based DevOps workflows, supporting CI/CD automation, infrastruct
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
+</p>
 
 <h1 align="center">🌟 Portfolio Projects</h1>
 <table>
@@ -221,6 +239,10 @@ A reproducible ML pipeline for water potability prediction with dataset versioni
 
 </table>
 
+<p align="center">
+  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
+</p>
+
 <h1 align="center">📱 Certifications</h1>
 <p align="center">
 
@@ -262,14 +284,25 @@ A reproducible ML pipeline for water potability prediction with dataset versioni
 
 </p>
 
+<p align="center">
+  <img src="ai-neon-divider.svg" width="100%">
+</p>
 
 # <h1 align="center">📊 GitHub Stats
 ![](https://github-readme-stats.shion.dev/api?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=Abhijais4896&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
+<p align="center">
+  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
+</p>
+
 # <h1 align="center">🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Abhijais4896&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+<p align="center">
+  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
+</p>
 
 ### <h1 align="center">✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
@@ -278,7 +311,13 @@ A reproducible ML pipeline for water potability prediction with dataset versioni
 ![](https://github-contributor-stats.vercel.app/api?username=Abhijais4896&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 <p align="center">
+  <img src="ai-neon-divider.svg" width="100%">
+</p>
+
+<p align="center">
   <img src="cloud-devops-terminal-boot.svg" width="800" alt="Cloud DevOps Boot Loader">
 </p>
----
 
+<p align="center">
+  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
+</p>
