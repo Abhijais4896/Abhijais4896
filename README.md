@@ -301,6 +301,14 @@ A reproducible ML pipeline for water potability prediction with dataset versioni
 ![](https://github-profile-trophy.vercel.app/?username=Abhijais4896&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 <p align="center">
+  <img src="cloud-trophy.svg" width="150" alt="Cloud Trophy">
+  <img src="kubernetes-trophy.svg" width="150" alt="Kubernetes Trophy">
+  <img src="devops-trophy.svg" width="150" alt="DevOps Trophy">
+  <img src="opensource-trophy.svg" width="150" alt="Open Source Trophy">
+  <img src="aiinfra-trophy.svg" width="150" alt="AI Infrastructure Trophy">
+</p>
+
+<p align="center">
   <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
 </p>
 
@@ -309,6 +317,16 @@ A reproducible ML pipeline for water potability prediction with dataset versioni
 
 ### <h1 align="center">🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Abhijais4896&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+<p align="center">
+  <a href="https://github.com/argoproj/argo-cd">
+    <img src="argocd-contributor.svg" width="300" alt="Argo CD Open Source Contributor">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/kubeflow/kubeflow">
+    <img src="kubeflow-contributor.svg" width="300" alt="Kubeflow Open Source Contributor">
+  </a>
+</p>
 
 <p align="center">
   <img src="ai-neon-divider.svg" width="100%">
