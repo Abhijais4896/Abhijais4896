@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#050b14"/><stop offset=".55" stop-color="#0b1625"/><stop offset="1" stop-color="#07101b"/>
+  </linearGradient>
+  <linearGradient id="a" x1="0" x2="1">
+    <stop stop-color="#4f8cff"/><stop offset="1" stop-color="#72c7ff"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#4f8cff" stroke-opacity=".045"/>
+  </pattern>
+</defs>
+
+<rect x="2" y="2" width="356" height="216" rx="22" fill="url(#bg)" stroke="#4f8cff" stroke-opacity=".35"/>
+<rect x="3" y="3" width="354" height="214" rx="21" fill="url(#grid)"/>
+
+<!-- ambient glow -->
+<circle cx="180" cy="88" r="58" fill="#4f8cff" opacity=".07" filter="url(#soft)">
+  <animate attributeName="r" values="48;70;48" dur="3s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".04;.12;.04" dur="3s" repeatCount="indefinite"/>
+</circle>
+
+<!-- animated orbit -->
+<ellipse cx="180" cy="88" rx="70" ry="27" fill="none" stroke="url(#a)" stroke-opacity=".22">
+  <animateTransform attributeName="transform" type="rotate" from="0 180 88" to="360 180 88" dur="7s" repeatCount="indefinite"/>
+</ellipse>
+
+<!-- repo emblem -->
+<g transform="translate(180 88)" filter="url(#glow)">
+  <circle r="39" fill="#07111f" stroke="url(#a)" stroke-width="2"/>
+  <circle r="31" fill="none" stroke="#4f8cff" stroke-opacity=".2">
+    <animate attributeName="r" values="28;34;28" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="0" y="6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="16" font-weight="800" fill="#ffffff">K8S</text>
+</g>
+
+<!-- moving repository pulse -->
+<circle r="3" fill="#ffffff" filter="url(#glow)">
+  <animateMotion dur="2.6s" repeatCount="indefinite"
+                 path="M112 88 C135 45 225 45 248 88 C225 131 135 131 112 88"/>
+</circle>
+
+<!-- repo activity nodes -->
+<g fill="#4f8cff" filter="url(#glow)">
+  <circle cx="82" cy="88" r="3"><animate attributeName="r" values="2;5;2" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="278" cy="88" r="3"><animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- title -->
+<text x="180" y="155" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+      font-size="20" font-weight="800" letter-spacing="2" fill="#ffffff">KUBEFLOW</text>
+
+<text x="180" y="177" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+      font-size="10" letter-spacing="1.5" fill="#9fb2c7">ML Platforms • Kubernetes</text>
+
+<!-- contribution status -->
+<g font-family="monospace" font-size="9">
+  <text x="180" y="199" text-anchor="middle" fill="#4f8cff">
+    OPEN SOURCE CONTRIBUTOR
+    <animate attributeName="opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/>
+  </text>
+</g>
+
+<!-- scan -->
+<rect x="20" y="8" width="320" height="2" rx="1" fill="#4f8cff" opacity=".16">
+  <animate attributeName="y" values="8;210;8" dur="5s" repeatCount="indefinite"/>
+</rect>
+</svg>
