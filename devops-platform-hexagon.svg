@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
+<defs>
+  <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#00e5ff"/><stop offset=".25" stop-color="#7c5cff"/>
+    <stop offset=".5" stop-color="#ff4fd8"/><stop offset=".75" stop-color="#ff9f43"/>
+    <stop offset="1" stop-color="#54f59b"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="16"/></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#8da2ff" stroke-opacity=".035"/>
+  </pattern>
+</defs>
+
+<!-- Transparent background with a very subtle atmosphere -->
+<ellipse cx="500" cy="180" rx="360" ry="120" fill="#6677ff" opacity=".035" filter="url(#soft)">
+  <animate attributeName="rx" values="320;390;320" dur="6s" repeatCount="indefinite"/>
+</ellipse>
+
+<!-- outer rotating infrastructure ring -->
+<g transform="translate(500 180)">
+  <polygon points="0,-142 123,-71 123,71 0,142 -123,71 -123,-71"
+           fill="none" stroke="url(#spectrum)" stroke-width="1.5" stroke-opacity=".32"
+           stroke-dasharray="8 12">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+  </polygon>
+  <polygon points="0,-157 136,-79 136,79 0,157 -136,79 -136,-79"
+           fill="none" stroke="#00e5ff" stroke-opacity=".08" stroke-width="1"/>
+</g>
+
+<!-- network connections -->
+<g fill="none" stroke-width="1.5">
+  <path d="M500 180 L230 82 L115 180 L230 278 L500 180 L770 82 L885 180 L770 278 Z"
+        stroke="#65738d" stroke-opacity=".28"/>
+  <path d="M500 180 L230 82 L115 180 L230 278 L500 180 L770 82 L885 180 L770 278 Z"
+        stroke="url(#spectrum)" stroke-opacity=".45" stroke-dasharray="4 9">
+    <animate attributeName="stroke-dashoffset" values="0;-100" dur="5s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- central platform hexagon -->
+<g transform="translate(500 180)">
+  <polygon points="0,-100 87,-50 87,50 0,100 -87,50 -87,-50"
+           fill="#07111f" stroke="url(#spectrum)" stroke-width="2" filter="url(#glow)"/>
+  <polygon points="0,-87 75,-43 75,43 0,87 -75,43 -75,-43"
+           fill="url(#grid)" stroke="#ffffff" stroke-opacity=".07"/>
+  <circle r="61" fill="none" stroke="#00e5ff" stroke-opacity=".18">
+    <animate attributeName="r" values="56;68;56" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- simple platform glyph -->
+  <g fill="none" stroke="#ffffff" stroke-width="2" opacity=".9">
+    <path d="M-28 12 H28 M-20 0 H20 M-12-12 H12"/>
+    <circle cx="-28" cy="12" r="3" fill="#00e5ff"/>
+    <circle cx="28" cy="12" r="3" fill="#54f59b"/>
+    <circle cx="0" cy="-12" r="3" fill="#ff4fd8"/>
+  </g>
+
+  <text y="39" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="12" font-weight="800" letter-spacing="2" fill="#ffffff">PLATFORM</text>
+  <text y="56" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="9" letter-spacing="1.5" fill="#8296ae">ENGINEERING</text>
+</g>
+
+<!-- surrounding nodes -->
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+  <!-- AWS -->
+  <g transform="translate(230 82)">
+    <circle r="38" fill="#09141e" stroke="#ff9f43" stroke-width="1.5"/>
+    <circle r="29" fill="none" stroke="#ff9f43" stroke-opacity=".22"/>
+    <text y="-3" font-size="13" font-weight="800" fill="#ffffff">AWS</text>
+    <text y="13" font-size="8" fill="#8fa2b8">CLOUD</text>
+    <circle r="43" fill="none" stroke="#ff9f43" stroke-opacity=".15">
+      <animate attributeName="r" values="38;47;38" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Azure -->
+  <g transform="translate(770 82)">
+    <circle r="38" fill="#09141e" stroke="#00bfff" stroke-width="1.5"/>
+    <circle r="29" fill="none" stroke="#00bfff" stroke-opacity=".22"/>
+    <text y="-3" font-size="12" font-weight="800" fill="#ffffff">AZURE</text>
+    <text y="13" font-size="8" fill="#8fa2b8">CLOUD</text>
+  </g>
+
+  <!-- Kubernetes -->
+  <g transform="translate(115 180)">
+    <circle r="38" fill="#09141e" stroke="#7c5cff" stroke-width="1.5"/>
+    <text y="-3" font-size="12" font-weight="800" fill="#ffffff">K8S</text>
+    <text y="13" font-size="8" fill="#8fa2b8">KUBERNETES</text>
+  </g>
+
+  <!-- GCP -->
+  <g transform="translate(885 180)">
+    <circle r="38" fill="#09141e" stroke="#54f59b" stroke-width="1.5"/>
+    <text y="-3" font-size="12" font-weight="800" fill="#ffffff">GCP</text>
+    <text y="13" font-size="8" fill="#8fa2b8">CLOUD</text>
+  </g>
+
+  <!-- Observe -->
+  <g transform="translate(230 278)">
+    <circle r="38" fill="#09141e" stroke="#ff4fd8" stroke-width="1.5"/>
+    <text y="-3" font-size="11" font-weight="800" fill="#ffffff">OBSERVE</text>
+    <text y="13" font-size="8" fill="#8fa2b8">SRE / O11Y</text>
+  </g>
+
+  <!-- Automate -->
+  <g transform="translate(770 278)">
+    <circle r="38" fill="#09141e" stroke="#ff9f43" stroke-width="1.5"/>
+    <text y="-3" font-size="11" font-weight="800" fill="#ffffff">AUTOMATE</text>
+    <text y="13" font-size="8" fill="#8fa2b8">DEVOPS</text>
+  </g>
+</g>
+
+<!-- data packets moving through the platform -->
+<g fill="#ffffff" filter="url(#glow)">
+  <circle r="4">
+    <animateMotion dur="3.8s" repeatCount="indefinite"
+      path="M230 82 L500 180 L770 82 L885 180 L770 278 L500 180 L230 278 L115 180 L230 82"/>
+  </circle>
+  <circle r="2.5" fill="#00e5ff">
+    <animateMotion dur="3.8s" begin="1.9s" repeatCount="indefinite"
+      path="M230 82 L500 180 L770 82 L885 180 L770 278 L500 180 L230 278 L115 180 L230 82"/>
+  </circle>
+</g>
+
+<!-- human engineering statements -->
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="500" y="32" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">
+    Make the infrastructure boring. Make the delivery fast.
+  </text>
+  <text x="500" y="52" text-anchor="middle" fill="#7f93ab" font-size="10">
+    automate the repeatable • observe the important • improve what hurts
+  </text>
+
+  <text x="500" y="330" text-anchor="middle" fill="#aebbd0" font-size="11">
+    “Good platforms don't get in the way — they quietly make the right thing easy.”
+  </text>
+</g>
+
+<!-- tiny moving activity sparks -->
+<g fill="#ffffff" filter="url(#glow)">
+  <circle cx="500" cy="180" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" repeatCount="indefinite"/></circle>
+  <circle cx="230" cy="82" r="2"><animate attributeName="opacity" values="1;.2;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="770" cy="278" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="1.7s" repeatCount="indefinite"/></circle>
+</g>
+</svg>
