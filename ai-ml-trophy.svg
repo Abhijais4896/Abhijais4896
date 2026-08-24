@@ -1,0 +1,103 @@
+<svg width="150" height="100" viewBox="0 0 150 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0d1117; rx: 10px; stroke: #30363d; stroke-width: 1px; }
+    .label { font: 800 8px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #f0f6fc; letter-spacing: 1.2px; text-anchor: middle; }
+    
+    .trophy-body { fill: url(#trophy-grad-1); stroke: #10b981; stroke-width: 1; filter: drop-shadow(0 0 5px rgba(16, 185, 129, 0.35)); }
+    .trophy-base { fill: url(#base-grad-1); stroke: #30363d; stroke-width: 0.5; }
+    
+    .nn-edge { stroke: #047857; stroke-width: 0.5; opacity: 0.5; }
+    .nn-edge-active { stroke: url(#edge-grad-1); stroke-width: 1; stroke-dasharray: 4 8; animation: flowData 2s linear infinite; }
+    .nn-node { fill: #064e3b; stroke: #10b981; stroke-width: 1; }
+    .nn-node-pulse { fill: #84cc16; animation: nodePulse 1.5s ease-in-out infinite alternate; }
+
+    @keyframes flowData {
+      0% { stroke-dashoffset: 24; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    @keyframes nodePulse {
+      0% { r: 1.5px; fill: #10b981; filter: drop-shadow(0 0 1px #10b981); }
+      100% { r: 2.5px; fill: #84cc16; filter: drop-shadow(0 0 4px #84cc16); }
+    }
+
+    @keyframes brainGlow {
+      0%, 100% { opacity: 0.7; transform: scale(0.98); }
+      50% { opacity: 1; transform: scale(1.02); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="trophy-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#065f46" stop-opacity="0.6" />
+    </linearGradient>
+
+    <linearGradient id="base-grad-1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#374151" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <linearGradient id="edge-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#84cc16" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+
+  <rect width="150" height="100" class="bg" />
+
+  <g transform="translate(0, 5)">
+    <line x1="25" y1="30" x2="40" y2="20" class="nn-edge" />
+    <line x1="25" y1="30" x2="42" y2="40" class="nn-edge" />
+    <line x1="25" y1="55" x2="42" y2="40" class="nn-edge" />
+    <line x1="25" y1="55" x2="40" y2="65" class="nn-edge" />
+    
+    <line x1="125" y1="30" x2="110" y2="20" class="nn-edge" />
+    <line x1="125" y1="30" x2="108" y2="40" class="nn-edge" />
+    <line x1="125" y1="55" x2="108" y2="40" class="nn-edge" />
+    <line x1="125" y1="55" x2="110" y2="65" class="nn-edge" />
+
+    <line x1="25" y1="30" x2="60" y2="45" class="nn-edge-active" />
+    <line x1="25" y1="55" x2="60" y2="45" class="nn-edge-active" />
+    
+    <line x1="125" y1="30" x2="90" y2="45" class="nn-edge-active" />
+    <line x1="125" y1="55" x2="90" y2="45" class="nn-edge-active" />
+
+    <circle cx="25" cy="30" r="2" class="nn-node" />
+    <circle cx="25" cy="55" r="2" class="nn-node" />
+    <circle cx="40" cy="20" r="2" class="nn-node" />
+    <circle cx="42" cy="40" r="2" class="nn-node" />
+    <circle cx="40" cy="65" r="2" class="nn-node" />
+    
+    <circle cx="125" cy="30" r="2" class="nn-node" />
+    <circle cx="125" cy="55" r="2" class="nn-node" />
+    <circle cx="110" cy="20" r="2" class="nn-node" />
+    <circle cx="108" cy="40" r="2" class="nn-node" />
+    <circle cx="110" cy="65" r="2" class="nn-node" />
+
+    <circle cx="60" cy="45" class="nn-node-pulse" />
+    <circle cx="90" cy="45" class="nn-node-pulse" style="animation-delay: 0.7s;" />
+  </g>
+
+  <g transform="translate(-10, 5) scale(0.9)">
+    <path d="M78 30 C70 30 70 45 80 48" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M112 30 C120 30 120 45 110 48" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+
+    <path d="M80 25 H110 L105 52 C100 60 90 60 85 52 Z" class="trophy-body" />
+    
+    <path d="M92 58 H98 V65 H92 Z" fill="#047857" />
+    <path d="M85 65 H105 L108 72 H82 Z" class="trophy-base" />
+
+    <g transform="translate(95, 38) scale(0.4)" style="transform-origin: center; animation: brainGlow 3s ease-in-out infinite;">
+      <path d="M-4 -18 C-12 -18 -18 -12 -18 -4 C-18 2 -14 6 -10 8 C-14 12 -12 18 -4 18 C-2 18 -1 16 -1 14 V-16 C-1 -18 -2 -18 -4 -18 Z" fill="none" stroke="#84cc16" stroke-width="2" />
+      <path d="M4 -18 C12 -18 18 -12 18 -4 C18 2 14 6 10 8 C14 12 12 18 4 18 C2 18 1 16 1 14 V-16 C1 -18 2 -18 4 -18 Z" fill="none" stroke="#84cc16" stroke-width="2" />
+      <circle cx="-8" cy="-6" r="2" fill="#10b981" />
+      <circle cx="-8" cy="6" r="2" fill="#84cc16" />
+      <circle cx="8" cy="-6" r="2" fill="#84cc16" />
+      <circle cx="8" cy="6" r="2" fill="#10b981" />
+    </g>
+  </g>
+
+  <text x="75" y="90" class="label">ML ENGINEER</text>
+</svg>

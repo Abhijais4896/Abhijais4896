@@ -1,0 +1,80 @@
+<svg width="150" height="100" viewBox="0 0 150 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0d1117; rx: 10px; stroke: #30363d; stroke-width: 1px; }
+    .label { font: 800 8px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #f0f6fc; letter-spacing: 1.2px; text-anchor: middle; }
+    
+    .trophy-body { fill: url(#trophy-grad-2); stroke: #f59e0b; stroke-width: 1; filter: drop-shadow(0 0 5px rgba(245, 158, 11, 0.35)); }
+    .trophy-base { fill: url(#base-grad-2); stroke: #30363d; stroke-width: 0.5; }
+    
+    .nn-brain { fill: url(#nn-core-grad-2); stroke: #38bdf8; stroke-width: 1; animation: brainPulse 2s ease-in-out infinite alternate; filter: drop-shadow(0 0 4px #38bdf8); }
+    .nn-synapse { stroke: #f59e0b; stroke-width: 0.5; opacity: 0.8; }
+    
+    .token { fill: #38bdf8; stroke: #f59e0b; stroke-width: 0.5; }
+    .token-stream-1 { animation: orbitLoop1 4s linear infinite; }
+    .token-stream-2 { animation: orbitLoop2 4s linear infinite; animation-delay: -2s; }
+
+    @keyframes brainPulse {
+      0% { fill-opacity: 0.5; r: 9px; filter: drop-shadow(0 0 2px #38bdf8); }
+      100% { fill-opacity: 1; r: 11px; filter: drop-shadow(0 0 6px #f59e0b); }
+    }
+
+    @keyframes orbitLoop1 {
+      0% { transform: translate(0px, 0px) scale(1); opacity: 0.9; }
+      25% { transform: translate(25px, 10px) scale(0.7); opacity: 0.4; }
+      50% { transform: translate(0px, 20px) scale(0.5); opacity: 0.2; }
+      75% { transform: translate(-25px, 10px) scale(0.8); opacity: 0.7; }
+      100% { transform: translate(0px, 0px) scale(1); opacity: 0.9; }
+    }
+
+    @keyframes orbitLoop2 {
+      0% { transform: translate(0px, 20px) scale(0.5); opacity: 0.2; }
+      25% { transform: translate(-25px, 10px) scale(0.8); opacity: 0.7; }
+      50% { transform: translate(0px, 0px) scale(1); opacity: 0.9; }
+      75% { transform: translate(25px, 10px) scale(0.7); opacity: 0.4; }
+      100% { transform: translate(0px, 20px) scale(0.5); opacity: 0.2; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="trophy-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0.5" />
+    </linearGradient>
+
+    <linearGradient id="base-grad-2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#374151" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    
+    <radialGradient id="nn-core-grad-2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </radialGradient>
+  </defs>
+
+  <rect width="150" height="100" class="bg" />
+
+  <!-- Orbiting Data Tokens -->
+  <g transform="translate(75, 25)">
+    <circle cx="0" cy="0" r="2.5" class="token token-stream-1" />
+    <circle cx="0" cy="0" r="2" class="token token-stream-2" />
+  </g>
+
+  <!-- Central Trophy -->
+  <g transform="translate(-10, 5) scale(0.9)">
+    <path d="M78 30 C70 30 70 45 80 48" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M112 30 C120 30 120 45 110 48" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round" />
+
+    <path d="M80 25 H110 L105 52 C100 60 90 60 85 52 Z" class="trophy-body" />
+    
+    <path d="M92 58 H98 V65 H92 Z" fill="#b45309" />
+    <path d="M85 65 H105 L108 72 H82 Z" class="trophy-base" />
+
+    <g transform="translate(95, 38) scale(0.4)" style="transform-origin: center;">
+      <circle cx="0" cy="0" r="10" class="nn-brain" />
+      <path d="M-8 -3 Q0 -10 8 -3 M-8 3 Q0 10 8 3 M-3 -8 Q-10 0 -3 8 M3 -8 Q10 0 3 8" class="nn-synapse" />
+    </g>
+  </g>
+
+  <text x="75" y="90" class="label">GENAI BUILDER</text>
+</svg>
