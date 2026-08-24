@@ -320,6 +320,14 @@ An end-to-end machine learning system for water potability prediction with repro
 ![](https://github-profile-trophy.vercel.app/?username=Abhijais4896&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 <p align="center">
+  <img src="ai-ml-trophy.svg" width="150" alt="Cloud Trophy">
+  <img src="ai-trophy.svg" width="150" alt="Kubernetes Trophy">
+  <img src="gen-ai.svg" width="150" alt="DevOps Trophy">
+  <img src="eval.svg" width="150" alt="Open Source Trophy">
+</p>
+
+
+<p align="center">
   <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
 </p>
 
