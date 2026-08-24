@@ -1,0 +1,207 @@
+<svg width="650" height="380" viewBox="0 0 650 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card-bg { fill: #0d1117; stroke: #30363d; stroke-width: 2px; rx: 16px; }
+    .card-title { font: 800 20px 'Segoe UI', Roboto, sans-serif; fill: #ffffff; }
+    .card-subtitle { font: 600 12px 'Segoe UI', Roboto, sans-serif; fill: #20beff; letter-spacing: 1.5px; }
+    .badge-title { font: 800 22px 'Segoe UI', Roboto, sans-serif; fill: #ffffff; text-anchor: middle; }
+    .badge-date { font: 600 13px 'Segoe UI', Roboto, sans-serif; fill: #00f2fe; text-anchor: middle; }
+    .cert-by { font: 500 12px 'Segoe UI', Roboto, sans-serif; fill: #8b949e; text-anchor: middle; letter-spacing: 1px; }
+
+    /* Carousel Loop: 9 Badges x 3s = 27s Cycle */
+    .badge-slide {
+      opacity: 0;
+      animation: badgeCarousel 27s infinite;
+      transform-origin: 325px 170px;
+    }
+
+    .b1 { animation-delay: 0s; }
+    .b2 { animation-delay: 3s; }
+    .b3 { animation-delay: 6s; }
+    .b4 { animation-delay: 9s; }
+    .b5 { animation-delay: 12s; }
+    .b6 { animation-delay: 15s; }
+    .b7 { animation-delay: 18s; }
+    .b8 { animation-delay: 21s; }
+    .b9 { animation-delay: 24s; }
+
+    @keyframes badgeCarousel {
+      0% { opacity: 0; transform: scale(0.85) translateY(10px); }
+      3% { opacity: 1; transform: scale(1) translateY(0); }
+      11% { opacity: 1; transform: scale(1) translateY(0); }
+      14% { opacity: 0; transform: scale(0.85) translateY(-10px); }
+      100% { opacity: 0; }
+    }
+
+    /* Glow ring animation around badges */
+    .glow-ring {
+      stroke: url(#cyan-purple);
+      stroke-width: 2.5px;
+      fill: none;
+      animation: spinRing 12s linear infinite;
+      transform-origin: 325px 145px;
+    }
+    @keyframes spinRing { 100% { transform: rotate(360deg); } }
+  </style>
+
+  <defs>
+    <linearGradient id="cyan-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#20beff" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Hexagon Clip Mask -->
+    <clipPath id="hex-clip">
+      <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" />
+    </clipPath>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="650" height="380" class="card-bg" />
+  
+  <!-- Header -->
+  <g transform="translate(30, 35)">
+    <!-- Kaggle Logo Header -->
+    <path d="M0 0 C0 -1.1 0.9 -2 2 -2 C3.1 -2 4 -1.1 4 0 L4 18 C4 19.1 3.1 20 2 20 C0.9 20 0 19.1 0 18 Z" fill="#20beff"/>
+    <path d="M12.5 0.5 C13.1 0 14 0 14.5 0.5 C15 1 15 1.9 14.5 2.4 L7 9.9 L15 17.6 C15.5 18.1 15.5 19 15 19.5 C14.5 20 13.6 20 13.1 19.5 L4.5 11 C4 10.5 4 9.6 4.5 9.1 Z" fill="#20beff"/>
+    <text x="25" y="15" class="card-title">KAGGLE ACHIEVEMENTS</text>
+    <text x="25" y="32" class="card-subtitle">ABHISHEK JAISWAL • VERIFIED BADGES</text>
+  </g>
+
+  <line x1="30" y1="80" x2="620" y2="80" stroke="#21262d" stroke-width="1.5" />
+
+  <!-- Animated Ring Frame -->
+  <circle cx="325" cy="145" r="58" class="glow-ring" stroke-dasharray="10 15 25 10" />
+
+  <!-- ================= BADGE SLIDES ================= -->
+
+  <!-- Slide 1: 1 Year on Kaggle -->
+  <g class="badge-slide b1">
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" fill="#20beff" opacity="0.15" />
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" stroke="#20beff" stroke-width="3" fill="none" />
+    <!-- Shield Icon -->
+    <path d="M312 125 H338 V148 C338 158 325 165 325 165 C325 165 312 158 312 148 Z" fill="#20beff" opacity="0.3"/>
+    <path d="M312 125 H338 V148 C338 158 325 165 325 165 C325 165 312 158 312 148 Z" stroke="#20beff" stroke-width="2" fill="none"/>
+    <text x="325" y="149" font-family="sans-serif" font-weight="bold" font-size="16" fill="#ffffff" text-anchor="middle">1</text>
+    
+    <text x="325" y="235" class="cert-by">THIS CERTIFIES THAT ABHISHEK JAISWAL EARNED</text>
+    <text x="325" y="270" class="badge-title">1 Year on Kaggle</text>
+    <text x="325" y="298" class="badge-date">EARNED ON APRIL 22, 2025</text>
+  </g>
+
+  <!-- Slide 2: 2 Years on Kaggle -->
+  <g class="badge-slide b2">
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" fill="#20beff" opacity="0.15" />
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" stroke="#20beff" stroke-width="3" fill="none" />
+    <path d="M312 125 H338 V148 C338 158 325 165 325 165 C325 165 312 158 312 148 Z" fill="#00f2fe" opacity="0.3"/>
+    <path d="M312 125 H338 V148 C338 158 325 165 325 165 C325 165 312 158 312 148 Z" stroke="#00f2fe" stroke-width="2" fill="none"/>
+    <text x="325" y="149" font-family="sans-serif" font-weight="bold" font-size="16" fill="#ffffff" text-anchor="middle">2</text>
+    
+    <text x="325" y="235" class="cert-by">THIS CERTIFIES THAT ABHISHEK JAISWAL EARNED</text>
+    <text x="325" y="270" class="badge-title">2 Years on Kaggle</text>
+    <text x="325" y="298" class="badge-date">EARNED ON APRIL 27, 2026</text>
+  </g>
+
+  <!-- Slide 3: Competitor -->
+  <g class="badge-slide b3">
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" fill="#10b981" opacity="0.2" />
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" stroke="#10b981" stroke-width="3" fill="none" />
+    <!-- Trophy Icon -->
+    <path d="M317 127 H333 V143 C333 148 325 152 325 152 C325 152 317 148 317 143 Z" fill="#38ef7d"/>
+    <rect x="323" y="152" width="4" height="8" fill="#38ef7d"/>
+    <rect x="319" y="160" width="12" height="3" rx="1" fill="#38ef7d"/>
+    
+    <text x="325" y="235" class="cert-by">THIS CERTIFIES THAT ABHISHEK JAISWAL EARNED</text>
+    <text x="325" y="270" class="badge-title">Competitor</text>
+    <text x="325" y="298" class="badge-date">EARNED ON JULY 5, 2025</text>
+  </g>
+
+  <!-- Slide 4: Getting Started Competitor -->
+  <g class="badge-slide b4">
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" fill="#10b981" opacity="0.2" />
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" stroke="#10b981" stroke-width="3" fill="none" />
+    <!-- Rocket Icon -->
+    <path d="M325 122 C331 128 333 138 331 148 L319 136 C319 128 321 124 325 122 Z" fill="#ffffff"/>
+    <path d="M317 146 L324 153 L315 158 Z" fill="#10b981"/>
+    
+    <text x="325" y="235" class="cert-by">THIS CERTIFIES THAT ABHISHEK JAISWAL EARNED</text>
+    <text x="325" y="270" class="badge-title">Getting Started Competitor</text>
+    <text x="325" y="298" class="badge-date">EARNED ON JULY 16, 2025</text>
+  </g>
+
+  <!-- Slide 5: Research Competitor -->
+  <g class="badge-slide b5">
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" fill="#059669" opacity="0.2" />
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" stroke="#10b981" stroke-width="3" fill="none" />
+    <!-- DNA Strand Icon -->
+    <circle cx="320" cy="130" r="3" fill="#38ef7d"/>
+    <circle cx="330" cy="130" r="3" fill="#38ef7d"/>
+    <circle cx="325" cy="145" r="3" fill="#ffffff"/>
+    <circle cx="320" cy="160" r="3" fill="#38ef7d"/>
+    <circle cx="330" cy="160" r="3" fill="#38ef7d"/>
+    <path d="M320 130 Q330 145 320 160 M330 130 Q320 145 330 160" stroke="#ffffff" stroke-width="2" fill="none"/>
+
+    <text x="325" y="235" class="cert-by">THIS CERTIFIES THAT ABHISHEK JAISWAL EARNED</text>
+    <text x="325" y="270" class="badge-title">Research Competitor</text>
+    <text x="325" y="298" class="badge-date">EARNED ON DECEMBER 18, 2025</text>
+  </g>
+
+  <!-- Slide 6: Community Competitor -->
+  <g class="badge-slide b6">
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" fill="#10b981" opacity="0.2" />
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" stroke="#10b981" stroke-width="3" fill="none" />
+    <!-- People Icon -->
+    <circle cx="318" cy="135" r="4" fill="#ffffff"/>
+    <circle cx="332" cy="135" r="4" fill="#ffffff"/>
+    <path d="M310 155 C310 147 314 143 318 143 C322 143 326 147 326 155 Z" fill="#38ef7d"/>
+    <path d="M324 155 C324 147 328 143 332 143 C336 143 340 147 340 155 Z" fill="#38ef7d"/>
+
+    <text x="325" y="235" class="cert-by">THIS CERTIFIES THAT ABHISHEK JAISWAL EARNED</text>
+    <text x="325" y="270" class="badge-title">Community Competitor</text>
+    <text x="325" y="298" class="badge-date">EARNED ON JULY 2, 2025</text>
+  </g>
+
+  <!-- Slide 7: Playground Competitor -->
+  <g class="badge-slide b7">
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" fill="#10b981" opacity="0.2" />
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" stroke="#10b981" stroke-width="3" fill="none" />
+    <!-- Seesaw/Playground Icon -->
+    <line x1="310" y1="150" x2="340" y2="135" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="325,142 320,155 330,155" fill="#38ef7d"/>
+
+    <text x="325" y="235" class="cert-by">THIS CERTIFIES THAT ABHISHEK JAISWAL EARNED</text>
+    <text x="325" y="270" class="badge-title">Playground Competitor</text>
+    <text x="325" y="298" class="badge-date">EARNED ON JULY 3, 2025</text>
+  </g>
+
+  <!-- Slide 8: Code Submitter & Code Uploader -->
+  <g class="badge-slide b8">
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" fill="#a855f7" opacity="0.2" />
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" stroke="#a855f7" stroke-width="3" fill="none" />
+    <!-- Code Bracket + Upload Icon -->
+    <rect x="312" y="130" width="26" height="26" rx="4" fill="#ffffff" opacity="0.2"/>
+    <path d="M318 140 L314 143 L318 146 M332 140 L336 143 L332 146" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="332" cy="132" r="6" fill="#a855f7"/>
+    <path d="M332 135 L332 129 M330 131 L332 129 L334 131" stroke="#ffffff" stroke-width="1.5"/>
+
+    <text x="325" y="235" class="cert-by">THIS CERTIFIES THAT ABHISHEK JAISWAL EARNED</text>
+    <text x="325" y="270" class="badge-title">Code Submitter &amp; Uploader</text>
+    <text x="325" y="298" class="badge-date">EARNED ON JULY 3–5, 2025</text>
+  </g>
+
+  <!-- Slide 9: Python Coder -->
+  <g class="badge-slide b9">
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" fill="#c084fc" opacity="0.25" />
+    <polygon points="325,95 368,120 368,170 325,195 282,170 282,120" stroke="#c084fc" stroke-width="3" fill="none" />
+    <!-- Python Snake Logo -->
+    <path d="M324 125 C317 125 315 128 315 132 L315 138 H325 V140 H313 C309 140 307 143 307 148 C307 153 310 156 315 156 H319 V152 C319 147 323 145 328 145 H334 L334 140 C334 135 330 125 324 125 Z" fill="#38ef7d"/>
+    <path d="M326 165 C333 165 335 162 335 158 L335 152 H325 V150 H337 C341 150 343 147 343 142 C343 137 340 134 335 134 H331 V138 C331 143 327 145 322 145 H316 L316 150 C316 155 320 165 326 165 Z" fill="#20beff"/>
+
+    <text x="325" y="235" class="cert-by">THIS CERTIFIES THAT ABHISHEK JAISWAL EARNED</text>
+    <text x="325" y="270" class="badge-title">Python Coder</text>
+    <text x="325" y="298" class="badge-date">EARNED ON SEPTEMBER 14, 2024</text>
+  </g>
+
+  <!-- Card Footer -->
+  <line x1="30" y1="335" x2="620" y2="335" stroke="#21262d" stroke-width="1" />
+  <text x="325" y="358" class="card-subtitle" font-size="11" text-anchor="middle">TOTAL BADGES: 9 • ANIMATED CAROUSEL</text>
+</svg>
