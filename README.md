@@ -308,8 +308,9 @@ An end-to-end machine learning system for water potability prediction with repro
 </p>
 
 # <h1 align="center">📊 GitHub Stats
-![](https://github-readme-stats.shion.dev/api?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Abhijais4896&theme=dark&hide_border=false)<br/>
+
+![](https://github-readme-stats.shion.dev/api?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+![](https://streak-stats.demolab.com/?user=Abhijais4896&theme=dark&hide_border=false)
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 <p align="center">
