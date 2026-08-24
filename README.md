@@ -253,7 +253,8 @@ An end-to-end machine learning system for water potability prediction with repro
 
 <h1 align="center">🛡️Kaggle Profile</h1>
 <p align="center">
-  <img src="gemini-svg.svg" alt="Abhishek Jaiswal Kaggle Stats" />
+  <img src="gemini-svg.svg" width="49%" alt="Abhishek Jaiswal Kaggle Stats" />
+  <img src="kaggle-badges.svg" width="49%" alt="Abhishek Jaiswal Kaggle Badges" />
 </p>
 
 <p align="center">
