@@ -340,14 +340,16 @@ An end-to-end machine learning system for water potability prediction with repro
 ![](https://github-contributor-stats.vercel.app/api?username=Abhijais4896&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 <p align="center">
-  <img src="langchain.svg" width="120" alt="Cloud Trophy">
+  <a href="[https://github.com/langchain-ai/langchain](https://github.com/langchain-ai/langchain)">
+  <img src="langchain.svg" width="120" alt="Langchain">
+  </a>
   <img src="huggingface.svg" width="120" alt="Kubernetes Trophy">
   <img src="hf-trl.svg" width="120" alt="DevOps Trophy">
 </p>
 
 <p align="center">
-  <img src="peft.svg" width="120" alt="Cloud Trophy">
-  <img src="pytorch.svg" width="120" alt="Kubernetes Trophy">
+  <img src="peft2.svg" width="120" alt="Cloud Trophy">
+  <img src="pytorch2.svg" width="120" alt="Kubernetes Trophy">
   <img src="openai.svg" width="120" alt="DevOps Trophy">
 </p>
 
