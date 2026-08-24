@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.55" stop-color="#0b1028"/>
+      <stop offset="1" stop-color="#070512"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+      <animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#334155" stroke-opacity=".14"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="417" rx="27" fill="none" stroke="url(#accent)" stroke-width="3"/>
+  <rect x="18" y="18" width="1164" height="384" rx="20" fill="url(#grid)"/>
+
+  <!-- animated ambient glow -->
+  <circle cx="180" cy="210" r="105" fill="#7c3aed" opacity=".08" filter="url(#soft)">
+    <animate attributeName="r" values="90;125;90" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1020" cy="205" r="120" fill="#06b6d4" opacity=".07" filter="url(#soft)">
+    <animate attributeName="r" values="115;145;115" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- top identity -->
+  <text x="55" y="70" fill="#e2e8f0" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700">AI ENGINEER</text>
+  <text x="55" y="99" fill="#94a3b8" font-family="monospace" font-size="13">GENAI • LLMs • AGENTIC AI • MLOps • AI INFRASTRUCTURE</text>
+  <circle cx="1138" cy="62" r="6" fill="#22c55e" filter="url(#glow)">
+    <animate attributeName="opacity" values=".35;1;.35" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1158" y="67" text-anchor="end" fill="#86efac" font-family="monospace" font-size="12">BUILDING_AI_SYSTEMS</text>
+
+  <!-- left profile -->
+  <rect x="42" y="125" width="310" height="235" rx="18" fill="#080d20" stroke="#334155"/>
+  <circle cx="105" cy="185" r="42" fill="none" stroke="url(#accent)" stroke-width="3">
+    <animateTransform attributeName="transform" type="rotate" from="0 105 185" to="360 105 185" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="105" y="195" text-anchor="middle" fill="#67e8f9" font-size="34" font-family="Arial" font-weight="700">AI</text>
+  <text x="165" y="178" fill="#f8fafc" font-family="Arial" font-size="25" font-weight="700">Abhishek</text>
+  <text x="165" y="207" fill="#a78bfa" font-family="Arial" font-size="19">AI/ML Engineer</text>
+  <line x1="75" y1="238" x2="320" y2="238" stroke="#334155"/>
+  <text x="75" y="267" fill="#cbd5e1" font-family="Arial" font-size="14">Building practical AI systems</text>
+  <text x="75" y="290" fill="#94a3b8" font-family="Arial" font-size="13">from models to production.</text>
+  <rect x="75" y="315" width="210" height="27" rx="13" fill="#0f172a" stroke="#164e63"/>
+  <circle cx="92" cy="328" r="4" fill="#22c55e"/>
+  <text x="105" y="333" fill="#67e8f9" font-family="monospace" font-size="11">OPEN TO AI/ML WORK</text>
+
+  <!-- center statement -->
+  <text x="390" y="150" fill="#f8fafc" font-family="Arial" font-size="31" font-weight="700">I build intelligent systems</text>
+  <text x="390" y="187" fill="url(#accent)" font-family="Arial" font-size="31" font-weight="700">that learn, reason &amp; scale.</text>
+  <text x="390" y="218" fill="#94a3b8" font-family="Arial" font-size="14">LLM engineering • RAG • fine-tuning • agents • evaluation</text>
+
+  <!-- skill pills -->
+  <g font-family="monospace" font-size="12">
+    <rect x="390" y="245" width="104" height="30" rx="15" fill="#111827" stroke="#7c3aed"/>
+    <text x="442" y="265" text-anchor="middle" fill="#c4b5fd">PyTorch</text>
+    <rect x="505" y="245" width="120" height="30" rx="15" fill="#111827" stroke="#06b6d4"/>
+    <text x="565" y="265" text-anchor="middle" fill="#67e8f9">Hugging Face</text>
+    <rect x="636" y="245" width="88" height="30" rx="15" fill="#111827" stroke="#7c3aed"/>
+    <text x="680" y="265" text-anchor="middle" fill="#c4b5fd">RAG</text>
+    <rect x="735" y="245" width="108" height="30" rx="15" fill="#111827" stroke="#06b6d4"/>
+    <text x="789" y="265" text-anchor="middle" fill="#67e8f9">LangGraph</text>
+
+    <rect x="390" y="286" width="105" height="30" rx="15" fill="#111827" stroke="#06b6d4"/>
+    <text x="442" y="306" text-anchor="middle" fill="#67e8f9">Fine-Tuning</text>
+    <rect x="506" y="286" width="100" height="30" rx="15" fill="#111827" stroke="#7c3aed"/>
+    <text x="556" y="306" text-anchor="middle" fill="#c4b5fd">MLOps</text>
+    <rect x="617" y="286" width="105" height="30" rx="15" fill="#111827" stroke="#06b6d4"/>
+    <text x="669" y="306" text-anchor="middle" fill="#67e8f9">LLMOps</text>
+    <rect x="733" y="286" width="132" height="30" rx="15" fill="#111827" stroke="#7c3aed"/>
+    <text x="799" y="306" text-anchor="middle" fill="#c4b5fd">AI Infra</text>
+  </g>
+
+  <!-- right neural network -->
+  <rect x="895" y="120" width="263" height="200" rx="18" fill="#070b19" stroke="#334155"/>
+  <text x="920" y="149" fill="#67e8f9" font-family="monospace" font-size="12">LLM / AGENT PIPELINE</text>
+
+  <g stroke="url(#accent)" stroke-width="2" opacity=".65">
+    <path d="M930 185 C980 160 1000 175 1030 195 C1060 215 1080 190 1130 175"/>
+    <path d="M930 235 C975 210 1000 230 1030 210 C1060 190 1085 225 1130 220"/>
+    <path d="M930 270 C980 245 1000 265 1030 245 C1070 225 1090 265 1130 255"/>
+  </g>
+  <g fill="#67e8f9" filter="url(#glow)">
+    <circle cx="930" cy="185" r="5"><animate attributeName="cy" values="185;178;185" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="195" r="6"><animate attributeName="r" values="5;8;5" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="175" r="5"><animate attributeName="cy" values="175;182;175" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="245" r="6"><animate attributeName="r" values="5;8;5" dur="1.6s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="1040" y="220" text-anchor="middle" fill="#f8fafc" font-family="Arial" font-size="21" font-weight="700">LLM</text>
+  <text x="920" y="299" fill="#94a3b8" font-family="monospace" font-size="10">INPUT → RETRIEVE → REASON → EVALUATE → SERVE</text>
+
+  <!-- bottom terminal -->
+  <rect x="42" y="375" width="1116" height="1" fill="url(#accent)">
+    <animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="55" y="399" fill="#22c55e" font-family="monospace" font-size="12">$</text>
+  <text x="73" y="399" fill="#cbd5e1" font-family="monospace" font-size="12">code • train • evaluate • deploy • iterate</text>
+  <text x="1140" y="399" text-anchor="end" fill="#64748b" font-family="monospace" font-size="11">OPEN SOURCE • BUILDING IN PUBLIC</text>
+
+  <!-- scanning line -->
+  <rect x="25" y="20" width="3" height="380" fill="#67e8f9" opacity=".35">
+    <animate attributeName="x" values="25;1175;25" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

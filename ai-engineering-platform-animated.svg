@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8b5cf6"/><stop offset=".5" stop-color="#06b6d4"/><stop offset="1" stop-color="#a78bfa"><animate attributeName="offset" values="1;.5;1" dur="5s" repeatCount="indefinite"/></stop></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#64748b" stroke-opacity=".12"/></pattern>
+</defs>
+<rect width="1200" height="300" rx="24" fill="#070a18"/>
+<rect x="2" y="2" width="1196" height="296" rx="22" fill="none" stroke="url(#g)" stroke-width="3"/>
+<rect x="18" y="18" width="1164" height="264" rx="16" fill="url(#grid)"/>
+<g stroke="url(#g)" stroke-width="2" opacity=".65">
+<path d="M160 150L330 90L500 150L670 90L840 150L1040 95"/>
+<path d="M160 150L330 210L500 150L670 210L840 150L1040 205"/>
+<path d="M330 90V210M500 150V75M500 150V225M670 90V210M840 150V75M840 150V225"/>
+</g>
+<g fill="#67e8f9" filter="url(#glow)">
+<circle cx="160" cy="150" r="7"><animate attributeName="r" values="5;9;5" dur="1.5s" repeatCount="indefinite"/></circle>
+<circle cx="330" cy="90" r="6"/><circle cx="330" cy="210" r="6"/>
+<circle cx="500" cy="150" r="9"><animate attributeName="r" values="7;12;7" dur="1.2s" repeatCount="indefinite"/></circle>
+<circle cx="670" cy="90" r="6"/><circle cx="670" cy="210" r="6"/>
+<circle cx="840" cy="150" r="9"><animate attributeName="r" values="7;12;7" dur="1.6s" repeatCount="indefinite"/></circle>
+<circle cx="1040" cy="95" r="6"/><circle cx="1040" cy="205" r="6"/>
+</g>
+<circle r="5" fill="#fff" filter="url(#glow)"><animateMotion dur="4s" repeatCount="indefinite" path="M160 150L330 90L500 150L670 90L840 150L1040 95"/></circle>
+<text x="600" y="45" text-anchor="middle" fill="#f8fafc" font-family="Arial,sans-serif" font-size="25" font-weight="700">AI ENGINEERING • BUILD • TRAIN • EVALUATE • DEPLOY</text>
+<text x="600" y="270" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="13">GENAI / LLMs / RAG / AGENTS / FINE-TUNING / MLOps / AI INFRASTRUCTURE</text>
+<rect x="30" y="25" width="3" height="250" rx="2" fill="#67e8f9" opacity=".5"><animate attributeName="x" values="30;1170;30" dur="7s" repeatCount="indefinite"/></rect>
+</svg>
