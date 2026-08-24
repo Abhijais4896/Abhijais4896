@@ -1,38 +1,9 @@
-<p align="center">
-  <img src="hologram-profile-card-cloud-devops-animated.svg" width="900" alt="Abhishek Jaiswal - Cloud & DevOps Engineer">
-</p>
-
-<p align="center">
-  <img src="devops-platform-hexagon.svg"
-       width="900"
-       alt="Cloud DevOps Platform Engineering">
-</p>
-
-<h1 align="center">Hi 👋, I'm Abhishek Jaiswal
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Cloud+%26+DevOps+Engineer;Platform+Engineering+%7C+Cloud+Native;Kubernetes+%7C+Terraform+%7C+GitOps;AWS+%7C+Azure+%7C+GCP+%7C+Multi-Cloud;DevOps+%7C+SRE+%7C+Observability+%7C+FinOps;AI+Infrastructure+%7C+MLOps+%7C+AIOps;Building+Reliable+%26+Scalable+Systems..." />
-</p>
-
-<p align="center">
-  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
-</p>
-
 # <h1 align="center">💫 About Me
-🚀 I am currently working on "cloud-native DevOps and AI Infrastructure projects", focusing on "Kubernetes, AWS, Azure, GCP, Terraform, GitOps, CI/CD, observability, FinOps, and platform engineering", while exploring "GPU infrastructure, model serving, MLOps, and AIOps". <br>🤝 I am looking to collaborate on "open-source projects, cloud-native DevOps, Kubernetes, Platform Engineering, GitOps, AI Infrastructure, MLOps, and AIOps", while working with others to build "scalable, reliable, and production-ready systems". <br>🔍 I am looking for help with "advanced Kubernetes, Platform Engineering, Cloud Infrastructure, AI Infrastructure, and open-source contributions", while learning from experienced engineers and collaborating on real-world DevOps challenges. <br>📚 I am currently learning "advanced Kubernetes, Platform Engineering, Multi-Cloud, GitOps, Observability, FinOps, and AI Infrastructure", with a focus on "GPU workloads, model serving, MLOps, and AIOps". <br>💬 Ask me about "Kubernetes, Cloud & DevOps, Platform Engineering, GitOps, AI Infrastructure, MLOps, AIOps, FinOps, or open-source contributions." <br>😄 **Fun Fact:** I enjoy turning complex infrastructure problems into automated solutions—and I’m always curious about what happens when you put **AI + Kubernetes + DevOps** together.<br><br><br>
+Currently working on **GenAI and LLM projects, fine-tuning models, building AI agents, improving LLM evaluation, and exploring MLOps and AI infrastructure.** 🤖<br>I’m looking to collaborate on **AI/ML and GenAI projects, open-source contributions, LLM applications, and practical AI systems.** 🤝<br>I’m looking for help with **open-source contributions, advanced LLM engineering, model evaluation, and building reliable AI systems for production.** 🚀<br>I’m currently learning **LLM fine-tuning, agentic AI, LLM evaluation, MLOps, LLMOps, and production AI infrastructure.** 🧠<br>Ask me about **AI/ML, Generative AI, LLMs, RAG, AI agents, fine-tuning, MLOps, and building production-ready AI systems.** 🤖<br>Fun fact: **I enjoy turning complex AI ideas into working projects and then figuring out how to make them production-ready.** 🚀<br>
 
-<div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
-</div>
-
-<a href="https://u8views.com/github/Abhijais4896"><img src="https://u8views.com/api/v1/github/profiles/126854907/views/day-week-month-total-count.svg"></a>
-
-<p align="center">
-  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
-</p>
 
 # <h1 align="center"> 🌐 Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhishekjaiswal076) [![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/Abhishek-Jaiswal-2414) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Abhishek_4896) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhishek.77647@gmail.com)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhishekjaiswal076) [![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/Abhishek-Jaiswal-2414) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Abhishek_4896) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhishek.77647@gmail.com) 
 
 - 👨‍💻 All of my projects are available at [https://github.com/Abhijais4896](https://github.com/Abhijais4896)
 
@@ -42,16 +13,10 @@
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/abhishekjaiswal076](https://www.linkedin.com/in/abhishekjaiswal076)
 
-<p align="center">
-  <img src="ai-neon-divider.svg" width="100%">
-</p>
-  
-# <h1 align="center">💻 Tech Stack
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![OpenStack](https://img.shields.io/badge/Openstack-%23f01742.svg?style=for-the-badge&logo=openstack&logoColor=white) ![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=for-the-badge&logo=datadog&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black) ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Strapi](https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=Apache%20Flink&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) ![CockroachLabs](https://img.shields.io/badge/Cockroach%20Labs-6933FF?style=for-the-badge&logo=Cockroach%20Labs&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![CircleCI](https://img.shields.io/badge/circleci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Packer](https://img.shields.io/badge/packer-%23E7EEF0.svg?style=for-the-badge&logo=packer&logoColor=%2302A8EF) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD) ![Splunk](https://img.shields.io/badge/splunk-%23000000.svg?style=for-the-badge&logo=splunk&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
 
-<p align="center">
-  <img src="ai-neon-divider.svg" width="100%">
-</p>
+# <h1 align="center">💻 Tech Stack
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
 
 <h1 align="center">💼 Work Experience</h1>
 
@@ -59,66 +24,65 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3>☁️ DevOps Intern — Alfido Tech</h3>
+<h3>🤖 Machine Learning Intern — Alfido Tech</h3>
 
-<b>Jan 2026 – Jul 2026 · 06 months</b>
+<b>Dec 2025 – Jun 2026 · 06 months</b>
 
 <p>
-Worked on cloud infrastructure and DevOps workflows, supporting CI/CD automation, containerization, Kubernetes deployments, and AWS infrastructure management.
+Worked on practical machine learning workflows involving exploratory data analysis, data cleaning, feature engineering, model development, and evaluation using real-world datasets.
 </p>
 
 <b>Focus:</b>
 
-<code>AWS</code> <code>Kubernetes</code> <code>Docker</code><br>
-<code>Terraform</code> <code>GitHub Actions</code> <code>Jenkins</code><br>
-<code>CI/CD</code> <code>IaC</code> <code>Linux</code>
+<code>Python</code> <code>Scikit-learn</code> <code>Machine Learning</code><br>
+<code>EDA</code> <code>Feature Engineering</code> <code>Model Evaluation</code><br>
+<code>Hyperparameter Tuning</code> <code>Data Preprocessing</code>
 
 </td>
 
 <td width="50%" valign="top">
 
-<h3>☁️ DevOps Intern — CODTECH IT SOLUTIONS</h3>
+<h3>🤖 Machine Learning Intern — CODTECH IT SOLUTIONS</h3>
 
 <b>Jun 2025 – Dec 2025 · 06 months</b>
 
 <p>
-Worked on Azure-based DevOps workflows, supporting CI/CD automation, infrastructure provisioning, containerization, and Kubernetes deployments.
+Worked on machine learning workflows covering data preprocessing, feature engineering, model training, algorithm comparison, and performance evaluation.
 </p>
 
 <b>Focus:</b>
 
-<code>Azure</code> <code>Azure DevOps</code> <code>AKS</code><br>
-<code>Docker</code> <code>Terraform</code> <code>CI/CD</code><br>
-<code>IaC</code> <code>Azure VMs</code> <code>Azure Storage</code>
+<code>Python</code> <code>Scikit-learn</code> <code>Machine Learning</code><br>
+<code>Data Preprocessing</code> <code>Feature Engineering</code> <code>Model Training</code><br>
+<code>Hyperparameter Tuning</code> <code>Model Evaluation</code>
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
-</p>
 
-<h1 align="center">🌟 Portfolio Projects</h1>
+
+<h1 align="center">🌟 AI/ML Portfolio Projects</h1>
+
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-### ☁️ Cloud Cost Intelligence Platform
+### 🩺 Medicare — Multimodal AI Healthcare Assistant
 
-**FinOps • AWS • Cloud Optimization**
+**Multimodal AI • LLM • Voice & Vision**
 
-An intelligent FinOps platform that analyzes AWS infrastructure usage and identifies opportunities to reduce unnecessary cloud spending.
+A multimodal AI healthcare assistant that combines vision, voice, and LLM capabilities to provide interactive AI-powered responses from text, speech, and image inputs.
 
 **Stack:**  
-`AWS` `Python` `Terraform` `Prometheus` `Grafana`
+`Llama 3 Vision` `Whisper` `Groq` `ElevenLabs` `Gradio`
 
-🔹 AWS Resource & Cost Analysis  
-🔹 Idle & Underutilized Resource Detection  
-🔹 Kubernetes Cost Insights  
-🔹 AI-Powered Recommendations  
-🔹 FinOps Dashboard
+🔹 Vision-Language AI  
+🔹 Speech-to-Text Integration  
+🔹 LLM-Based Response Generation  
+🔹 Text-to-Speech  
+🔹 Interactive AI Interface
 
 <a href="YOUR_REPO_LINK">🔗 View Project</a>
 
@@ -126,20 +90,20 @@ An intelligent FinOps platform that analyzes AWS infrastructure usage and identi
 
 <td width="50%" valign="top">
 
-### 🚀 Cloud-Native Microservices Platform
+### 📚 Enterprise Advanced RAG Platform
 
-**AWS • Kubernetes • DevOps • GitOps**
+**RAG • LLM Evaluation • LLMOps**
 
-A production-oriented microservices platform deployed on Amazon EKS with automated infrastructure, CI/CD, GitOps, security scanning, and observability.
+An enterprise-oriented RAG platform designed for reliable LLM applications with contextual retrieval, guardrails, evaluation, caching, and centralized LLM access.
 
 **Stack:**  
-`AWS EKS` `Terraform` `Docker` `Argo CD` `GitHub Actions` `Trivy`
+`Python` `LangChain` `LLMs` `Vector DB` `FastAPI`
 
-🔹 Infrastructure as Code  
-🔹 GitOps Deployments  
-🔹 Automated CI/CD  
-🔹 Container Security  
-🔹 Kubernetes Observability
+🔹 Retrieval-Augmented Generation  
+🔹 LLM Guardrails  
+🔹 LLM Evaluation  
+🔹 Response Caching  
+🔹 LLM Gateway
 
 <a href="YOUR_REPO_LINK">🔗 View Project</a>
 
@@ -151,41 +115,41 @@ A production-oriented microservices platform deployed on Amazon EKS with automat
 
 <td width="50%" valign="top">
 
-### 🛠️ AI Kubernetes Incident Response Agent
+### 🤖 Multi-Agent AI System
 
-**AIOps • Kubernetes • Local LLM**
+**Agentic AI • Multi-Agent Systems • LLM**
 
-An offline AI agent that investigates Kubernetes failures by analyzing pod logs, events, and resource configurations to diagnose common incidents.
-
-**Stack:**  
-`Kubernetes` `Python` `Ollama` `LLMs` `FastAPI`
-
-🔹 CrashLoopBackOff Diagnosis  
-🔹 Kubernetes API Integration  
-🔹 Root Cause Analysis  
-🔹 Automated Troubleshooting  
-🔹 Remediation Recommendations
-
-<a href="YOUR_REPO_LINK">🔗 View Project</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🤖 Multi-Agent LLMOps Platform
-
-**LLMOps • AI Agents • Cloud Deployment**
-
-A cloud-native multi-agent platform with automated CI/CD, quality checks, containerized deployment, and AI workflow observability.
+A multi-agent AI system where specialized agents collaborate to break down complex tasks, use external tools, and coordinate their results through structured workflows.
 
 **Stack:**  
-`LangGraph` `Groq` `Tavily` `Pydantic AI` `Jenkins` `ECS Fargate`
+`LangGraph` `LangChain` `Groq` `Tavily` `Python`
 
 🔹 Multi-Agent Orchestration  
-🔹 Automated CI/CD  
-🔹 Dockerized AI Workloads  
-🔹 LLM Tracing & Evaluation  
-🔹 Agent Monitoring
+🔹 Tool Calling  
+🔹 Agent Workflows  
+🔹 LLM-Based Reasoning  
+🔹 Automated Task Execution
+
+<a href="YOUR_REPO_LINK">🔗 View Project</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🧠 Fine-Tuned Text-to-SQL LLM
+
+**LLM Fine-Tuning • LoRA • GPU Inference**
+
+Fine-tuned an open-source LLM for natural-language-to-SQL generation using parameter-efficient fine-tuning, then deployed the model for GPU-based production inference.
+
+**Stack:**  
+`Python` `PyTorch` `Hugging Face` `PEFT` `LoRA` `vLLM` `AKS`
+
+🔹 LoRA Fine-Tuning  
+🔹 Text-to-SQL Generation  
+🔹 Parameter-Efficient Training  
+🔹 vLLM Model Serving  
+🔹 NVIDIA GPU Operator
 
 <a href="YOUR_REPO_LINK">🔗 View Project</a>
 
@@ -197,20 +161,20 @@ A cloud-native multi-agent platform with automated CI/CD, quality checks, contai
 
 <td width="50%" valign="top">
 
-### 🔭 AI-Powered Kubernetes Observability
+### 📈 RAG-Based Investor Intelligence Platform
 
-**SRE • OpenTelemetry • AI Observability**
+**RAG • AI Research • LLM Applications**
 
-An AI-assisted observability platform for Kubernetes microservices that combines distributed telemetry with intelligent incident investigation.
+An AI-powered investor intelligence platform that retrieves and synthesizes relevant company and financial information to support faster research and investment analysis.
 
 **Stack:**  
-`Kubernetes` `OpenTelemetry` `Honeycomb` `MCP` `Python`
+`Python` `LangChain` `LLMs` `RAG` `Vector DB`
 
-🔹 Distributed Tracing  
-🔹 Metrics & Logs  
-🔹 AI-Assisted Investigation  
-🔹 Root Cause Analysis  
-🔹 Service Performance Insights
+🔹 Intelligent Information Retrieval  
+🔹 Financial Data Analysis  
+🔹 Context-Aware LLM Responses  
+🔹 Document & Knowledge Retrieval  
+🔹 AI-Assisted Investment Research
 
 <a href="YOUR_REPO_LINK">🔗 View Project</a>
 
@@ -218,20 +182,20 @@ An AI-assisted observability platform for Kubernetes microservices that combines
 
 <td width="50%" valign="top">
 
-### 🧪 End-to-End MLOps Pipeline
+### 🧪 Water Potability Prediction — MLOps
 
-**MLOps • Model Lifecycle • AWS**
+**Machine Learning • MLOps • Model Lifecycle**
 
-A reproducible ML pipeline for water potability prediction with dataset versioning, experiment tracking, containerized inference, and AWS deployment.
+An end-to-end machine learning system for water potability prediction with reproducible training, dataset versioning, experiment tracking, and cloud-based deployment.
 
 **Stack:**  
-`Python` `DVC` `MLflow` `Docker` `AWS` `FastAPI`
+`Python` `Scikit-learn` `DVC` `MLflow` `Docker` `AWS`
 
-🔹 Dataset & Model Versioning  
+🔹 Data & Model Versioning  
 🔹 Experiment Tracking  
+🔹 Feature Engineering  
 🔹 Model Evaluation  
-🔹 Reproducible Training  
-🔹 Cloud Model Deployment
+🔹 Reproducible ML Pipeline
 
 <a href="YOUR_REPO_LINK">🔗 View Project</a>
 
@@ -241,11 +205,10 @@ A reproducible ML pipeline for water potability prediction with dataset versioni
 
 </table>
 
-<p align="center">
-  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
-</p>
+
 
 <h1 align="center">📱 Certifications</h1>
+
 <p align="center">
 
   <a href="https://github.com/user-attachments/assets/1529ea05-7f0f-4268-9448-0baff6ff6f6c">
@@ -286,58 +249,23 @@ A reproducible ML pipeline for water potability prediction with dataset versioni
 
 </p>
 
-<p align="center">
-  <img src="ai-neon-divider.svg" width="100%">
-</p>
 
-# <h1 align="center">📊 GitHub Stats
+
+# 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=Abhijais4896&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-<p align="center">
-  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
-</p>
-
-# <h1 align="center">🏆 GitHub Trophies
+## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Abhijais4896&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-<p align="center">
-  <img src="cloud-trophy.svg" width="150" alt="Cloud Trophy">
-  <img src="kubernetes-trophy.svg" width="150" alt="Kubernetes Trophy">
-  <img src="devops-trophy.svg" width="150" alt="DevOps Trophy">
-  <img src="opensource-trophy.svg" width="150" alt="Open Source Trophy">
-  <img src="aiinfra-trophy.svg" width="150" alt="AI Infrastructure Trophy">
-</p>
-
-<p align="center">
-  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
-</p>
-
-### <h1 align="center">✍️ Random Dev Quote
+### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### <h1 align="center">🔝 Top Contributed Repo
+### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Abhijais4896&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-<p align="center">
-  <a href="https://github.com/argoproj/argo-cd">
-    <img src="argocd-contributor.svg" width="300" alt="Argo CD Open Source Contributor">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/kubeflow/kubeflow">
-    <img src="kubeflow-contributor.svg" width="300" alt="Kubeflow Open Source Contributor">
-  </a>
-</p>
+---
+[![](https://komarev.com/ghpvc/?username=Abhijais4896&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<p align="center">
-  <img src="ai-neon-divider.svg" width="100%">
-</p>
-
-<p align="center">
-  <img src="cloud-devops-terminal-boot.svg" width="800" alt="Cloud DevOps Boot Loader">
-</p>
-
-<p align="center">
-  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
-</p>
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
