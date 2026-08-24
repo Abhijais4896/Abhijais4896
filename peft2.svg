@@ -1,0 +1,97 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- PEFT Emerald & Teal Gradient -->
+    <linearGradient id="peft-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD21E" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+
+    <style>
+      /* Rotating Parameter Matrix Orbit */
+      @keyframes spinMatrix {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      /* Hugging Face Hugging Motion */
+      @keyframes waveLeft {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(-6deg); }
+      }
+
+      @keyframes waveRight {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(6deg); }
+      }
+
+      /* Adapter Pulse */
+      @keyframes pulseNode {
+        0% { r: 1.5px; opacity: 0.5; }
+        100% { r: 3.5px; opacity: 1; }
+      }
+
+      .matrix-anim {
+        transform-origin: 50px 40px;
+        animation: spinMatrix 10s linear infinite;
+      }
+
+      .hand-left-anim {
+        transform-origin: 25px 40px;
+        animation: waveLeft 2s ease-in-out infinite alternate;
+      }
+
+      .hand-right-anim {
+        transform-origin: 75px 40px;
+        animation: waveRight 2s ease-in-out infinite alternate;
+      }
+
+      .node-anim {
+        animation: pulseNode 1.5s ease-in-out infinite alternate;
+      }
+    </style>
+  </defs>
+
+  <!-- Circular Dark Background -->
+  <circle cx="50" cy="50" r="48" fill="#0D1117" stroke="#30363D" stroke-width="1.5" />
+
+  <!-- Animated Adapter Orbit (LoRA Matrix Grid) -->
+  <circle cx="50" cy="40" r="27" fill="none" stroke="url(#peft-grad)" stroke-width="1.2" stroke-dasharray="5 9" class="matrix-anim" opacity="0.75" />
+
+  <!-- Side Adapter Bracket Traces (LoRA Low-Rank Matrices) -->
+  <path d="M 20 28 L 32 40 L 20 52 M 80 28 L 68 40 L 80 52" fill="none" stroke="#10B981" stroke-width="1.2" opacity="0.6" />
+
+  <!-- Hugging Face Core Logo (Scaled) -->
+  <g transform="translate(0, -3) scale(0.85)" style="transform-origin: 50px 40px;">
+    <!-- Main Face -->
+    <circle cx="50" cy="40" r="18" fill="#FFD21E" />
+    
+    <!-- Eyes -->
+    <ellipse cx="43.5" cy="36" rx="2" ry="2.8" fill="#2C2100" />
+    <ellipse cx="56.5" cy="36" rx="2" ry="2.8" fill="#2C2100" />
+    
+    <!-- Blush -->
+    <circle cx="39" cy="41" r="2.5" fill="#10B981" opacity="0.3" />
+    <circle cx="61" cy="41" r="2.5" fill="#10B981" opacity="0.3" />
+
+    <!-- Smile -->
+    <path d="M 43 43 Q 50 49 57 43" fill="none" stroke="#2C2100" stroke-width="1.2" stroke-linecap="round" />
+
+    <!-- Hugging Hands -->
+    <g class="hand-left-anim">
+      <path d="M 24 43 C 22 38, 29 34, 33 38 C 35 40, 33 46, 28 46 C 25 46, 24 44, 24 43 Z" fill="#FFD21E" stroke="#2C2100" stroke-width="0.8" />
+    </g>
+    <g class="hand-right-anim">
+      <path d="M 76 43 C 78 38, 71 34, 67 38 C 65 40, 67 46, 72 46 C 75 46, 76 44, 76 43 Z" fill="#FFD21E" stroke="#2C2100" stroke-width="0.8" />
+    </g>
+  </g>
+
+  <!-- Parameter Connection Nodes -->
+  <circle cx="32" cy="40" fill="#10B981" class="node-anim" />
+  <circle cx="68" cy="40" fill="#06B6D4" class="node-anim" style="animation-delay: 0.75s;" />
+
+  <!-- Label Text -->
+  <text x="50" y="78" font-family="'Segoe UI', system-ui, sans-serif" font-weight="800" font-size="8.5" text-anchor="middle" letter-spacing="0.8">
+    <tspan fill="#FFD21E">HF </tspan><tspan fill="#10B981">PEFT</tspan>
+  </text>
+</svg>

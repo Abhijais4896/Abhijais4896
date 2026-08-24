@@ -1,0 +1,67 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- PyTorch Main Linear Gradient -->
+    <linearGradient id="pytorch-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EE4C2C" />
+      <stop offset="100%" stop-color="#F97316" />
+    </linearGradient>
+
+    <style>
+      /* Rotating Ring Animation */
+      @keyframes spinRing {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      /* Flame Pulse Animation */
+      @keyframes pulseFlame {
+        0% { transform: scale(0.92); opacity: 0.85; }
+        100% { transform: scale(1.08); opacity: 1; }
+      }
+
+      /* Glow / Dot Pulse */
+      @keyframes pulseDot {
+        0% { r: 2px; opacity: 0.6; }
+        100% { r: 3.5px; opacity: 1; }
+      }
+
+      .ring-anim {
+        transform-origin: 50px 42px;
+        animation: spinRing 8s linear infinite;
+      }
+
+      .flame-anim {
+        transform-origin: 50px 42px;
+        animation: pulseFlame 1.8s ease-in-out infinite alternate;
+      }
+
+      .dot-anim {
+        animation: pulseDot 1.2s ease-in-out infinite alternate;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <circle cx="50" cy="50" r="48" fill="#0D1117" stroke="#30363D" stroke-width="1.5" />
+
+  <!-- Outer Animated Circuit / Orbit Line -->
+  <circle cx="50" cy="42" r="28" fill="none" stroke="url(#pytorch-grad)" stroke-width="1" stroke-dasharray="4 8" class="ring-anim" opacity="0.6" />
+
+  <!-- PyTorch Unfinished Outer Ring (Logo Geometry) -->
+  <path d="M 50 22 A 20 20 0 1 1 36 28" fill="none" stroke="#EE4C2C" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- PyTorch Core Flame (Animated Pulse) -->
+  <path d="M 50 26 C 47 31 43 34 43 39 C 43 44 46 47 50 47 C 54 47 57 44 57 39 C 57 34 53 31 50 26 Z" fill="url(#pytorch-grad)" class="flame-anim" />
+
+  <!-- PyTorch Flame Top Dot -->
+  <circle cx="50" cy="22" r="2.5" fill="#EE4C2C" class="dot-anim" />
+
+  <!-- Animated Data Nodes -->
+  <circle cx="22" cy="42" fill="#EE4C2C" class="dot-anim" />
+  <circle cx="78" cy="42" fill="#F97316" class="dot-anim" />
+
+  <!-- Label Text -->
+  <text x="50" y="78" font-family="'Segoe UI', system-ui, sans-serif" font-weight="800" font-size="8.5" text-anchor="middle" letter-spacing="0.8">
+    <tspan fill="#EE4C2C">Py</tspan><tspan fill="#F97316">Torch</tspan>
+  </text>
+</svg>
