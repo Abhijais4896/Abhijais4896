@@ -369,5 +369,9 @@ An end-to-end machine learning system for water potability prediction with repro
 </p>
 
 <p align="center">
+  <img src="booting.svg" width="800" alt="Cloud DevOps Boot Loader">
+</p>
+
+<p align="center">
   <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
 </p>
