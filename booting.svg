@@ -1,0 +1,189 @@
+<svg width="780" height="420" viewBox="0 0 780 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .window-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; rx: 8px; }
+      .header-bg { fill: #161b22; rx: 8px 8px 0 0; }
+      .window-title { font: 600 11px 'Segoe UI', system-ui, sans-serif; fill: #8b949e; text-anchor: middle; }
+      .btn-close { fill: #ff5f56; } .btn-min { fill: #ffbd2e; } .btn-max { fill: #27c93f; }
+
+      .code-text { font: 500 10.5px 'Fira Code', 'Consolas', 'Courier New', monospace; }
+      .prompt { fill: #10b981; font-weight: 700; }
+      .cmd { fill: #f97316; font-weight: 600; }
+      .dim { fill: #6e7681; }
+      .info { fill: #38bdf8; }
+      .success { fill: #34d399; }
+      .purple { fill: #c084fc; }
+      .warn { fill: #fbbf24; }
+
+      /* Node / Graph Styles */
+      .node-box { fill: #161b22; stroke: #30363d; stroke-width: 1.2; rx: 5px; }
+      .node-text { font: 600 10px 'Segoe UI', system-ui, sans-serif; fill: #e6edf3; text-anchor: middle; }
+      .edge-line { stroke: #30363d; stroke-width: 1.5; stroke-dasharray: 4 4; fill: none; }
+
+      /* Keyframe Sequences */
+      @keyframes fadeIn {
+        0% { opacity: 0; transform: translateY(3px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes nodeActive {
+        0%, 100% { stroke: #30363d; fill: #161b22; }
+        50% { stroke: #10b981; fill: #064e3b; }
+      }
+
+      @keyframes pulseEdge {
+        0% { stroke-dashoffset: 16; stroke: #30363d; }
+        50% { stroke: #10b981; }
+        100% { stroke-dashoffset: 0; stroke: #30363d; }
+      }
+
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+      /* Sequence Delays */
+      .step-1 { animation: fadeIn 0.4s ease-out forwards 0.2s; opacity: 0; }
+      .step-2 { animation: fadeIn 0.4s ease-out forwards 1.2s; opacity: 0; }
+      .step-3 { animation: fadeIn 0.4s ease-out forwards 2.4s; opacity: 0; }
+      .step-4 { animation: fadeIn 0.4s ease-out forwards 3.6s; opacity: 0; }
+      .step-5 { animation: fadeIn 0.4s ease-out forwards 4.8s; opacity: 0; }
+      .step-6 { animation: fadeIn 0.4s ease-out forwards 6.0s; opacity: 0; }
+      .step-7 { animation: fadeIn 0.4s ease-out forwards 7.2s; opacity: 0; }
+      .step-8 { animation: fadeIn 0.4s ease-out forwards 8.4s; opacity: 0; }
+
+      /* Graph Active Pulsing */
+      .node-plan { animation: nodeActive 2s ease-in-out infinite 0.5s; }
+      .node-tool { animation: nodeActive 2s ease-in-out infinite 2.5s; }
+      .node-eval { animation: nodeActive 2s ease-in-out infinite 4.8s; }
+      .node-deploy { animation: nodeActive 2s ease-in-out infinite 7.0s; }
+
+      .edge-active { animation: pulseEdge 2s linear infinite; }
+      .cursor { animation: blink 1s infinite; fill: #10b981; }
+    </style>
+  </defs>
+
+  <!-- Left Panel: Agent Thought & Tool DAG Window -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="250" height="400" class="window-bg" />
+    <rect x="0" y="0" width="250" height="30" class="header-bg" />
+    <circle cx="18" cy="15" r="4" class="btn-close" />
+    <circle cx="30" cy="15" r="4" class="btn-min" />
+    <circle cx="42" cy="15" r="4" class="btn-max" />
+    <text x="125" y="19" class="window-title">🧠 Agent ReAct DAG</text>
+
+    <!-- Graph Nodes & Edges -->
+    <g transform="translate(15, 45)">
+      <!-- User Intent Node -->
+      <rect x="50" y="0" width="120" height="30" class="node-box" />
+      <text x="110" y="18" class="node-text">Goal: Deploy Enterprise AI</text>
+
+      <!-- Connection 1 -->
+      <path d="M 110 30 L 110 55" class="edge-line edge-active" />
+
+      <!-- Planning / Reasoning Node -->
+      <rect x="40" y="55" width="140" height="32" class="node-box node-plan" />
+      <text x="110" y="71" class="node-text" fill="#c084fc">1. Reason &amp; Plan Tasks</text>
+      <text x="110" y="81" class="dim" font-size="8" text-anchor="middle">Formulating DAG Strategy</text>
+
+      <!-- Connection 2 -->
+      <path d="M 110 87 L 110 115" class="edge-line edge-active" />
+
+      <!-- Tool Execution Node -->
+      <rect x="30" y="115" width="160" height="36" class="node-box node-tool" />
+      <text x="110" y="131" class="node-text" fill="#38bdf8">2. Tool Call: Code Interpreter</text>
+      <text x="110" y="143" class="dim" font-size="8" text-anchor="middle">Exec PyTorch &amp; Quantization</text>
+
+      <!-- Connection 3 -->
+      <path d="M 110 151 L 110 180" class="edge-line edge-active" />
+
+      <!-- Evaluation Node -->
+      <rect x="35" y="180" width="150" height="36" class="node-box node-eval" />
+      <text x="110" y="196" class="node-text" fill="#fbbf24">3. Reflection: OpenAI Evals</text>
+      <text x="110" y="208" class="dim" font-size="8" text-anchor="middle">Verify Accuracy &amp; Latency</text>
+
+      <!-- Connection 4 -->
+      <path d="M 110 216 L 110 245" class="edge-line edge-active" />
+
+      <!-- Production Deployment Node -->
+      <rect x="30" y="245" width="160" height="36" class="node-box node-deploy" />
+      <text x="110" y="261" class="node-text" fill="#34d399">4. Deploy Tool: K8s Operator</text>
+      <text x="110" y="273" class="dim" font-size="8" text-anchor="middle">Canary Rollout &amp; TLS Ingress</text>
+
+      <!-- Live Agent Status Badge -->
+      <rect x="15" y="310" width="190" height="28" fill="#161b22" stroke="#10b981" stroke-width="1" rx="4" />
+      <circle cx="30" cy="324" r="4" fill="#10b981" class="cursor" />
+      <text x="42" y="328" font-family="'Segoe UI', system-ui" font-size="10" font-weight="600" fill="#34d399">AGENT STATE: Executing Tools</text>
+    </g>
+  </g>
+
+  <!-- Right Panel: Execution Terminal Window -->
+  <g transform="translate(270, 10)">
+    <rect x="0" y="0" width="500" height="400" class="window-bg" />
+    <rect x="0" y="0" width="500" height="30" class="header-bg" />
+    <circle cx="18" cy="15" r="4" class="btn-close" />
+    <circle cx="30" cy="15" r="4" class="btn-min" />
+    <circle cx="42" cy="15" r="4" class="btn-max" />
+    <text x="250" y="19" class="window-title">bash - Autonomous Execution Stream</text>
+
+    <!-- Terminal Code Log -->
+    <g transform="translate(18, 55)" class="code-text">
+      
+      <!-- Task 1 -->
+      <g class="step-1">
+        <text x="0" y="0" class="prompt">🤖 agent-core$</text>
+        <text x="95" y="0" class="cmd">run-agent --goal="Enterprise-RAG-Prod"</text>
+      </g>
+
+      <!-- Task 2 -->
+      <g class="step-2">
+        <text x="0" y="20" class="purple">THOUGHT:</text>
+        <text x="65" y="20" class="dim">Need to adapt weights using PEFT LoRA and verify accuracy.</text>
+        <text x="0" y="35" class="info">ACTION:</text>
+        <text x="55" y="35" class="cmd">call_tool("huggingface_peft", adapter="lora_v2")</text>
+      </g>
+
+      <!-- Task 3 -->
+      <g class="step-3">
+        <text x="0" y="58" class="dim">  ├─ Loading model weights... [OK]</text>
+        <text x="0" y="73" class="dim">  └─ Injecting low-rank adapters (r=16, alpha=32)... [Done]</text>
+      </g>
+
+      <!-- Task 4 -->
+      <g class="step-4">
+        <text x="0" y="98" class="purple">THOUGHT:</text>
+        <text x="65" y="98" class="dim">Validating response metrics against baseline thresholds.</text>
+        <text x="0" y="113" class="info">ACTION:</text>
+        <text x="55" y="113" class="cmd">call_tool("openai_evals", suite="rag_qa_bench")</text>
+      </g>
+
+      <!-- Task 5 -->
+      <g class="step-5">
+        <text x="0" y="136" class="warn">  ├─ Eval Score: 0.962 (Threshold: &gt; 0.90) [PASS]</text>
+        <text x="0" y="151" class="warn">  └─ Hallucination Score: 0.002 [PASS]</text>
+      </g>
+
+      <!-- Task 6 -->
+      <g class="step-6">
+        <text x="0" y="176" class="purple">THOUGHT:</text>
+        <text x="65" y="176" class="dim">Model validated. Building container &amp; applying K8s manifests.</text>
+        <text x="0" y="191" class="info">ACTION:</text>
+        <text x="55" y="191" class="cmd">call_tool("k8s_deploy", cluster="prod-us-east")</text>
+      </g>
+
+      <!-- Task 7 -->
+      <g class="step-7">
+        <text x="0" y="214" class="dim">  ├─ Building OCI container: enterprise-ai:v1.4.2</text>
+        <text x="0" y="229" class="dim">  ├─ Provisioning 4x NVIDIA A10G Tensor Core Nodes...</text>
+        <text x="0" y="244" class="success">  └─ Canary Rollout Complete: 100% Traffic Shifted!</text>
+      </g>
+
+      <!-- Task 8 Summary -->
+      <g class="step-8">
+        <rect x="0" y="262" width="460" height="26" fill="#161b22" stroke="#34d399" stroke-width="1" rx="4" />
+        <text x="10" y="279" class="success">✔ SUCCESS: Task completed autonomously in 14.2s (4 tool calls)</text>
+
+        <text x="0" y="310" class="prompt">🤖 agent-core$</text>
+        <rect x="95" y="298" width="7" height="14" class="cursor" />
+      </g>
+
+    </g>
+  </g>
+</svg>
