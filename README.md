@@ -324,4 +324,6 @@ An end-to-end machine learning system for water potability prediction with repro
   <img src="ai-neon-divider.svg" width="100%">
 </p>
 
-
+<p align="center">
+  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
+</p>
