@@ -256,6 +256,10 @@ An end-to-end machine learning system for water potability prediction with repro
   <img src="gemini-svg.svg" alt="Abhishek Jaiswal Kaggle Stats" />
 </p>
 
+<p align="center">
+  <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
+</p>
+
 <h1 align="center">📱 Certifications</h1>
 
 <p align="center">
