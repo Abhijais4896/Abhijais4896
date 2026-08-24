@@ -297,7 +297,7 @@ An end-to-end machine learning system for water potability prediction with repro
   <img src="ai-neon-divider.svg" width="100%">
 </p>
 
-# 📊 GitHub Stats:
+# <h1 align="center">📊 GitHub Stats
 ![](https://github-readme-stats.shion.dev/api?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=Abhijais4896&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
@@ -306,7 +306,7 @@ An end-to-end machine learning system for water potability prediction with repro
   <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
 </p>
 
-## 🏆 GitHub Trophies
+# <h1 align="center">🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Abhijais4896&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 <p align="center">
@@ -314,10 +314,10 @@ An end-to-end machine learning system for water potability prediction with repro
 </p>
 
 
-### ✍️ Random Dev Quote
+### <h1 align="center">✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 🔝 Top Contributed Repo
+### <h1 align="center">🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Abhijais4896&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 <p align="center">
