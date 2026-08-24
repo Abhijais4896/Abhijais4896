@@ -1,0 +1,98 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg-circle { fill: #0d1117; stroke: #30363d; stroke-width: 1.5px; }
+    
+    .brand-text { font: 800 8.5px 'Segoe UI', system-ui, sans-serif; text-anchor: middle; letter-spacing: 0.8px; }
+    .peft-yellow { fill: #ffd21e; }
+    .peft-emerald { fill: #10b981; animation: textGlow 2s ease-in-out infinite alternate; }
+
+    /* Hugging Face Face Details */
+    .hf-face { fill: #ffd21e; }
+    .hf-eye { fill: #2c2100; }
+    .hf-smile { fill: none; stroke: #2c2100; stroke-width: 1.2; stroke-linecap: round; }
+
+    /* Adapter Matrix Lines & Pulse */
+    .matrix-grid { stroke: #059669; stroke-width: 1; fill: none; opacity: 0.4; }
+    .adapter-pulse { stroke: url(#peft-grad); stroke-width: 1.2; fill: none; stroke-dasharray: 4 8; animation: flowAdapter 2s linear infinite; }
+    
+    .adapter-node { fill: #10b981; filter: drop-shadow(0 0 3px #34d399); animation: pulseNode 1.8s ease-in-out infinite alternate; }
+
+    /* Keyframe Animations */
+    .core-glow { fill: url(#peft-core); animation: pulseAura 2.5s ease-in-out infinite alternate; }
+
+    @keyframes pulseAura {
+      0% { opacity: 0.35; transform: scale(0.85); }
+      100% { opacity: 0.85; transform: scale(1.15); }
+    }
+
+    @keyframes flowAdapter {
+      0% { stroke-dashoffset: 24; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    @keyframes pulseNode {
+      0% { r: 1.5px; opacity: 0.5; }
+      100% { r: 3px; opacity: 1; fill: #34d399; }
+    }
+
+    @keyframes textGlow {
+      0% { fill: #10b981; filter: drop-shadow(0 0 1px #10b981); }
+      100% { fill: #34d399; filter: drop-shadow(0 0 4px #34d399); }
+    }
+  </style>
+
+  <defs>
+    <!-- PEFT Emerald & Teal Adapter Gradient -->
+    <linearGradient id="peft-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd21e" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <!-- Core Radial Glow -->
+    <radialGradient id="peft-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Circular Dark Background -->
+  <circle cx="50" cy="50" r="48" class="bg-circle" />
+
+  <!-- Animated Glowing Core -->
+  <circle cx="50" cy="40" r="24" class="core-glow" style="transform-origin: 50px 40px;" />
+
+  <!-- Parameter Efficient Adapter Traces (Low-Rank Adapter / LoRA Matrices) -->
+  <path d="M 20 28 L 32 40 L 20 52 M 80 28 L 68 40 L 80 52" class="matrix-grid" />
+  <path d="M 20 28 L 32 40 L 20 52 M 80 28 L 68 40 L 80 52" class="adapter-pulse" />
+
+  <!-- Hugging Face Logo (Scaled to fit Adapter Bracket Overlay) -->
+  <g transform="translate(0, -3) scale(0.85)" style="transform-origin: 50px 40px;">
+    <!-- Face Center -->
+    <circle cx="50" cy="40" r="18" class="hf-face" />
+    
+    <!-- Eyes -->
+    <ellipse cx="43.5" cy="36" rx="2" ry="2.8" class="hf-eye" />
+    <ellipse cx="56.5" cy="36" rx="2" ry="2.8" class="hf-eye" />
+    
+    <!-- Cheeks (Blush) -->
+    <circle cx="39" cy="41" r="2.5" fill="#10b981" opacity="0.4" />
+    <circle cx="61" cy="41" r="2.5" fill="#10b981" opacity="0.4" />
+
+    <!-- Smile -->
+    <path d="M 43 43 Q 50 49 57 43" class="hf-smile" />
+
+    <!-- Hugging Hands -->
+    <path d="M 24 43 C 22 38, 29 34, 33 38 C 35 40, 33 46, 28 46 C 25 46, 24 44, 24 43 Z" fill="#ffd21e" stroke="#2c2100" stroke-width="0.8" />
+    <path d="M 76 43 C 78 38, 71 34, 67 38 C 65 40, 67 46, 72 46 C 75 46, 76 44, 76 43 Z" fill="#ffd21e" stroke="#2c2100" stroke-width="0.8" />
+  </g>
+
+  <!-- Parameter Nodes (LoRA Connection Points) -->
+  <circle cx="32" cy="40" class="adapter-node" />
+  <circle cx="68" cy="40" class="adapter-node" style="animation-delay: 0.9s;" />
+
+  <!-- Display Name Inside Circle -->
+  <text x="50" y="78" class="brand-text">
+    <tspan class="peft-yellow">HF </tspan><tspan class="peft-emerald">PEFT</tspan>
+  </text>
+</svg>

@@ -1,0 +1,90 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg-circle { fill: #0d1117; stroke: #30363d; stroke-width: 1.5px; }
+    
+    .brand-text { font: 800 10px 'Segoe UI', system-ui, sans-serif; text-anchor: middle; letter-spacing: 0.5px; }
+    .lc-main { fill: #ffffff; }
+    .lc-accent { fill: #bc8cff; animation: textGlow 2s ease-in-out infinite alternate; }
+    
+    /* Chain Link Aesthetics */
+    .chain-link { 
+      stroke: url(#lc-grad); 
+      stroke-width: 2.5; 
+      fill: none; 
+      stroke-linecap: round; 
+      filter: drop-shadow(0 0 3px rgba(56, 189, 248, 0.4)); 
+    }
+    .chain-inner { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+
+    /* Keyframe Animations */
+    .core-glow { fill: url(#lc-core); animation: pulseAura 2.5s ease-in-out infinite alternate; }
+    
+    .pulse-node-1 { animation: nodePulse 2s ease-in-out infinite; }
+    .pulse-node-2 { animation: nodePulse 2s ease-in-out 1s infinite; }
+
+    @keyframes pulseAura {
+      0% { opacity: 0.3; transform: scale(0.85); }
+      100% { opacity: 0.85; transform: scale(1.15); }
+    }
+
+    @keyframes nodePulse {
+      0% { r: 1.5px; opacity: 0.4; }
+      50% { r: 3px; opacity: 1; fill: #00f2fe; filter: drop-shadow(0 0 4px #00f2fe); }
+      100% { r: 1.5px; opacity: 0.4; }
+    }
+
+    @keyframes textGlow {
+      0% { fill: #bc8cff; filter: drop-shadow(0 0 1px #bc8cff); }
+      100% { fill: #38bdf8; filter: drop-shadow(0 0 5px #38bdf8); }
+    }
+  </style>
+
+  <defs>
+    <!-- Chain Ring Gradient -->
+    <linearGradient id="lc-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#bc8cff" />
+    </linearGradient>
+
+    <!-- Core Radial Glow -->
+    <radialGradient id="lc-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Circular Dark Background -->
+  <circle cx="50" cy="50" r="48" class="bg-circle" />
+
+  <!-- Animated Glowing Aura -->
+  <circle cx="50" cy="50" r="26" class="core-glow" style="transform-origin: center;" />
+
+  <!-- LangChain Interlocking Chains (Left & Right) -->
+  <g transform="translate(24, 50)">
+    <rect x="-12" y="-7" width="24" height="14" rx="7" class="chain-link" transform="rotate(-45)" />
+    <rect x="-8" y="-4" width="16" height="8" rx="4" class="chain-inner" transform="rotate(-45)" />
+  </g>
+
+  <g transform="translate(76, 50)">
+    <rect x="-12" y="-7" width="24" height="14" rx="7" class="chain-link" transform="rotate(-45)" />
+    <rect x="-8" y="-4" width="16" height="8" rx="4" class="chain-inner" transform="rotate(-45)" />
+  </g>
+
+  <!-- Upper & Lower Connecting Links -->
+  <g transform="translate(50, 28) scale(0.75)">
+    <rect x="-18" y="-9" width="36" height="18" rx="9" class="chain-link" transform="rotate(135)" />
+  </g>
+  <g transform="translate(50, 72) scale(0.75)">
+    <rect x="-18" y="-9" width="36" height="18" rx="9" class="chain-link" transform="rotate(135)" />
+  </g>
+
+  <!-- Animated Glowing Energy Nodes -->
+  <circle cx="34" cy="34" r="2" class="pulse-node-1" fill="#38bdf8" />
+  <circle cx="66" cy="66" r="2" class="pulse-node-2" fill="#bc8cff" />
+
+  <!-- Animated Text inside the Circle -->
+  <text x="50" y="53.5" class="brand-text">
+    <tspan class="lc-main">Lang</tspan><tspan class="lc-accent">Chain</tspan>
+  </text>
+</svg>

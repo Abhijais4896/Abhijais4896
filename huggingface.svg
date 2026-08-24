@@ -1,0 +1,103 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg-circle { fill: #0d1117; stroke: #30363d; stroke-width: 1.5px; }
+    
+    .brand-text { font: 800 8.5px 'Segoe UI', system-ui, sans-serif; text-anchor: middle; letter-spacing: 0.5px; }
+    .hf-yellow { fill: #ffd21e; }
+    .hf-orange { fill: #ff9d00; animation: textGlow 2s ease-in-out infinite alternate; }
+
+    /* Hugging Face Face Details */
+    .hf-face { fill: #ffd21e; }
+    .hf-eye { fill: #2c2100; }
+    .hf-smile { fill: none; stroke: #2c2100; stroke-width: 1.5; stroke-linecap: round; }
+    
+    /* Animated Hugging Hands */
+    .hf-hand-left { animation: waveLeft 2.5s ease-in-out infinite alternate; transform-origin: 25px 50px; }
+    .hf-hand-right { animation: waveRight 2.5s ease-in-out infinite alternate; transform-origin: 75px 50px; }
+
+    /* Keyframe Animations */
+    .core-glow { fill: url(#hf-core); animation: pulseAura 2.5s ease-in-out infinite alternate; }
+    .circuit-pulse { stroke: url(#hf-grad); stroke-width: 1.2; fill: none; stroke-dasharray: 4 8; animation: flowData 2s linear infinite; }
+
+    @keyframes pulseAura {
+      0% { opacity: 0.35; transform: scale(0.85); }
+      100% { opacity: 0.85; transform: scale(1.15); }
+    }
+
+    @keyframes flowData {
+      0% { stroke-dashoffset: 24; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    @keyframes waveLeft {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(-8deg); }
+    }
+
+    @keyframes waveRight {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(8deg); }
+    }
+
+    @keyframes textGlow {
+      0% { fill: #ff9d00; filter: drop-shadow(0 0 1px #ff9d00); }
+      100% { fill: #ffd21e; filter: drop-shadow(0 0 4px #ffd21e); }
+    }
+  </style>
+
+  <defs>
+    <!-- Hugging Face Glow Gradient -->
+    <linearGradient id="hf-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd21e" />
+      <stop offset="50%" stop-color="#ff9d00" />
+      <stop offset="100%" stop-color="#ff6b00" />
+    </linearGradient>
+
+    <!-- Core Radial Glow -->
+    <radialGradient id="hf-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff9d00" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Circular Dark Background -->
+  <circle cx="50" cy="50" r="48" class="bg-circle" />
+
+  <!-- Animated Glowing Core -->
+  <circle cx="50" cy="42" r="26" class="core-glow" style="transform-origin: 50px 42px;" />
+
+  <!-- Neural Connection Circuits Backdrop -->
+  <path d="M 20 42 L 32 42 M 80 42 L 68 42 M 50 16 L 50 24" class="circuit-pulse" />
+
+  <!-- Hugging Face Logo Group -->
+  <g transform="translate(0, -3)">
+    <!-- Face Center -->
+    <circle cx="50" cy="42" r="18" class="hf-face" />
+    
+    <!-- Eyes -->
+    <ellipse cx="43.5" cy="38" rx="2" ry="2.8" class="hf-eye" />
+    <ellipse cx="56.5" cy="38" rx="2" ry="2.8" class="hf-eye" />
+    
+    <!-- Cheeks (Blush) -->
+    <circle cx="39" cy="43" r="2.5" fill="#ff9d00" opacity="0.4" />
+    <circle cx="61" cy="43" r="2.5" fill="#ff9d00" opacity="0.4" />
+
+    <!-- Smile -->
+    <path d="M 43 45 Q 50 51 57 45" class="hf-smile" />
+
+    <!-- Left Hugging Hand -->
+    <g class="hf-hand-left">
+      <path d="M 24 45 C 22 40, 29 36, 33 40 C 35 42, 33 48, 28 48 C 25 48, 24 46, 24 45 Z" fill="#ffd21e" stroke="#2c2100" stroke-width="0.8" />
+    </g>
+
+    <!-- Right Hugging Hand -->
+    <g class="hf-hand-right">
+      <path d="M 76 45 C 78 40, 71 36, 67 40 C 65 42, 67 48, 72 48 C 75 48, 76 46, 76 45 Z" fill="#ffd21e" stroke="#2c2100" stroke-width="0.8" />
+    </g>
+  </g>
+
+  <!-- Animated Text inside the Circle -->
+  <text x="50" y="78" class="brand-text">
+    <tspan class="hf-yellow">Trans</tspan><tspan class="hf-orange">formers</tspan>
+  </text>
+</svg>

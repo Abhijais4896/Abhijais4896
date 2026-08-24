@@ -1,0 +1,95 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg-circle { fill: #0d1117; stroke: #30363d; stroke-width: 1.5px; }
+    
+    .brand-text { font: 800 9px 'Segoe UI', system-ui, sans-serif; text-anchor: middle; letter-spacing: 0.8px; }
+    .trl-yellow { fill: #ffd21e; }
+    .trl-red { fill: #ef4444; animation: textGlow 2s ease-in-out infinite alternate; }
+
+    /* Hugging Face Face Details */
+    .hf-face { fill: #ffd21e; }
+    .hf-eye { fill: #2c2100; }
+    .hf-smile { fill: none; stroke: #2c2100; stroke-width: 1.2; stroke-linecap: round; }
+
+    /* RL Loop Animations */
+    .rl-orbit { stroke: url(#trl-grad); stroke-width: 1.5; fill: none; stroke-dasharray: 6 12; animation: orbitRotate 3s linear infinite; }
+    .reward-particle { fill: #ef4444; filter: drop-shadow(0 0 3px #f97316); animation: pulseReward 1.5s ease-in-out infinite alternate; }
+
+    /* Keyframe Animations */
+    .core-glow { fill: url(#trl-core); animation: pulseAura 2.5s ease-in-out infinite alternate; }
+
+    @keyframes pulseAura {
+      0% { opacity: 0.35; transform: scale(0.85); }
+      100% { opacity: 0.85; transform: scale(1.15); }
+    }
+
+    @keyframes orbitRotate {
+      0% { stroke-dashoffset: 36; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    @keyframes pulseReward {
+      0% { r: 1.5px; opacity: 0.5; }
+      100% { r: 3px; opacity: 1; fill: #ffd21e; }
+    }
+
+    @keyframes textGlow {
+      0% { fill: #ef4444; filter: drop-shadow(0 0 1px #ef4444); }
+      100% { fill: #f97316; filter: drop-shadow(0 0 4px #f97316); }
+    }
+  </style>
+
+  <defs>
+    <!-- TRL Fiery RL Gradient -->
+    <linearGradient id="trl-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd21e" />
+      <stop offset="50%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+
+    <!-- Core Radial Glow -->
+    <radialGradient id="trl-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Circular Dark Background -->
+  <circle cx="50" cy="50" r="48" class="bg-circle" />
+
+  <!-- Animated Glowing Core -->
+  <circle cx="50" cy="40" r="24" class="core-glow" style="transform-origin: 50px 40px;" />
+
+  <!-- Reinforcement Learning Orbital Loop (RL Policy / Reward Feedback) -->
+  <ellipse cx="50" cy="40" rx="28" ry="14" class="rl-orbit" transform="rotate(-15 50 40)" />
+
+  <!-- Hugging Face Logo (Scaled Down slightly for RL Ring) -->
+  <g transform="translate(0, -3) scale(0.85)" style="transform-origin: 50px 40px;">
+    <!-- Face Center -->
+    <circle cx="50" cy="40" r="18" class="hf-face" />
+    
+    <!-- Eyes -->
+    <ellipse cx="43.5" cy="36" rx="2" ry="2.8" class="hf-eye" />
+    <ellipse cx="56.5" cy="36" rx="2" ry="2.8" class="hf-eye" />
+    
+    <!-- Cheeks (Blush) -->
+    <circle cx="39" cy="41" r="2.5" fill="#f97316" opacity="0.4" />
+    <circle cx="61" cy="41" r="2.5" fill="#f97316" opacity="0.4" />
+
+    <!-- Smile -->
+    <path d="M 43 43 Q 50 49 57 43" class="hf-smile" />
+
+    <!-- Hugging Hands -->
+    <path d="M 24 43 C 22 38, 29 34, 33 38 C 35 40, 33 46, 28 46 C 25 46, 24 44, 24 43 Z" fill="#ffd21e" stroke="#2c2100" stroke-width="0.8" />
+    <path d="M 76 43 C 78 38, 71 34, 67 38 C 65 40, 67 46, 72 46 C 75 46, 76 44, 76 43 Z" fill="#ffd21e" stroke="#2c2100" stroke-width="0.8" />
+  </g>
+
+  <!-- RL Reward Nodes -->
+  <circle cx="24" cy="46" class="reward-particle" />
+  <circle cx="76" cy="34" class="reward-particle" style="animation-delay: 0.75s;" />
+
+  <!-- Display Name Inside Circle -->
+  <text x="50" y="78" class="brand-text">
+    <tspan class="trl-yellow">HF </tspan><tspan class="trl-red">TRL</tspan>
+  </text>
+</svg>
