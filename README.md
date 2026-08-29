@@ -343,9 +343,6 @@ An end-to-end machine learning system for water potability prediction with repro
   <a href="https://github.com/langchain-ai/langchain">
   <img src="langchain.svg" width="120" alt="Langchain">
   </a>
-  <a href="https://github.com/pytorch/pytorch">
-  <img src="pytorch2.svg" width="120" alt="Kubernetes Trophy">
-  </a>
 </p>
 
 
