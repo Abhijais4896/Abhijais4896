@@ -343,23 +343,8 @@ An end-to-end machine learning system for water potability prediction with repro
   <a href="https://github.com/langchain-ai/langchain">
   <img src="langchain.svg" width="120" alt="Langchain">
   </a>
-  <a href="https://github.com/huggingface/transformers">
-  <img src="huggingface.svg" width="120" alt="Kubernetes Trophy">
-  </a>
-  <a href="https://github.com/huggingface/trl">
-  <img src="hf-trl.svg" width="120" alt="DevOps Trophy">
-  </a>
-</p>
-
-<p align="center">
-   <a href="https://github.com/huggingface/peft">
-  <img src="peft2.svg" width="120" alt="Cloud Trophy">
-   </a>
   <a href="https://github.com/pytorch/pytorch">
   <img src="pytorch2.svg" width="120" alt="Kubernetes Trophy">
-  </a>
-  <a href="https://github.com/openai/evals">
-  <img src="openai.svg" width="120" alt="DevOps Trophy">
   </a>
 </p>
 
