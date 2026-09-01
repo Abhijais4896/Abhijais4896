@@ -187,7 +187,7 @@ Worked with the team to understand <b>business requirements</b>, gather stakehol
 <!--                    PRODUCT PROJECTS                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<h2 align="center">🚀 Product Management Projects</h2>
+<h1 align="center">🚀 Product Management Projects</h1>
 
 <p align="center">
   <i>Exploring real-world problems through product discovery, strategy, UX, and 0→1 product development.</i>
@@ -525,9 +525,15 @@ Solution → Launch → Measurement</b>
 </p>
 
 
-<h1 align="center">🛡️Product Hunt</h1>
+<h1 align="center">🛡️Published Products</h1>
 
-//////---> animated prduct hunt profile card
+<a href="https://youtube-playlist-length-calculator-pxbl4arfy.vercel.app/?ref=producthunt">
+  <img
+    src="youtube-playlist-length-calculator.svg"
+    alt="YouTube Playlist Length Calculator"
+    width="100%"
+  />
+</a>
 
 
 <p align="center">
