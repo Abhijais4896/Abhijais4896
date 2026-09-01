@@ -608,7 +608,7 @@ Solution → Launch → Measurement</b>
 
 
 <p align="center">
-  <img src="gemini4.svg" width="150" alt="Cloud Trophy">
+  <img src="gemini4-svg.svg" width="100%" alt="Cloud Trophy">
 </p>
 
 
