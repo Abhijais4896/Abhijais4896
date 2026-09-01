@@ -1,0 +1,314 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="100%" height="100%" role="img" aria-label="Product Discovery to Impact: An animated 0 to 1 product journey diagram">
+  <defs>
+    <!-- Background & Card Gradients -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="50%" stop-color="#0f1420"/>
+      <stop offset="100%" stop-color="#07090e"/>
+    </linearGradient>
+
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#182030" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0f1522" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="card-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- Pipeline Accent Gradient (Cyan -> Blue -> Purple -> Magenta) -->
+    <linearGradient id="pipeline-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="25%" stop-color="#3b82f6"/>
+      <stop offset="60%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
+
+    <!-- Metric Bar Gradients -->
+    <linearGradient id="cyan-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="blue-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="purple-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Glowing Effects -->
+    <filter id="glow-strong" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur1"/>
+      <feGaussianBlur stdDeviation="3" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-subtle" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid-pattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.4"/>
+      <circle cx="30" cy="30" r="0.8" fill="#334155" fill-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Typography Styles -->
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 20px; letter-spacing: 2.5px; fill: #f8fafc; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 12px; letter-spacing: 0.5px; fill: #94a3b8; }
+    .node-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 1.5px; fill: #f1f5f9; }
+    .node-desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 11px; fill: #64748b; }
+    .card-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 9px; letter-spacing: 1.2px; fill: #38bdf8; text-transform: uppercase; }
+    .card-val { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 11px; fill: #e2e8f0; }
+    .section-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 10px; letter-spacing: 1.5px; fill: #64748b; }
+    .metric-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 11px; fill: #94a3b8; }
+    .tag-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 10px; fill: #818cf8; }
+    .tag-lead { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 10px; fill: #f1f5f9; letter-spacing: 1px; }
+  </style>
+
+  <!-- Outer Container Canvas -->
+  <rect width="900" height="430" rx="16" fill="url(#bg-gradient)"/>
+  <rect width="900" height="430" rx="16" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Background Grid -->
+  <rect width="900" height="430" rx="16" fill="url(#grid-pattern)"/>
+
+  <!-- Subtle Radial Glow behind Pipeline -->
+  <ellipse cx="450" cy="180" rx="350" ry="90" fill="#0284c7" opacity="0.06" filter="url(#glow-strong)"/>
+  <ellipse cx="750" cy="180" rx="150" ry="70" fill="#c084fc" opacity="0.05" filter="url(#glow-strong)"/>
+
+  <!-- HEADER SECTION -->
+  <g transform="translate(45, 42)">
+    <!-- Small Decorative Accent Icon -->
+    <rect x="0" y="2" width="4" height="22" rx="2" fill="url(#pipeline-gradient)"/>
+    <text x="14" y="16" class="title">PRODUCT DISCOVERY <tspan fill="#38bdf8">→</tspan> IMPACT</text>
+    <text x="14" y="33" class="subtitle">An animated 0→1 product journey</text>
+  </g>
+
+  <!-- FLOATING CARDS (Placed Strategically Above & Below Flow) -->
+
+  <!-- Card 1: User Signal -->
+  <g transform="translate(70, 96)">
+    <rect width="135" height="42" rx="8" fill="url(#card-bg)" stroke="url(#card-stroke)" stroke-width="1"/>
+    <circle cx="14" cy="21" r="3" fill="#06b6d4" filter="url(#glow-subtle)"/>
+    <text x="25" y="16" class="card-label">USER SIGNAL</text>
+    <text x="25" y="31" class="card-val">“Solve the real pain.”</text>
+  </g>
+
+  <!-- Card 2: Priority -->
+  <g transform="translate(382, 74)">
+    <rect width="135" height="42" rx="8" fill="url(#card-bg)" stroke="url(#card-stroke)" stroke-width="1"/>
+    <circle cx="14" cy="21" r="3" fill="#8b5cf6" filter="url(#glow-subtle)"/>
+    <text x="25" y="16" class="card-label" fill="#a78bfa">PRIORITY</text>
+    <text x="25" y="31" class="card-val">Impact × Effort</text>
+  </g>
+
+  <!-- Card 3: Outcome -->
+  <g transform="translate(695, 100)">
+    <rect width="135" height="42" rx="8" fill="url(#card-bg)" stroke="url(#card-stroke)" stroke-width="1"/>
+    <circle cx="14" cy="21" r="3" fill="#d946ef" filter="url(#glow-subtle)"/>
+    <text x="25" y="16" class="card-label" fill="#f0abfc">OUTCOME</text>
+    <text x="25" y="31" class="card-val">Adoption ↑  Value ↑</text>
+  </g>
+
+  <!-- PIPELINE PATHS & NODES -->
+  <!-- Center Y ~ 190. Nodes at X: 110, 280, 450, 620, 790 -->
+
+  <!-- Curved Path Data -->
+  <!-- Path definition reused for base, glow, flow dash, and particle tracking -->
+  <g>
+    <!-- Background Thick Track Glow -->
+    <path d="M 110 190 C 190 145, 200 235, 280 190 C 360 145, 370 235, 450 190 C 530 145, 540 235, 620 190 C 700 145, 710 235, 790 190" 
+          fill="none" stroke="url(#pipeline-gradient)" stroke-width="6" stroke-opacity="0.15" filter="url(#glow-strong)"/>
+
+    <!-- Main Gradient Track -->
+    <path id="journey-path" d="M 110 190 C 190 145, 200 235, 280 190 C 360 145, 370 235, 450 190 C 530 145, 540 235, 620 190 C 700 145, 710 235, 790 190" 
+          fill="none" stroke="url(#pipeline-gradient)" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Animated Dashed Flow Line -->
+    <path d="M 110 190 C 190 145, 200 235, 280 190 C 360 145, 370 235, 450 190 C 530 145, 540 235, 620 190 C 700 145, 710 235, 790 190" 
+          fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 10" opacity="0.5">
+      <animate attributeName="stroke-dashoffset" from="140" to="0" dur="4s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Moving Traveling Particle 1 (Primary Bright) -->
+    <circle r="5" fill="#ffffff" filter="url(#glow-strong)">
+      <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#journey-path"/>
+      </animateMotion>
+    </circle>
+    
+    <!-- Moving Traveling Particle 2 (Trailing Cyan Glow) -->
+    <circle r="3.5" fill="#38bdf8" filter="url(#glow-subtle)">
+      <animateMotion dur="5s" repeatCount="indefinite" rotate="auto" begin="-0.2s">
+        <mpath href="#journey-path"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- STAGE NODES & LABELS -->
+
+  <!-- Stage 1: DISCOVER (X: 110, Y: 190) -->
+  <g transform="translate(110, 190)">
+    <circle r="22" fill="#06b6d4" fill-opacity="0.12"/>
+    <circle r="14" fill="#090d16" stroke="#06b6d4" stroke-width="2" filter="url(#glow-subtle)">
+      <animate attributeName="r" values="13;15;13" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#06b6d4"/>
+    <!-- Text Labels Below -->
+    <text x="0" y="42" text-anchor="middle" class="node-title">DISCOVER</text>
+    <text x="0" y="57" text-anchor="middle" class="node-desc">Users + Problems</text>
+  </g>
+
+  <!-- Stage 2: DEFINE (X: 280, Y: 190) -->
+  <g transform="translate(280, 190)">
+    <circle r="22" fill="#3b82f6" fill-opacity="0.12"/>
+    <circle r="14" fill="#090d16" stroke="#3b82f6" stroke-width="2" filter="url(#glow-subtle)">
+      <animate attributeName="r" values="13;15;13" dur="3s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#3b82f6"/>
+    <!-- Text Labels Below -->
+    <text x="0" y="42" text-anchor="middle" class="node-title">DEFINE</text>
+    <text x="0" y="57" text-anchor="middle" class="node-desc">PRD + Scope</text>
+  </g>
+
+  <!-- Stage 3: BUILD (X: 450, Y: 190) -->
+  <g transform="translate(450, 190)">
+    <circle r="22" fill="#6366f1" fill-opacity="0.12"/>
+    <circle r="14" fill="#090d16" stroke="#6366f1" stroke-width="2" filter="url(#glow-subtle)">
+      <animate attributeName="r" values="13;15;13" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#6366f1"/>
+    <!-- Text Labels Below -->
+    <text x="0" y="42" text-anchor="middle" class="node-title">BUILD</text>
+    <text x="0" y="57" text-anchor="middle" class="node-desc">MVP + Iterate</text>
+  </g>
+
+  <!-- Stage 4: LAUNCH (X: 620, Y: 190) -->
+  <g transform="translate(620, 190)">
+    <circle r="22" fill="#8b5cf6" fill-opacity="0.12"/>
+    <circle r="14" fill="#090d16" stroke="#8b5cf6" stroke-width="2" filter="url(#glow-subtle)">
+      <animate attributeName="r" values="13;15;13" dur="3s" begin="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#8b5cf6"/>
+    <!-- Text Labels Below -->
+    <text x="0" y="42" text-anchor="middle" class="node-title">LAUNCH</text>
+    <text x="0" y="57" text-anchor="middle" class="node-desc">GTM + Adoption</text>
+  </g>
+
+  <!-- Stage 5: MEASURE (X: 790, Y: 190) -->
+  <g transform="translate(790, 190)">
+    <circle r="22" fill="#d946ef" fill-opacity="0.12"/>
+    <circle r="14" fill="#090d16" stroke="#d946ef" stroke-width="2" filter="url(#glow-subtle)">
+      <animate attributeName="r" values="13;15;13" dur="3s" begin="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#d946ef"/>
+    <!-- Text Labels Below -->
+    <text x="0" y="42" text-anchor="middle" class="node-title">MEASURE</text>
+    <text x="0" y="57" text-anchor="middle" class="node-desc">KPIs + Learning</text>
+  </g>
+
+
+  <!-- DIVIDER LINE -->
+  <line x1="45" y1="282" x2="855" y2="282" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- BOTTOM SECTION: METRICS & STRATEGY -->
+
+  <!-- Left Side: Product Signals (Animated Metric Bars) -->
+  <g transform="translate(45, 304)">
+    <text x="0" y="0" class="section-label">PRODUCT SIGNALS</text>
+
+    <!-- Bar 1: User Adoption -->
+    <g transform="translate(0, 14)">
+      <text x="0" y="10" class="metric-name">User Adoption</text>
+      <rect x="105" y="2" width="180" height="8" rx="4" fill="#1e293b"/>
+      <rect x="105" y="2" width="155" height="8" rx="4" fill="url(#cyan-bar)" filter="url(#glow-subtle)">
+        <animate attributeName="width" values="130;162;145;155" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Bar 2: Engagement -->
+    <g transform="translate(0, 34)">
+      <text x="0" y="10" class="metric-name">Engagement</text>
+      <rect x="105" y="2" width="180" height="8" rx="4" fill="#1e293b"/>
+      <rect x="105" y="2" width="140" height="8" rx="4" fill="url(#blue-bar)" filter="url(#glow-subtle)">
+        <animate attributeName="width" values="110;148;130;140" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Bar 3: Business Impact -->
+    <g transform="translate(0, 54)">
+      <text x="0" y="10" class="metric-name">Business Impact</text>
+      <rect x="105" y="2" width="180" height="8" rx="4" fill="#1e293b"/>
+      <rect x="105" y="2" width="168" height="8" rx="4" fill="url(#purple-bar)" filter="url(#glow-subtle)">
+        <animate attributeName="width" values="140;172;155;168" dur="5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- Right Side: Strategy Capabilities Row -->
+  <g transform="translate(465, 304)">
+    <text x="0" y="0" class="section-label">CORE CAPABILITIES</text>
+    
+    <!-- Pills Container -->
+    <g transform="translate(0, 16)">
+      <!-- STRATEGY Tag -->
+      <g transform="translate(0, 0)">
+        <rect width="80" height="24" rx="12" fill="#1e1b4b" stroke="#4338ca" stroke-width="1"/>
+        <text x="40" y="15" text-anchor="middle" class="tag-lead">STRATEGY</text>
+      </g>
+
+      <!-- Skill Badges -->
+      <g transform="translate(88, 0)">
+        <rect width="68" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+        <text x="34" y="15" text-anchor="middle" class="tag-text">Discovery</text>
+      </g>
+
+      <g transform="translate(162, 0)">
+        <rect width="48" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+        <text x="24" y="15" text-anchor="middle" class="tag-text">PRD</text>
+      </g>
+
+      <g transform="translate(216, 0)">
+        <rect width="68" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+        <text x="34" y="15" text-anchor="middle" class="tag-text">Roadmap</text>
+      </g>
+
+      <g transform="translate(290, 0)">
+        <rect width="52" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+        <text x="26" y="15" text-anchor="middle" class="tag-text">GTM</text>
+      </g>
+
+      <!-- Row 2 of Pills -->
+      <g transform="translate(88, 30)">
+        <rect width="68" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+        <text x="34" y="15" text-anchor="middle" class="tag-text">Analytics</text>
+      </g>
+
+      <g transform="translate(162, 30)">
+        <rect width="82" height="24" rx="12" fill="#1e1035" stroke="#7e22ce" stroke-width="1"/>
+        <text x="41" y="15" text-anchor="middle" class="tag-text" fill="#c084fc">AI / GenAI</text>
+      </g>
+
+      <g transform="translate(250, 30)">
+        <rect width="92" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+        <text x="46" y="15" text-anchor="middle" class="tag-text">0→1 Launch</text>
+      </g>
+    </g>
+  </g>
+
+</svg>
