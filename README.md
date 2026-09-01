@@ -641,7 +641,10 @@ Solution → Launch → Measurement</b>
 
 
 
-//////----> ANIMATED PIPELINE OR TERMINAL FOR PM
+<p align="center">
+  <img src="booting.svg" width="800" alt="Cloud DevOps Boot Loader">
+</p>
+
 
 
 
