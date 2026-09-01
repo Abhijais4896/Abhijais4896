@@ -527,6 +527,8 @@ Solution → Launch → Measurement</b>
 
 <h1 align="center">🛡️Published Products</h1>
 
+<a href="https://www.producthunt.com/products/youtube-playlist-length-calculator-11?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-youtube-playlist-length-calculator-69c64f8e-8245-4ddc-afc2-7dafe0651cba" target="_blank" rel="noopener noreferrer"><img alt="youtube-playlist-length-calculator - YouTube Playlist Length &amp; Watch Time Calculator | Product Hunt" width="150" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1238150&amp;theme=light&amp;t=1788249415705"></a>
+
 <a href="https://youtube-playlist-length-calculator-pxbl4arfy.vercel.app/?ref=producthunt">
   <img
     src="youtube-playlist-length-calculator.svg"
@@ -534,6 +536,9 @@ Solution → Launch → Measurement</b>
     width="100%"
   />
 </a>
+
+
+
 
 
 <p align="center">
