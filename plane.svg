@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="100%" height="100%" style="background:#0a0d14; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- CSS Styles and Animations -->
+    <style>
+      .card {
+        transition: transform 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      /* Animations */
+      @keyframes float-smooth {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-9px); }
+      }
+
+      @keyframes pulse-light {
+        0%, 100% { opacity: 0.35; filter: drop-shadow(0 0 8px #00f2fe); }
+        50% { opacity: 0.85; filter: drop-shadow(0 0 20px #3f76ff); }
+      }
+
+      @keyframes rotate-3d-1 {
+        0% { transform: rotateX(70deg) rotateZ(0deg); }
+        100% { transform: rotateX(70deg) rotateZ(360deg); }
+      }
+
+      @keyframes rotate-3d-2 {
+        0% { transform: rotateX(70deg) rotateY(40deg) rotateZ(0deg); }
+        100% { transform: rotateX(70deg) rotateY(40deg) rotateZ(360deg); }
+      }
+
+      @keyframes dash-stream {
+        to { stroke-dashoffset: -40; }
+      }
+
+      /* Applied Classes */
+      .fx-float { animation: float-smooth 4s ease-in-out infinite; }
+      .fx-glow { animation: pulse-light 3s ease-in-out infinite; }
+      .fx-ring-1 { transform-origin: 200px 175px; animation: rotate-3d-1 8s linear infinite; }
+      .fx-ring-2 { transform-origin: 200px 175px; animation: rotate-3d-2 12s linear infinite; }
+      .fx-dash { stroke-dasharray: 6, 6; animation: dash-stream 1.8s linear infinite; }
+
+      /* Typography */
+      .title { font-weight: 800; font-size: 20px; fill: #f0f6fc; letter-spacing: 0.5px; }
+      .subtitle { font-weight: 500; font-size: 13px; fill: #8b949e; }
+      .badge-text { font-weight: 800; font-size: 11px; fill: #ffffff; letter-spacing: 1.2px; }
+    </style>
+
+    <!-- Metallic & Realistic Gradients -->
+    <linearGradient id="body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2942" />
+      <stop offset="30%" stop-color="#3f76ff" />
+      <stop offset="70%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="metal-base" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="25%" stop-color="#334155" />
+      <stop offset="50%" stop-color="#64748b" />
+      <stop offset="75%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gold-plaque" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe259" />
+      <stop offset="100%" stop-color="#ffa751" />
+    </linearGradient>
+
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131924" />
+      <stop offset="100%" stop-color="#0a0d14" />
+    </linearGradient>
+
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+    </linearGradient>
+
+    <!-- Drop Shadows for 3D Depth -->
+    <filter id="shadow-3d" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <g class="card">
+    <!-- Outer Card Frame -->
+    <rect x="10" y="10" width="380" height="440" rx="16" fill="url(#card-bg)" stroke="#212936" stroke-width="2"/>
+    <rect x="10" y="10" width="380" height="440" rx="16" fill="url(#glass)"/>
+
+    <!-- Realistic Pedestal / Marble Base -->
+    <g transform="translate(200, 315)" filter="url(#shadow-3d)">
+      <!-- Marble Pedestal Bottom Tier -->
+      <polygon points="-80,35 80,35 65,10 -65,10" fill="url(#metal-base)" stroke="#475569" stroke-width="1"/>
+      
+      <!-- Pedestal Top Tier -->
+      <rect x="-60" y="-10" width="120" height="20" rx="3" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+      <line x1="-50" y1="18" x2="50" y2="18" stroke="#00f2fe" stroke-width="2" class="fx-dash"/>
+      
+      <!-- Engraved Metallic Plaque -->
+      <rect x="-50" y="2" width="100" height="20" rx="4" fill="url(#gold-plaque)" stroke="#fff" stroke-width="0.5"/>
+      <text x="0" y="16" text-anchor="middle" class="badge-text" fill="#0f172a">PLANE.SO</text>
+    </g>
+
+    <!-- Floating 3D Trophy Body -->
+    <g class="fx-float" filter="url(#shadow-3d)">
+      <!-- Volumetric Backlight Glow -->
+      <ellipse cx="200" cy="170" rx="55" ry="55" fill="#3f76ff" class="fx-glow" filter="blur(20px)"/>
+
+      <!-- 3D Orbiting Rings (Issue Tracking/Cycles) -->
+      <g class="fx-ring-1">
+        <ellipse cx="200" cy="175" rx="75" ry="30" fill="none" stroke="#00f2fe" stroke-width="2" opacity="0.8" stroke-dasharray="14 10"/>
+        <circle cx="275" cy="175" r="4" fill="#00f2fe"/>
+      </g>
+      <g class="fx-ring-2">
+        <ellipse cx="200" cy="175" rx="80" ry="32" fill="none" stroke="#3f76ff" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="120" cy="175" r="4" fill="#3f76ff"/>
+      </g>
+
+      <!-- Trophy Handles with Metallic Thickness -->
+      <path d="M 145 130 C 90 130 100 210 150 190" fill="none" stroke="url(#metal-base)" stroke-width="10" stroke-linecap="round"/>
+      <path d="M 145 130 C 90 130 100 210 150 190" fill="none" stroke="url(#body-gradient)" stroke-width="6" stroke-linecap="round"/>
+
+      <path d="M 255 130 C 310 130 300 210 250 190" fill="none" stroke="url(#metal-base)" stroke-width="10" stroke-linecap="round"/>
+      <path d="M 255 130 C 310 130 300 210 250 190" fill="none" stroke="url(#body-gradient)" stroke-width="6" stroke-linecap="round"/>
+
+      <!-- Cup Stem -->
+      <path d="M 188 245 L 212 245 L 218 300 L 182 300 Z" fill="url(#metal-base)"/>
+      <path d="M 192 245 L 208 245 L 212 300 L 188 300 Z" fill="url(#body-gradient)"/>
+
+      <!-- Main Chalice Cup (Metallic Body) -->
+      <path d="M 140 110 L 260 110 C 260 180 230 245 200 250 C 170 245 140 180 140 110 Z" fill="url(#body-gradient)" stroke="url(#metal-base)" stroke-width="2"/>
+      
+      <!-- Metallic Lip Ring -->
+      <ellipse cx="200" cy="110" rx="60" ry="12" fill="url(#metal-base)"/>
+      <ellipse cx="200" cy="110" rx="54" ry="9" fill="#0a0d14"/>
+
+      <!-- Center Metallic Shield & 3D Paper Plane Logo -->
+      <g transform="translate(200, 172)">
+        <!-- Chrome Emblem Backdrop -->
+        <circle cx="0" cy="0" r="30" fill="url(#metal-base)" filter="url(#shadow-3d)"/>
+        <circle cx="0" cy="0" r="26" fill="#0a0d14" stroke="#00f2fe" stroke-width="1.5"/>
+
+        <!-- 3D Poly Paper Aircraft -->
+        <g transform="translate(-1, 2) scale(1.1)">
+          <!-- Left Wing (Dark Shading) -->
+          <path d="M -15 -13 L 16 0 L -6 0 Z" fill="#2563eb"/>
+          <!-- Right Wing (Highlight) -->
+          <path d="M -15 -13 L 16 0 L -14 12 Z" fill="#38bdf8"/>
+          <!-- Fold Underwing (Depth) -->
+          <path d="M -6 0 L 16 0 L -2 6 Z" fill="#1d4ed8"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- Typography -->
+    <text x="200" y="388" text-anchor="middle" class="title">Plane Open Source</text>
+    <text x="200" y="410" text-anchor="middle" class="subtitle">Project Management • Issue Tracking</text>
+  </g>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="100%" height="100%" style="background:#0a0d14; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <style>
+      @keyframes float-smooth {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes pulse-light {
+        0%, 100% { opacity: 0.35; filter: drop-shadow(0 0 8px #6366f1); }
+        50% { opacity: 0.85; filter: drop-shadow(0 0 22px #a855f7); }
+      }
+      @keyframes code-scroll {
+        0% { transform: translateY(0px); opacity: 0; }
+        20% { opacity: 0.8; }
+        80% { opacity: 0.8; }
+        100% { transform: translateY(-35px); opacity: 0; }
+      }
+      @keyframes active-glow {
+        0%, 100% { stroke: #38bdf8; filter: drop-shadow(0 0 2px #38bdf8); }
+        50% { stroke: #a855f7; filter: drop-shadow(0 0 8px #a855f7); }
+      }
+      @keyframes rotate-3d-1 {
+        0% { transform: rotateX(75deg) rotateZ(0deg); }
+        100% { transform: rotateX(75deg) rotateZ(360deg); }
+      }
+      @keyframes rotate-3d-2 {
+        0% { transform: rotateX(75deg) rotateY(45deg) rotateZ(0deg); }
+        100% { transform: rotateX(75deg) rotateY(45deg) rotateZ(360deg); }
+      }
+      @keyframes dash-stream {
+        to { stroke-dashoffset: -40; }
+      }
+      .fx-float { animation: float-smooth 4s ease-in-out infinite; }
+      .fx-glow { animation: pulse-light 3s ease-in-out infinite; }
+      .fx-ring-1 { transform-origin: 200px 175px; animation: rotate-3d-1 8s linear infinite; }
+      .fx-ring-2 { transform-origin: 200px 175px; animation: rotate-3d-2 12s linear infinite; }
+      .fx-dash { stroke-dasharray: 6, 6; animation: dash-stream 1.8s linear infinite; }
+      .fx-code { animation: code-scroll 4s linear infinite; }
+      .fx-active-pulse { animation: active-glow 2s ease-in-out infinite; }
+      .title { font-weight: 800; font-size: 20px; fill: #f0f6fc; letter-spacing: 0.5px; }
+      .subtitle { font-weight: 500; font-size: 13px; fill: #8b949e; }
+      .badge-text { font-weight: 800; font-size: 11px; fill: #0f172a; letter-spacing: 1.2px; }
+      .code-text { font-family: 'Courier New', Courier, monospace; font-size: 8px; fill: #38bdf8; font-weight: 600; }
+    </style>
+    <linearGradient id="body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="30%" stop-color="#6366f1" />
+      <stop offset="70%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="metal-base" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="25%" stop-color="#334155" />
+      <stop offset="50%" stop-color="#64748b" />
+      <stop offset="75%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="gold-plaque" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe259" />
+      <stop offset="100%" stop-color="#ffa751" />
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131924" />
+      <stop offset="100%" stop-color="#0a0d14" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+    </linearGradient>
+    <filter id="shadow-3d" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <g>
+    <rect x="10" y="10" width="380" height="440" rx="16" fill="url(#card-bg)" stroke="#212936" stroke-width="2"/>
+    <rect x="10" y="10" width="380" height="440" rx="16" fill="url(#glass)"/>
+    <g transform="translate(25, 140)" class="fx-code" opacity="0.8">
+      <text x="0" y="0" class="code-text">AI_Agent.work():</text>
+      <text x="5" y="12" class="code-text">while(repo_active):</text>
+      <text x="12" y="24" class="code-text" fill="#a855f7">pull_request.check()</text>
+      <text x="12" y="36" class="code-text">exec(agent_task)</text>
+      <text x="5" y="48" class="code-text" fill="#34d399">return "Done!"</text>
+    </g>
+    <g transform="translate(200, 315)" filter="url(#shadow-3d)">
+      <polygon points="-80,35 80,35 65,10 -65,10" fill="url(#metal-base)" stroke="#475569" stroke-width="1"/>
+      <rect x="-60" y="-10" width="120" height="20" rx="3" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+      <line x1="-50" y1="18" x2="50" y2="18" stroke="#a855f7" stroke-width="2" class="fx-dash"/>
+      <rect x="-55" y="2" width="110" height="20" rx="4" fill="url(#gold-plaque)" stroke="#fff" stroke-width="0.5"/>
+      <text x="0" y="16" text-anchor="middle" class="badge-text">OPENHANDS</text>
+    </g>
+    <g class="fx-float" filter="url(#shadow-3d)">
+      <ellipse cx="200" cy="170" rx="55" ry="55" fill="#8b5cf6" class="fx-glow" filter="blur(20px)"/>
+      <g class="fx-ring-1">
+        <ellipse cx="200" cy="175" rx="80" ry="32" fill="none" stroke="#a855f7" stroke-width="2" opacity="0.8" stroke-dasharray="14 10"/>
+        <circle cx="280" cy="175" r="4.5" fill="#38bdf8"/>
+      </g>
+      <g class="fx-ring-2">
+        <ellipse cx="200" cy="175" rx="85" ry="34" fill="none" stroke="#818cf8" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="115" cy="175" r="4.5" fill="#f43f5e"/>
+      </g>
+      <path d="M 140 200 C 130 150 160 120 170 125 C 180 130 170 165 185 185 L 180 250 Z" fill="url(#metal-base)" stroke="#334155" stroke-width="1"/>
+      <path d="M 140 200 C 130 150 160 120 170 125 C 178 129 170 160 183 180" fill="none" stroke="url(#body-gradient)" stroke-width="5" stroke-linecap="round"/>
+      <path d="M 260 200 C 270 150 240 120 230 125 C 220 130 230 165 215 185 L 220 250 Z" fill="url(#metal-base)" stroke="#334155" stroke-width="1"/>
+      <path d="M 260 200 C 270 150 240 120 230 125 C 222 129 230 160 217 180" fill="none" stroke="url(#body-gradient)" stroke-width="5" stroke-linecap="round"/>
+      <path d="M 188 245 L 212 245 L 218 300 L 182 300 Z" fill="url(#metal-base)"/>
+      <path d="M 192 245 L 208 245 L 212 300 L 188 300 Z" fill="url(#body-gradient)"/>
+      <path d="M 145 110 L 255 110 C 255 175 228 235 200 245 C 172 235 145 175 145 110 Z" fill="url(#body-gradient)" stroke="url(#metal-base)" stroke-width="2"/>
+      <ellipse cx="200" cy="110" rx="55" ry="11" fill="url(#metal-base)"/>
+      <ellipse cx="200" cy="110" rx="49" ry="8" fill="#0a0d14"/>
+      <g transform="translate(200, 168)">
+        <circle cx="0" cy="0" r="30" fill="url(#metal-base)" filter="url(#shadow-3d)"/>
+        <circle cx="0" cy="0" r="26" fill="#0a0d14" class="fx-active-pulse" stroke-width="1.5"/>
+        <g transform="translate(0, 1) scale(0.95)" fill="none" stroke="url(#gold-plaque)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M -8 11 L -8 5 C -8 3.5 -7 2 -5 2 C -3 2 -2 3.5 -2 5 L -2 11" fill="#ffe259" fill-opacity="0.2"/>
+          <path d="M -8 5 C -8 1 -6 -3 -4 -3 C -2 -3 -2 0 -2 3"/>
+          <path d="M -2 3 C -2 -2 0 -6 2 -6 C 4 -6 4 -2 4 2"/>
+          <path d="M 4 2 C 4 -1 6 -4 8 -4 C 10 -4 10 -1 10 3"/>
+          <path d="M 10 3 C 10 1 12 -1 13.5 -1 C 15 -1 15 2 13.5 5 L 11 10 C 9 13 6 15 2 15 L -2 15 C -6 15 -9 12 -9 9 L -9 5"/>
+          <circle cx="1" cy="7" r="3" fill="#a855f7" stroke="#fff" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+    <text x="200" y="388" text-anchor="middle" class="title">OpenHands Repo</text>
+    <text x="200" y="410" text-anchor="middle" class="subtitle">AI Software Development Agent • Working State</text>
+  </g>
+</svg>
