@@ -607,8 +607,11 @@ Solution → Launch → Measurement</b>
 ![](https://github-profile-trophy.vercel.app/?username=Abhijais4896&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 
+<p align="center">
+  <img src="gemini4.svg" width="150" alt="Cloud Trophy">
+</p>
 
-/////---> animated GitHub trophies
+
 
 
 <p align="center">
