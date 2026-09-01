@@ -1,12 +1,13 @@
-//////---> ANIMATED PM Profile card
-
+<p align="center">
+  <img src="product-manager-profile-card-animated.svg" width="1200" alt="Abhishek Jaiswal - AI Product Manager">
+</p>
 
 
 <h1 align="center">Hi 👋, I'm Abhishek Jaiswal
 
-
-///// ---> subheadline animation
-
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=AI+Product+Manager;Technical+Product+Manager;Product+Manager+%7C+AI+%26+Technical+Products;Product+Strategy+%7C+Product+Discovery;0%E2%86%921+Product+Development+%7C+MVPs;PRDs+%7C+User+Research+%7C+Roadmapping;Product+Analytics+%7C+KPIs+%7C+Data-Driven+Decisions;GTM+Strategy+%7C+Competitive+Analysis;Stakeholder+Management+%7C+Cross-Functional+Collaboration;Generative+AI+%7C+LLMs+%7C+Agentic+AI;Building+Products+That+Solve+Real+Problems..." />
+</p>
 
 <p align="center">
   <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
@@ -21,8 +22,11 @@
 </div>
 
 
-////// ---> Animation card 
-
+<p align="center">
+  <img src="gemini2-svg.svg"
+       width="900"
+       alt="AI PM Platform">
+</p>
 
 <a href="https://u8views.com/github/Abhijais4896"><img src="https://u8views.com/api/v1/github/profiles/126854907/views/day-week-month-total-count.svg"></a>
 
@@ -206,6 +210,12 @@ Worked with the team to understand <b>business requirements</b>, gather stakehol
 <img src="https://img.shields.io/badge/Automation-7C3AED?style=flat-square">
 </p>
 
+<p>
+<a href="YOUR_REPO_URL">
+<img src="https://img.shields.io/badge/🔗_View_Project-18181B?style=for-the-badge">
+</a>
+</p>
+
 <hr>
 
 <p>
@@ -246,6 +256,12 @@ Designed an AI-powered customer support solution focused on reducing repetitive 
 <img src="https://img.shields.io/badge/HR_Tech-2563EB?style=flat-square">
 <img src="https://img.shields.io/badge/AI_Product-7C3AED?style=flat-square">
 <img src="https://img.shields.io/badge/CRM-0891B2?style=flat-square">
+</p>
+
+<p>
+<a href="YOUR_REPO_URL">
+<img src="https://img.shields.io/badge/🔗_View_Project-18181B?style=for-the-badge">
+</a>
 </p>
 
 <hr>
@@ -293,6 +309,12 @@ Designed an AI-powered recruitment CRM to simplify candidate management, hiring 
 <img src="https://img.shields.io/badge/Developer_Tools-7C3AED?style=flat-square">
 </p>
 
+<p>
+<a href="YOUR_REPO_URL">
+<img src="https://img.shields.io/badge/🔗_View_Project-18181B?style=for-the-badge">
+</a>
+</p>
+
 <hr>
 
 <p>
@@ -332,6 +354,12 @@ Designed an AI-powered DevOps platform to help engineering teams detect incident
 <img src="https://img.shields.io/badge/FinTech-059669?style=flat-square">
 <img src="https://img.shields.io/badge/SaaS-2563EB?style=flat-square">
 <img src="https://img.shields.io/badge/AI_Product-7C3AED?style=flat-square">
+</p>
+
+<p>
+<a href="YOUR_REPO_URL">
+<img src="https://img.shields.io/badge/🔗_View_Project-18181B?style=for-the-badge">
+</a>
 </p>
 
 <hr>
@@ -377,6 +405,12 @@ Designed a personal finance SaaS concept focused on making income and expense tr
 <img src="https://img.shields.io/badge/E--commerce-2563EB?style=flat-square">
 <img src="https://img.shields.io/badge/Marketplace-0891B2?style=flat-square">
 <img src="https://img.shields.io/badge/AI_Features-7C3AED?style=flat-square">
+</p>
+
+<p>
+<a href="YOUR_REPO_URL">
+<img src="https://img.shields.io/badge/🔗_View_Project-18181B?style=for-the-badge">
+</a>
 </p>
 
 <hr>
@@ -447,8 +481,8 @@ Designed a multi-vendor marketplace covering customer, seller, and admin workflo
 <br>
 
 <p>
-<b>From problem → discovery → strategy →<br>
-solution → launch → measurement</b>
+<b>Problem → Discovery → Strategy →<br>
+Solution → Launch → Measurement</b>
 </p>
 
 </td>
@@ -463,6 +497,22 @@ solution → launch → measurement</b>
   <img src="https://img.shields.io/badge/Focus-Technical_Product_Management-0891B2?style=for-the-badge">
   <img src="https://img.shields.io/badge/Focus-0→1_Products-7C3AED?style=for-the-badge">
 </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
