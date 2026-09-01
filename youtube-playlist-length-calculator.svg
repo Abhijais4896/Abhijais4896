@@ -1,0 +1,372 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <a href="https://youtube-playlist-length-calculator-pxbl4arfy.vercel.app/?ref=producthunt" target="_blank">
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .card {
+        animation: float 5s ease-in-out infinite;
+        transform-origin: 500px 180px;
+      }
+
+      .glow {
+        animation: glow 3s ease-in-out infinite;
+      }
+
+      .shine {
+        animation: shine 5s ease-in-out infinite;
+      }
+
+      .yt {
+        animation: ytPulse 2.5s ease-in-out infinite;
+        transform-origin: 100px 137px;
+      }
+
+      .bar1 {
+        animation: bar1 2s ease-in-out infinite;
+      }
+
+      .bar2 {
+        animation: bar2 2s ease-in-out infinite;
+      }
+
+      .bar3 {
+        animation: bar3 2s ease-in-out infinite;
+      }
+
+      .bar4 {
+        animation: bar4 2s ease-in-out infinite;
+      }
+
+      .bar5 {
+        animation: bar5 2s ease-in-out infinite;
+      }
+
+      .clock-hand {
+        animation: clock 4s linear infinite;
+        transform-origin: 790px 116px;
+      }
+
+      .status-dot {
+        animation: status 1.8s ease-in-out infinite;
+      }
+
+      .arrow {
+        animation: arrow 1.5s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0%, 100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(-6px);
+        }
+      }
+
+      @keyframes glow {
+        0%, 100% {
+          opacity: 0.15;
+        }
+
+        50% {
+          opacity: 0.35;
+        }
+      }
+
+      @keyframes shine {
+        0% {
+          transform: translateX(-700px) rotate(18deg);
+          opacity: 0;
+        }
+
+        20% {
+          opacity: 0.12;
+        }
+
+        45% {
+          opacity: 0.08;
+        }
+
+        65%, 100% {
+          transform: translateX(1200px) rotate(18deg);
+          opacity: 0;
+        }
+      }
+
+      @keyframes ytPulse {
+        0%, 100% {
+          transform: scale(1);
+        }
+
+        50% {
+          transform: scale(1.06);
+        }
+      }
+
+      @keyframes status {
+        0%, 100% {
+          opacity: 0.45;
+          transform: scale(1);
+        }
+
+        50% {
+          opacity: 1;
+          transform: scale(1.35);
+        }
+      }
+
+      @keyframes arrow {
+        0%, 100% {
+          transform: translateX(0);
+        }
+
+        50% {
+          transform: translateX(5px);
+        }
+      }
+
+      @keyframes clock {
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes bar1 {
+        0%, 100% {
+          height: 28px;
+          y: 252px;
+        }
+
+        50% {
+          height: 50px;
+          y: 230px;
+        }
+      }
+
+      @keyframes bar2 {
+        0%, 100% {
+          height: 48px;
+          y: 232px;
+        }
+
+        50% {
+          height: 70px;
+          y: 210px;
+        }
+      }
+
+      @keyframes bar3 {
+        0%, 100% {
+          height: 70px;
+          y: 210px;
+        }
+
+        50% {
+          height: 42px;
+          y: 238px;
+        }
+      }
+
+      @keyframes bar4 {
+        0%, 100% {
+          height: 42px;
+          y: 238px;
+        }
+
+        50% {
+          height: 64px;
+          y: 216px;
+        }
+      }
+
+      @keyframes bar5 {
+        0%, 100% {
+          height: 58px;
+          y: 222px;
+        }
+
+        50% {
+          height: 32px;
+          y: 248px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .card,
+        .glow,
+        .shine,
+        .yt,
+        .bar1,
+        .bar2,
+        .bar3,
+        .bar4,
+        .bar5,
+        .clock-hand,
+        .status-dot,
+        .arrow {
+          animation: none;
+        }
+      }
+    </style>
+
+    <!-- Background glow -->
+    <rect class="glow" x="30" y="30" width="940" height="300" rx="32" fill="#FF0000" filter="url(#blur)"></rect>
+
+    <!-- Main card -->
+    <g class="card">
+
+      <rect x="20" y="20" width="960" height="320" rx="30" fill="#0D1117" stroke="#30363D" stroke-width="2"></rect>
+
+      <!-- Background gradient -->
+      <rect x="21" y="21" width="958" height="318" rx="29" fill="url(#bg)"></rect>
+
+      <!-- Red accent -->
+      <rect x="21" y="21" width="5" height="318" rx="3" fill="#FF0000"></rect>
+
+      <!-- Animated shine -->
+      <rect class="shine" x="-200" y="-100" width="130" height="600" fill="url(#shine)"></rect>
+
+      <!-- Published badge -->
+      <rect x="60" y="48" width="174" height="34" rx="17" fill="#161B22" stroke="#30363D"></rect>
+
+      <circle class="status-dot" cx="81" cy="65" r="5" fill="#3FB950"></circle>
+
+      <text x="96" y="70" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1">
+        PUBLISHED PRODUCT
+      </text>
+
+      <!-- YouTube logo -->
+      <g class="yt">
+
+        <rect x="60" y="102" width="82" height="58" rx="15" fill="#FF0000"></rect>
+
+        <path d="M93 116L93 146L119 131L93 116Z" fill="white"></path>
+
+      </g>
+
+      <!-- Product title -->
+      <text x="165" y="120" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">
+        YouTube Playlist
+      </text>
+
+      <text x="165" y="153" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">
+        Length Calculator
+      </text>
+
+      <!-- Description -->
+      <text x="60" y="199" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="15">
+        Calculate the total duration of any YouTube playlist
+      </text>
+
+      <text x="60" y="222" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="15">
+        instantly — simple, fast and completely free.
+      </text>
+
+      <!-- CTA -->
+      <rect x="60" y="258" width="185" height="48" rx="13" fill="#FFFFFF"></rect>
+
+      <text x="83" y="288" fill="#0D1117" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" letter-spacing="0.4">
+        TRY IT NOW
+      </text>
+
+      <g class="arrow">
+        <path d="M208 281L218 287L208 293" stroke="#0D1117" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </g>
+
+      <!-- Right visualization panel -->
+      <rect x="620" y="52" width="300" height="254" rx="22" fill="#161B22" stroke="#30363D"></rect>
+
+      <!-- Panel heading -->
+      <text x="650" y="83" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">
+        PLAYLIST ANALYTICS
+      </text>
+
+      <!-- Clock -->
+      <circle cx="790" cy="116" r="28" fill="#21262D" stroke="#FF0000" stroke-width="2"></circle>
+
+      <circle cx="790" cy="116" r="3" fill="#FF0000"></circle>
+
+      <g class="clock-hand">
+        <path d="M790 116V100" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"></path>
+
+        <path d="M790 116L801 123" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"></path>
+      </g>
+
+      <!-- Duration -->
+      <text x="650" y="135" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">
+        Total Duration
+      </text>
+
+      <text x="650" y="158" fill="#FF0000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">
+        HOURS · MINUTES · SECONDS
+      </text>
+
+      <!-- Graph -->
+      <path d="M650 266H890" stroke="#30363D" stroke-width="1"></path>
+
+      <path d="M650 231H890" stroke="#21262D" stroke-width="1"></path>
+
+      <path d="M650 196H890" stroke="#21262D" stroke-width="1"></path>
+
+      <!-- Graph bars -->
+      <rect class="bar1" x="670" y="252" width="22" height="28" rx="5" fill="#FF0000"></rect>
+
+      <rect class="bar2" x="708" y="232" width="22" height="48" rx="5" fill="#FF0000"></rect>
+
+      <rect class="bar3" x="746" y="210" width="22" height="70" rx="5" fill="#FF0000"></rect>
+
+      <rect class="bar4" x="784" y="238" width="22" height="42" rx="5" fill="#FF0000"></rect>
+
+      <rect class="bar5" x="822" y="222" width="22" height="58" rx="5" fill="#FF0000"></rect>
+
+      <!-- Mini labels -->
+      <text x="650" y="294" fill="#6E7681" font-family="Arial, Helvetica, sans-serif" font-size="10">
+        PLAYLIST
+      </text>
+
+      <text x="835" y="294" fill="#6E7681" font-family="Arial, Helvetica, sans-serif" font-size="10">
+        ANALYZED
+      </text>
+
+      <!-- Bottom product URL -->
+      <text x="60" y="325" fill="#484F58" font-family="Arial, Helvetica, sans-serif" font-size="10">
+        youtube-playlist-length-calculator
+      </text>
+
+    </g>
+
+    <defs>
+
+      <!-- Main background -->
+      <linearGradient id="bg" x1="20" y1="20" x2="980" y2="340" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#0D1117"></stop>
+        <stop offset="0.5" stop-color="#111827"></stop>
+        <stop offset="1" stop-color="#0D1117"></stop>
+      </linearGradient>
+
+      <!-- Shine -->
+      <linearGradient id="shine" x1="0" y1="0" x2="130" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="white" stop-opacity="0"></stop>
+
+        <stop offset="0.5" stop-color="white" stop-opacity="0.35"></stop>
+
+        <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+      </linearGradient>
+
+      <!-- Glow -->
+      <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="22"></feGaussianBlur>
+      </filter>
+
+    </defs>
+
+  </a>
+</svg>
