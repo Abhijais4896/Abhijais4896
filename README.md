@@ -527,15 +527,33 @@ Solution → Launch → Measurement</b>
 
 <h1 align="center">🛡️Published Products</h1>
 
-<a href="https://www.producthunt.com/products/youtube-playlist-length-calculator-11?utm_source=badge-follow&utm_medium=badge&utm_source=badge-youtube&#0045;playlist&#0045;length&#0045;calculator&#0045;11" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=1306746&theme=light" alt="youtube&#0045;playlist&#0045;length&#0045;calculator - YouTube&#0032;Playlist&#0032;Length&#0032;&#0038;&#0032;Watch&#0032;Time&#0032;Calculator | Product Hunt" style="width: 250px; height: 54px;" width="150" height="54" /></a>
+<table>
+<tr>
+<td width="50%" align="center">
 
-<a href="https://youtube-playlist-length-calculator-pxbl4arfy.vercel.app/?ref=producthunt">
+<a href="https://screen-spec.vercel.app/" target="_blank">
+  <img
+    src="screen-spec-animated.svg"
+    alt="ScreenSpec - AI-powered screenshot to PRD"
+    width="100%"
+  />
+</a>
+
+</td>
+
+<td width="50%" align="center">
+
+<a href="https://youtube-playlist-length-calculator-pxbl4arfy.vercel.app/?ref=producthunt" target="_blank">
   <img
     src="youtube-playlist-length-calculator.svg"
     alt="YouTube Playlist Length Calculator"
     width="100%"
   />
 </a>
+
+</td>
+</tr>
+</table>
 
 
 
