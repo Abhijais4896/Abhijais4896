@@ -113,15 +113,14 @@ product improvements.
 🔹 Testing & Feedback
 </p>
 
-<h4>🧰 Technical Skills</h4>
+<h4>🧰 Core Skills</h4>
 
 <p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
-<img src="https://img.shields.io/badge/Machine_Learning-111827?style=flat-square">
-<img src="https://img.shields.io/badge/EDA-2563EB?style=flat-square">
-<img src="https://img.shields.io/badge/Feature_Engineering-7C3AED?style=flat-square">
-</p>
+ <img src="https://img.shields.io/badge/Product_Strategy-111827?style=flat-square">
+  <img src="https://img.shields.io/badge/Product_Discovery-2563EB?style=flat-square">
+  <img src="https://img.shields.io/badge/User_Research-0F766E?style=flat-square">
+  <img src="https://img.shields.io/badge/0%E2%86%921_Product_Development-7C3AED?style=flat-square">
+
 
 <h4>💡 Product-Relevant Skills</h4>
 
@@ -170,7 +169,7 @@ precision, recall, and RMSE.
 🔹 Hyperparameter Tuning
 </p>
 
-<h4>🧰 Core Skills</h4>
+<h4>🧰 Technical Skills</h4>
 
 <p>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
