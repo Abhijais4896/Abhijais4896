@@ -78,13 +78,13 @@
 <!-- ═════════════════════ ALFIDO TECH ═════════════════════ -->
 <td width="50%" valign="top">
 
-<h2>🤖 Machine Learning Intern</h2>
+<h2>🤖 Business Analytics Intern</h2>
 
 <h3>Alfido Tech</h3>
 
 <p>
   <img src="https://img.shields.io/badge/Internship-8B5CF6?style=flat-square">
-  <img src="https://img.shields.io/badge/Dec_2025-Jun_2026-4F46E5?style=flat-square">
+  <img src="https://img.shields.io/badge/Jan_2026-July_2026-4F46E5?style=flat-square">
 </p>
 
 <p>
@@ -94,18 +94,23 @@
 <hr>
 
 <p>
-Contributed to practical <b>Machine Learning</b> projects using real-world datasets, working across the workflow from data preparation and analysis to model development and evaluation.
+Collected and organized business requirements from team discussions and converted them into user stories and task lists for the
+development team.
+● Used Excel/Google Sheets to clean and organize business data, prepared weekly reports, and tracked basic product and business
+metrics.
+● Reviewed 100+ customer feedback and support records to identify common issues and shared findings with the team to support
+product improvements.
 </p>
 
 <h4>🚀 What I Worked On</h4>
 
 <p>
-🔹 Exploratory Data Analysis<br>
-🔹 Data Cleaning & Preprocessing<br>
-🔹 Feature Engineering<br>
-🔹 ML Model Development<br>
-🔹 Model Comparison & Evaluation<br>
-🔹 Hyperparameter Tuning
+🔹 Requirements Gathering<br>
+🔹 Business & Process Analysis<br>
+🔹 Stakeholder Discussions<br>
+🔹 Requirements Documentation<br>
+🔹 Feature Discussions<br>
+🔹 Testing & Feedback
 </p>
 
 <h4>🧰 Technical Skills</h4>
@@ -130,7 +135,7 @@ Contributed to practical <b>Machine Learning</b> projects using real-world datas
 <!-- ═════════════════════ CODTECH ═════════════════════ -->
 <td width="50%" valign="top">
 
-<h2>📊 Business Analyst Intern</h2>
+<h2>📊 Machine Learning Intern</h2>
 
 <h3>CODTECH IT SOLUTIONS</h3>
 
@@ -146,34 +151,40 @@ Contributed to practical <b>Machine Learning</b> projects using real-world datas
 <hr>
 
 <p>
-Worked with the team to understand <b>business requirements</b>, gather stakeholder inputs, document requirements, and identify opportunities to improve existing workflows and processes.
+Cleaned and prepared datasets using Python and Pandas, handled missing values and basic outliers, and created features for
+machine learning models.
+● Trained and compared classification and regression models using Scikit-learn and evaluated them using metrics such as accuracy,
+precision, recall, and RMSE.
+● Worked on model experiments and documented results in Jupyter notebooks; improved the best model's validation accuracy from
+78% to 85% through feature selection and parameter tuning.
 </p>
 
 <h4>🚀 What I Worked On</h4>
 
 <p>
-🔹 Requirements Gathering<br>
-🔹 Business & Process Analysis<br>
-🔹 Stakeholder Discussions<br>
-🔹 Requirements Documentation<br>
-🔹 Feature Discussions<br>
-🔹 Testing & Feedback
+🔹 Exploratory Data Analysis<br>
+🔹 Data Cleaning & Preprocessing<br>
+🔹 Feature Engineering<br>
+🔹 ML Model Development<br>
+🔹 Model Comparison & Evaluation<br>
+🔹 Hyperparameter Tuning
 </p>
 
 <h4>🧰 Core Skills</h4>
 
 <p>
-<img src="https://img.shields.io/badge/Business_Analysis-0F766E?style=flat-square">
-<img src="https://img.shields.io/badge/Requirements_Gathering-059669?style=flat-square">
-<img src="https://img.shields.io/badge/Stakeholder_Management-2563EB?style=flat-square">
-<img src="https://img.shields.io/badge/Product_Collaboration-7C3AED?style=flat-square">
-<img src="https://img.shields.io/badge/UAT-F59E0B?style=flat-square">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
+<img src="https://img.shields.io/badge/Machine_Learning-111827?style=flat-square">
+<img src="https://img.shields.io/badge/EDA-2563EB?style=flat-square">
+<img src="https://img.shields.io/badge/Feature_Engineering-7C3AED?style=flat-square">
+
 </p>
 
 <h4>💡 Product-Relevant Skills</h4>
 
 <p>
-🎯 Requirements · 🤝 Stakeholders · 🔎 Process Improvement · 🧪 Testing
+📊 Data-driven thinking · 🔍 Problem analysis · 📈 Model evaluation
 </p>
 
 </td>
