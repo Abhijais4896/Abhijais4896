@@ -1,0 +1,388 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220" role="img" aria-labelledby="title desc">
+<title id="title">OpenProject — Open Project Delivery System</title>
+<desc id="desc">Animated OP monogram constructed from an open loop, project pipeline, dependency nodes and a central delivery core.</desc>
+
+<defs>
+  <linearGradient id="opGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#22D3EE"/>
+    <stop offset="48%" stop-color="#38BDF8"/>
+    <stop offset="100%" stop-color="#818CF8"/>
+  </linearGradient>
+
+  <linearGradient id="projectGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#60A5FA"/>
+    <stop offset="100%" stop-color="#A78BFA"/>
+  </linearGradient>
+
+  <radialGradient id="coreGradient">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="20%" stop-color="#67E8F9"/>
+    <stop offset="58%" stop-color="#22D3EE" stop-opacity=".85"/>
+    <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="glowCyan" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="3.5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="glowSoft" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="coreGlow" x="-300%" y="-300%" width="600%" height="600%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+
+  <style>
+    .network {
+      fill:none;
+      stroke:url(#opGradient);
+      stroke-width:5;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+    }
+
+    .secondary {
+      fill:none;
+      stroke:#38BDF8;
+      stroke-opacity:.26;
+      stroke-width:2;
+      stroke-linecap:round;
+    }
+
+    .dependency {
+      fill:none;
+      stroke:#60A5FA;
+      stroke-opacity:.42;
+      stroke-width:1.8;
+      stroke-dasharray:3 8;
+      stroke-linecap:round;
+    }
+
+    .node {
+      fill:#07111F;
+      stroke:#38BDF8;
+      stroke-width:2;
+    }
+
+    .micro {
+      fill:#60A5FA;
+    }
+
+    .orbit {
+      transform-box:fill-box;
+      transform-origin:center;
+    }
+
+    .wordmark {
+      font-family:Inter,Manrope,"Segoe UI",Arial,sans-serif;
+      font-weight:700;
+      letter-spacing:-1.4px;
+    }
+
+    .descriptor {
+      font-family:Inter,Manrope,"Segoe UI",Arial,sans-serif;
+      font-size:9px;
+      font-weight:600;
+      letter-spacing:2.1px;
+    }
+  </style>
+
+  <!-- Main open-loop geometry -->
+
+<path id="openLoop"
+     d="M 118 55
+        C 87 39, 51 52, 43 84
+        C 34 121, 58 155, 91 163
+        C 122 171, 153 153, 159 123
+        C 163 102, 153 78, 136 66"/>
+
+  <!-- P pipeline -->
+
+<path id="pPipeline"
+     d="M 118 55
+        L 118 166
+        M 118 62
+        L 150 62
+        C 174 62, 187 75, 187 94
+        C 187 113, 173 124, 150 124
+        L 118 124"/>
+
+  <!-- Main delivery circuit -->
+
+<path id="deliveryPath"
+     d="M 118 55
+        C 87 39, 51 52, 43 84
+        C 34 121, 58 155, 91 163
+        C 104 166, 113 165, 118 162
+        L 118 124
+        L 150 124
+        C 173 124, 187 113, 187 94
+        C 187 75, 174 62, 150 62
+        L 118 62"/>
+
+  <!-- Signal route through project network -->
+
+<path id="signalPath"
+     d="M 118 162
+        L 118 124
+        L 150 124
+        C 173 124, 187 113, 187 94
+        C 187 75, 174 62, 150 62
+        L 118 62
+        L 118 55"/>
+
+  <!-- Static fallback network -->
+
+  <g opacity=".9">
+    <path class="secondary" d="M 48 91 L 75 75 L 104 58"/>
+    <path class="secondary" d="M 48 126 L 72 143 L 103 157"/>
+    <path class="secondary" d="M 150 62 L 178 48"/>
+    <path class="secondary" d="M 150 124 L 181 143"/>
+    <path class="secondary" d="M 118 94 L 88 112 L 61 111"/>
+  </g>
+
+  <!-- Orbital rings -->
+
+  <g class="orbit">
+    <ellipse cx="115" cy="108" rx="92" ry="76"
+             fill="none" stroke="#60A5FA" stroke-opacity=".14" stroke-width="1.4"
+             stroke-dasharray="4 14">
+      <animateTransform attributeName="transform" type="rotate"
+                        from="0 115 108" to="360 115 108"
+                        dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <g class="orbit">
+    <ellipse cx="115" cy="108" rx="75" ry="94"
+             fill="none" stroke="#818CF8" stroke-opacity=".12" stroke-width="1.2"
+             stroke-dasharray="2 18">
+      <animateTransform attributeName="transform" type="rotate"
+                        from="360 115 108" to="0 115 108"
+                        dur="11s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+<path d="M 32 101 A 85 85 0 0 1 68 39"
+     fill="none" stroke="#22D3EE" stroke-opacity=".25"
+     stroke-width="2" stroke-linecap="round"> <animate attributeName="stroke-dasharray"
+          values="1 180;35 146;1 180"
+          dur="6s" repeatCount="indefinite"/> </path> </defs>
+
+<!-- Transparent by default: no baked background -->
+
+<!-- SYMBOL -->
+
+<g transform="translate(0,0)">
+
+  <!-- Subtle static structure -->
+
+  <g opacity=".72">
+    <use href="#openLoop" class="network"/>
+    <use href="#pPipeline" class="network"/>
+  </g>
+
+  <!-- Controlled OPEN LOOP gap highlight -->
+
+<path d="M 118 55 C 108 50 101 48 94 47"
+     fill="none"
+     stroke="#020617"
+     stroke-width="9"
+     stroke-linecap="round"> <animate attributeName="d"
+   values="
+     M 118 55 C 108 50 101 48 94 47;
+     M 118 55 C 111 52 106 51 101 50;
+     M 118 55 C 108 50 101 48 94 47"
+   dur="7s"
+   repeatCount="indefinite"/> </path>
+
+  <!-- Reconnectable open-loop terminal -->
+
+  <circle cx="94" cy="47" r="3.2" fill="#22D3EE">
+    <animate attributeName="r"
+      values="2.5;4;2.5" dur="3.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity"
+      values=".55;1;.55" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="118" cy="55" r="3.2" fill="#60A5FA">
+    <animate attributeName="r"
+      values="2.5;4;2.5" dur="3.8s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Dependency streams -->
+
+  <path class="dependency" d="M 45 84 L 75 75 L 104 58">
+    <animate attributeName="stroke-dashoffset"
+             values="0;-44" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <path class="dependency" d="M 45 126 L 72 143 L 103 157">
+    <animate attributeName="stroke-dashoffset"
+             values="0;-44" dur="4.2s" repeatCount="indefinite"/>
+  </path>
+
+  <path class="dependency" d="M 150 62 L 178 48">
+    <animate attributeName="stroke-dashoffset"
+             values="0;-44" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+
+  <path class="dependency" d="M 150 124 L 181 143">
+    <animate attributeName="stroke-dashoffset"
+             values="0;-44" dur="3.7s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Project nodes -->
+
+  <g filter="url(#glowCyan)">
+    <circle class="node" cx="45" cy="84" r="4"/>
+    <circle class="node" cx="45" cy="126" r="4"/>
+    <circle class="node" cx="75" cy="75" r="3.2"/>
+    <circle class="node" cx="72" cy="143" r="3.2"/>
+    <circle class="node" cx="104" cy="58" r="3.2"/>
+    <circle class="node" cx="103" cy="157" r="3.2"/>
+    <circle class="node" cx="150" cy="62" r="4"/>
+    <circle class="node" cx="150" cy="124" r="4"/>
+    <circle class="node" cx="178" cy="48" r="3.2"/>
+    <circle class="node" cx="181" cy="143" r="3.2"/>
+  </g>
+
+  <!-- Independent node rhythms -->
+
+  <g fill="#22D3EE">
+    <circle cx="45" cy="84" r="2">
+      <animate attributeName="r" values="2;4;2" dur="3.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".45;1;.45" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="72" cy="143" r="2">
+      <animate attributeName="r" values="2;3.8;2" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="62" r="2">
+      <animate attributeName="r" values="2;4.2;2" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="181" cy="143" r="2">
+      <animate attributeName="r" values="2;3.7;2" dur="5.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Central delivery core -->
+
+<circle cx="118" cy="108" r="18" fill="url(#coreGradient)" opacity=".18"
+       filter="url(#coreGlow)"> <animate attributeName="r" values="12;21;12" dur="4s" repeatCount="indefinite"/> <animate attributeName="opacity" values=".1;.3;.1" dur="4s" repeatCount="indefinite"/> </circle>
+
+<circle cx="118" cy="108" r="5.5"
+       fill="#07111F" stroke="#22D3EE" stroke-width="2"
+       filter="url(#glowCyan)"/>
+
+  <circle cx="118" cy="108" r="2.4" fill="#FFFFFF">
+    <animate attributeName="r" values="2;3.2;2" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Core cross-links -->
+
+<path d="M 118 108 L 88 112 L 61 111"
+     fill="none" stroke="#38BDF8" stroke-opacity=".32" stroke-width="1.5"/> <path d="M 118 108 L 150 94"
+     fill="none" stroke="#818CF8" stroke-opacity=".35" stroke-width="1.5"/> <path d="M 118 108 L 103 157"
+     fill="none" stroke="#38BDF8" stroke-opacity=".3" stroke-width="1.5"/>
+
+  <!-- Main DELIVERY PULSE -->
+
+  <circle r="5" fill="#FFFFFF" filter="url(#glowCyan)">
+    <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#deliveryPath"/>
+    </animateMotion>
+    <animate attributeName="r"
+             values="3;6;3" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Secondary pulse -->
+
+  <circle r="2.5" fill="#34D399" filter="url(#glowCyan)">
+    <animateMotion dur="8s" begin="4s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#deliveryPath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Stem pipeline signal -->
+
+  <circle cx="118" cy="162" r="3" fill="#60A5FA" filter="url(#glowCyan)">
+    <animate attributeName="cy"
+             values="162;124;94;62;55"
+             dur="5s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines=".4 0 .2 1;.4 0 .2 1;.4 0 .2 1;.4 0 .2 1"/>
+    <animate attributeName="opacity"
+             values=".25;1;1;1;.25"
+             dur="5s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Delivery endpoint -->
+
+  <circle cx="178" cy="48" r="5" fill="none" stroke="#34D399" stroke-width="1.5" opacity=".35">
+    <animate attributeName="r" values="4;9;4" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".15;.8;.15" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="178" cy="48" r="2.4" fill="#34D399" filter="url(#glowCyan)">
+    <animate attributeName="r" values="2;4;2" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Tiny workflow particles -->
+
+  <g fill="#67E8F9">
+    <circle r="1.5">
+      <animateMotion dur="3.5s" repeatCount="indefinite">
+        <mpath href="#openLoop"/>
+      </animateMotion>
+    </circle>
+    <circle r="1.2">
+      <animateMotion dur="4.8s" begin="1.5s" repeatCount="indefinite">
+        <mpath href="#openLoop"/>
+      </animateMotion>
+    </circle>
+  </g>
+</g>
+
+<!-- WORDMARK -->
+
+<g transform="translate(230 91)">
+  <text x="0" y="0" class="wordmark" font-size="42" fill="#E5F3FF">
+    Open<tspan fill="url(#projectGradient)">Project</tspan>
+  </text>
+
+  <text x="2" y="27" class="descriptor" fill="#64748B">
+    PROJECT MANAGEMENT • DELIVERY • COORDINATION
+  </text>
+
+  <!-- small animated delivery indicator -->
+
+  <g transform="translate(4 47)">
+    <rect x="0" y="0" width="108" height="2" rx="1" fill="#1E293B"/>
+    <rect x="0" y="0" width="26" height="2" rx="1" fill="url(#opGradient)">
+      <animate attributeName="x"
+               values="0;82;0"
+               dur="5s"
+               repeatCount="indefinite"/>
+    </rect>
+  </g>
+</g>
+
+<!-- 32px-oriented simplified recognition mark -->
+
+<g transform="translate(540 178) scale(.18)" opacity=".001" aria-hidden="true">
+  <path d="M118 55C87 39 51 52 43 84C34 121 58 155 91 163C104 166 113 165 118 162V124H150C173 124 187 113 187 94C187 75 174 62 150 62H118"
+        fill="none" stroke="url(#opGradient)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+</svg>

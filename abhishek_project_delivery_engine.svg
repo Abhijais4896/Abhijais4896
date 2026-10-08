@@ -1,0 +1,375 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Project Management — AI &amp; Technical Project Delivery</title>
+  <desc id="desc">Animated project delivery operating system visual with planning, coordination, AI, risk, execution and delivery workstreams.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030712"/>
+      <stop offset="0.5" stop-color="#081426"/>
+      <stop offset="1" stop-color="#120d24"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.15"/>
+      <stop offset="0.45" stop-color="#38bdf8"/>
+      <stop offset="0.72" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="coreGlow">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.5"/>
+      <stop offset="0.38" stop-color="#3b82f6" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity="0.055"/>
+    </pattern>
+    <clipPath id="cardClip"><rect x="3" y="3" width="1194" height="669" rx="30"/></clipPath>
+
+    <path id="pulse1" d="M760 130 C835 120 890 145 930 190 C962 226 972 260 985 302"/>
+    <path id="pulse2" d="M980 302 C1010 338 1034 374 1025 430 C1018 470 985 495 940 515"/>
+    <path id="pulse3" d="M940 515 C870 536 795 522 760 474 C726 427 718 374 742 329"/>
+    <path id="pulse4" d="M742 329 C715 294 694 250 710 205 C720 171 742 149 760 130"/>
+  </defs>
+
+  <style>
+    .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+    .hero{font-weight:800;font-size:42px;letter-spacing:-.02em;fill:#f8fafc}
+    .sub{font-weight:650;font-size:18px;letter-spacing:.04em;fill:#8be8ff}
+    .muted{font-weight:450;font-size:13px;letter-spacing:.045em;fill:#94a3b8}
+    .tiny{font-weight:650;font-size:10px;letter-spacing:.14em;fill:#64748b}
+    .module{font-weight:750;font-size:11px;letter-spacing:.10em;fill:#e2e8f0}
+    .micro{font-weight:450;font-size:9px;fill:#94a3b8}
+
+    @keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(0,-8px)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes spinRev{to{transform:rotate(-360deg)}}
+    @keyframes dash{to{stroke-dashoffset:-120}}
+    @keyframes beam{to{stroke-dashoffset:-1600}}
+    @keyframes corePulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:.95;transform:scale(1.08)}}
+    @keyframes nodePulse{0%,100%{transform:scale(1);filter:drop-shadow(0 0 0 transparent)}50%{transform:scale(1.08);filter:drop-shadow(0 0 9px #38bdf8)}}
+    @keyframes aiPulse{0%,100%{transform:scale(1);filter:drop-shadow(0 0 3px #a78bfa)}50%{transform:scale(1.12);filter:drop-shadow(0 0 14px #a78bfa)}}
+    @keyframes riskState{0%,72%,100%{stroke:#60a5fa;fill:#0b1830}78%,86%{stroke:#f59e0b;fill:#2c1a04}82%{stroke:#34d399;fill:#05251b}}
+    @keyframes scan{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+    @keyframes border{to{stroke-dashoffset:-3400}}
+    @keyframes typeGlow{0%,100%{opacity:.75}50%{opacity:1}}
+    @keyframes particleFloat{0%{transform:translate(0,0);opacity:.1}35%{opacity:.7}100%{transform:translate(35px,-28px);opacity:0}}
+
+    .float{animation:drift 7s ease-in-out infinite}
+    .ring{animation:spin 26s linear infinite;transform-origin:780px 329px}
+    .ring2{animation:spinRev 19s linear infinite;transform-origin:780px 329px}
+    .ring3{animation:spin 38s linear infinite;transform-origin:780px 329px}
+    .stream{stroke-dasharray:9 13;animation:dash 4s linear infinite}
+    .streamRev{stroke-dasharray:5 10;animation:dash 3.2s linear infinite reverse}
+    .borderBeam{stroke-dasharray:280 1100;animation:border 13s linear infinite}
+    .corePulse{animation:corePulse 4s ease-in-out infinite;transform-origin:780px 329px}
+    .nodeA{animation:nodePulse 3.8s ease-in-out infinite;transform-origin:710px 205px}
+    .nodeB{animation:nodePulse 4.3s ease-in-out 1s infinite;transform-origin:870px 132px}
+    .nodeC{animation:aiPulse 3.2s ease-in-out infinite;transform-origin:985px 302px}
+    .nodeD{animation:nodePulse 4.6s ease-in-out .8s infinite;transform-origin:1025px 430px}
+    .nodeE{animation:nodePulse 4.0s ease-in-out 1.4s infinite;transform-origin:940px 515px}
+    .risk{animation:riskState 9s ease-in-out infinite}
+    .scan{animation:scan 8s linear infinite;transform-origin:600px 560px}
+    .glowText{animation:typeGlow 3s ease-in-out infinite}
+    .particle{animation:particleFloat 5s linear infinite}
+  </style>
+
+  <!-- BASE -->
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <g clip-path="url(#cardClip)">
+    <rect width="1200" height="675" fill="url(#grid)"/>
+    <ellipse cx="785" cy="330" rx="320" ry="275" fill="url(#coreGlow)" filter="url(#soft)"/>
+    <ellipse cx="1050" cy="130" rx="240" ry="180" fill="url(#violetGlow)" filter="url(#soft)"/>
+
+    <!-- floating background particles -->
+    <g fill="#67e8f9">
+      <circle class="particle" cx="620" cy="120" r="2"/>
+      <circle class="particle" cx="1080" cy="260" r="1.5" style="animation-delay:-1.4s"/>
+      <circle class="particle" cx="660" cy="520" r="1.5" style="animation-delay:-2.8s"/>
+      <circle class="particle" cx="1110" cy="565" r="2" style="animation-delay:-.8s"/>
+      <circle class="particle" cx="420" cy="520" r="1.4" style="animation-delay:-3.5s"/>
+    </g>
+
+    <!-- border -->
+    <rect x="4" y="4" width="1192" height="667" rx="30" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+    <rect class="borderBeam" x="4" y="4" width="1192" height="667" rx="30" fill="none" stroke="url(#edge)" stroke-width="2.5" opacity=".9"/>
+
+    <!-- LEFT IDENTITY -->
+    <g class="sans">
+      <rect x="58" y="54" width="206" height="28" rx="14" fill="#071a2b" stroke="#17425b"/>
+      <circle cx="76" cy="68" r="4" fill="#34d399">
+        <animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="90" y="72" font-size="10.5" font-weight="750" letter-spacing=".12em" fill="#67e8f9">PROJECT DELIVERY SYSTEM</text>
+
+      <text x="58" y="145" class="hero">Project</text>
+      <text x="58" y="190" class="hero">Management</text>
+      <text x="60" y="228" class="sub">AI &amp; TECHNICAL PROJECT DELIVERY</text>
+      <text x="60" y="253" class="muted">Coordination • Planning • Execution • Alignment</text>
+
+      <line x1="60" y1="274" x2="480" y2="274" stroke="#1e293b"/>
+      <line x1="60" y1="274" x2="238" y2="274" stroke="url(#accent)" stroke-width="2">
+        <animate attributeName="x2" values="150;300;150" dur="4s" repeatCount="indefinite"/>
+      </line>
+
+      <!-- capability architecture -->
+      <text x="60" y="309" class="tiny">CAPABILITY ARCHITECTURE</text>
+      <g transform="translate(60 330)">
+        <rect x="0" y="0" width="115" height="38" rx="9" fill="#0b1728" stroke="#21435f"/>
+        <text x="58" y="23" class="module" text-anchor="middle">PMO</text>
+        <rect x="127" y="0" width="139" height="38" rx="9" fill="#0b1728" stroke="#21435f"/>
+        <text x="196" y="23" class="module" text-anchor="middle">AGILE / SCRUM</text>
+        <rect x="278" y="0" width="160" height="38" rx="9" fill="#0b1728" stroke="#21435f"/>
+        <text x="358" y="23" class="module" text-anchor="middle">AI / GENAI</text>
+
+        <rect x="0" y="52" width="176" height="38" rx="9" fill="#0b1728" stroke="#21435f"/>
+        <text x="88" y="75" class="module" text-anchor="middle">TECHNICAL DELIVERY</text>
+        <rect x="188" y="52" width="154" height="38" rx="9" fill="#0b1728" stroke="#21435f"/>
+        <text x="265" y="75" class="module" text-anchor="middle">RISK / ISSUES</text>
+        <rect x="354" y="52" width="84" height="38" rx="9" fill="#0b1728" stroke="#21435f"/>
+        <text x="396" y="75" class="module" text-anchor="middle">SDLC</text>
+
+        <rect x="0" y="104" width="164" height="38" rx="9" fill="#0b1728" stroke="#21435f"/>
+        <text x="82" y="127" class="module" text-anchor="middle">DEPENDENCIES</text>
+        <rect x="176" y="104" width="156" height="38" rx="9" fill="#0b1728" stroke="#21435f"/>
+        <text x="254" y="127" class="module" text-anchor="middle">STAKEHOLDERS</text>
+        <rect x="344" y="104" width="94" height="38" rx="9" fill="#0b1728" stroke="#21435f"/>
+        <text x="391" y="127" class="module" text-anchor="middle">JIRA</text>
+      </g>
+
+      <!-- delivery statement -->
+      <g transform="translate(58 510)">
+        <rect x="0" y="0" width="465" height="76" rx="14" fill="#081425" stroke="#1e3550"/>
+        <rect x="0" y="0" width="4" height="76" rx="2" fill="url(#accent)"/>
+        <text x="24" y="27" class="tiny" fill="#67e8f9">DELIVERY MINDSET</text>
+        <text x="24" y="49" class="muted" style="font-size:14px;fill:#cbd5e1">Connecting people, technology, AI,</text>
+        <text x="24" y="68" class="muted" style="font-size:14px;fill:#cbd5e1">dependencies and execution into one flow.</text>
+      </g>
+    </g>
+
+    <!-- RIGHT ENGINE -->
+    <g class="float">
+      <text x="600" y="72" class="sans tiny" fill="#67e8f9">PROJECT DELIVERY OPERATING SYSTEM</text>
+      <text x="600" y="91" class="mono" font-size="10" fill="#475569">LIVE WORKSTREAM ORCHESTRATION / v2.6</text>
+
+      <!-- system ring -->
+      <g class="ring" fill="none">
+        <circle cx="780" cy="329" r="216" stroke="#1e3a52" stroke-width="1" stroke-dasharray="2 15" opacity=".75"/>
+        <circle cx="780" cy="329" r="198" stroke="#28506d" stroke-width="1.2" stroke-dasharray="56 18 7 22" opacity=".6"/>
+        <path d="M780 113 A216 216 0 0 1 957 205" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+      </g>
+      <g class="ring2" fill="none">
+        <circle cx="780" cy="329" r="185" stroke="#384e85" stroke-width="1.3" stroke-dasharray="30 11 6 17" opacity=".75"/>
+        <path d="M595 329 A185 185 0 0 1 660 190" stroke="#a78bfa" stroke-width="2.5" stroke-linecap="round" opacity=".65"/>
+      </g>
+      <g class="ring3" fill="none">
+        <circle cx="780" cy="329" r="231" stroke="#172b40" stroke-width="1" stroke-dasharray="88 23 4 15"/>
+      </g>
+
+      <!-- dependency constellation -->
+      <g fill="none" stroke="#28506d" stroke-width="1" opacity=".72">
+        <path d="M710 205 Q775 152 870 132"/>
+        <path d="M870 132 Q941 150 985 302"/>
+        <path d="M985 302 Q1080 330 1025 430"/>
+        <path d="M1025 430 Q1000 505 940 515"/>
+        <path d="M940 515 Q822 580 760 474"/>
+        <path d="M760 474 Q690 410 742 329"/>
+        <path d="M742 329 Q665 265 710 205"/>
+        <path d="M710 205 Q670 155 636 177"/>
+        <path d="M870 132 Q910 91 950 110"/>
+        <path d="M985 302 Q1070 272 1100 250"/>
+        <path d="M1025 430 Q1080 462 1107 500"/>
+        <path d="M940 515 Q901 585 850 591"/>
+        <path d="M760 474 Q688 520 640 495"/>
+        <path d="M742 329 Q667 365 625 340"/>
+      </g>
+
+      <!-- animated streams -->
+      <g fill="none">
+        <use xlink:href="#pulse1" class="stream" stroke="#22d3ee" stroke-width="2.4" opacity=".8"/>
+        <use xlink:href="#pulse2" class="streamRev" stroke="#60a5fa" stroke-width="2.2" opacity=".7"/>
+        <use xlink:href="#pulse3" class="stream" stroke="#34d399" stroke-width="2.2" opacity=".65"/>
+        <use xlink:href="#pulse4" class="streamRev" stroke="#a78bfa" stroke-width="2.2" opacity=".65"/>
+
+        <circle r="4" fill="#a5f3fc" filter="url(#glow)">
+          <animateMotion dur="3.0s" repeatCount="indefinite"><mpath xlink:href="#pulse1"/></animateMotion>
+        </circle>
+        <circle r="3.5" fill="#c4b5fd" filter="url(#glow)">
+          <animateMotion dur="2.6s" begin="-.8s" repeatCount="indefinite"><mpath xlink:href="#pulse2"/></animateMotion>
+        </circle>
+        <circle r="3.5" fill="#6ee7b7" filter="url(#glow)">
+          <animateMotion dur="3.5s" begin="-.4s" repeatCount="indefinite"><mpath xlink:href="#pulse3"/></animateMotion>
+        </circle>
+        <circle r="3" fill="#c4b5fd" filter="url(#glow)">
+          <animateMotion dur="2.8s" begin="-1.2s" repeatCount="indefinite"><mpath xlink:href="#pulse4"/></animateMotion>
+        </circle>
+      </g>
+
+      <!-- central delivery core -->
+      <g class="corePulse">
+        <circle cx="780" cy="329" r="94" fill="url(#coreGlow)"/>
+        <circle cx="780" cy="329" r="67" fill="#071525" stroke="#294967" stroke-width="2"/>
+        <circle cx="780" cy="329" r="52" fill="#091d32" stroke="url(#accent)" stroke-width="2.5"/>
+        <circle cx="780" cy="329" r="39" fill="#06111e" stroke="#67e8f9" stroke-opacity=".35"/>
+        <path d="M760 326 L774 340 L801 312" fill="none" stroke="#67e8f9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+          <animate attributeName="stroke-dasharray" values="0 100;100 0" dur="1.4s" repeatCount="indefinite"/>
+        </path>
+        <text x="780" y="398" class="sans module" text-anchor="middle">DELIVERY CORE</text>
+        <text x="780" y="413" class="mono" font-size="9" text-anchor="middle" fill="#64748b">ORCHESTRATE / EXECUTE</text>
+      </g>
+
+      <!-- modules -->
+      <g class="sans">
+        <!-- Plan -->
+        <g class="nodeA">
+          <circle cx="710" cy="205" r="31" fill="#071827" stroke="#22d3ee" stroke-width="2" filter="url(#glow)"/>
+          <circle cx="710" cy="205" r="40" fill="none" stroke="#22d3ee" stroke-opacity=".25" stroke-dasharray="4 7"/>
+          <path d="M699 194h22v22h-22zM704 189v6M716 189v6M699 201h22" fill="none" stroke="#67e8f9" stroke-width="1.8"/>
+          <text x="710" y="252" class="module" text-anchor="middle">PLAN</text>
+          <text x="710" y="266" class="micro" text-anchor="middle">Scope / Roadmap</text>
+        </g>
+        <!-- Coordinate -->
+        <g class="nodeB">
+          <circle cx="870" cy="132" r="31" fill="#071827" stroke="#60a5fa" stroke-width="2" filter="url(#glow)"/>
+          <path d="M858 132h24M870 120v24" stroke="#93c5fd" stroke-width="2"/>
+          <circle cx="870" cy="132" r="9" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+          <text x="870" y="177" class="module" text-anchor="middle">ALIGN</text>
+          <text x="870" y="191" class="micro" text-anchor="middle">Teams / Stakeholders</text>
+        </g>
+        <!-- AI -->
+        <g class="nodeC">
+          <circle cx="985" cy="302" r="34" fill="#17102b" stroke="#a78bfa" stroke-width="2.2" filter="url(#glow)"/>
+          <circle cx="985" cy="302" r="42" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5 5" opacity=".6"/>
+          <g stroke="#c4b5fd" stroke-width="1.4" fill="#a78bfa">
+            <circle cx="974" cy="296" r="2.5"/><circle cx="996" cy="296" r="2.5"/><circle cx="985" cy="313" r="2.5"/><circle cx="985" cy="290" r="3"/>
+            <path d="M974 296l11-6 11 6M985 290v23" fill="none"/>
+          </g>
+          <text x="985" y="350" class="module" text-anchor="middle">AI / GENAI</text>
+          <text x="985" y="364" class="micro" text-anchor="middle">LLM / Agents</text>
+        </g>
+        <!-- Build -->
+        <g class="nodeD">
+          <circle cx="1025" cy="430" r="30" fill="#071827" stroke="#60a5fa" stroke-width="2" filter="url(#glow)"/>
+          <path d="M1014 423l7-7 14 14-7 7zM1012 437h9M1034 419l6-6" fill="none" stroke="#93c5fd" stroke-width="1.7" stroke-linecap="round"/>
+          <text x="1025" y="476" class="module" text-anchor="middle">EXECUTE</text>
+          <text x="1025" y="490" class="micro" text-anchor="middle">SDLC / Sprints</text>
+        </g>
+        <!-- Deliver -->
+        <g class="nodeE">
+          <circle cx="940" cy="515" r="31" fill="#06261f" stroke="#34d399" stroke-width="2.2" filter="url(#glow)"/>
+          <path d="M929 517l8 8 16-19" fill="none" stroke="#6ee7b7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="940" y="561" class="module" text-anchor="middle" fill="#6ee7b7">DELIVER</text>
+        </g>
+        <!-- Stakeholders -->
+        <g>
+          <circle cx="760" cy="474" r="27" fill="#071827" stroke="#38bdf8" stroke-width="1.7"/>
+          <circle cx="752" cy="468" r="4" fill="none" stroke="#7dd3fc" stroke-width="1.4"/>
+          <path d="M746 480c0-5 4-8 8-8s8 3 8 8" fill="none" stroke="#7dd3fc" stroke-width="1.4"/>
+          <text x="760" y="514" class="module" text-anchor="middle">STAKEHOLDERS</text>
+        </g>
+        <!-- Risk -->
+        <g>
+          <circle class="risk" cx="742" cy="329" r="27" stroke-width="2" filter="url(#glow)"/>
+          <path d="M742 318l9 17h-18z" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+          <circle cx="742" cy="333" r="1.5" fill="#fbbf24"/>
+          <text x="742" y="370" class="module" text-anchor="middle">RISK</text>
+          <text x="742" y="383" class="micro" text-anchor="middle">Mitigate / Track</text>
+        </g>
+      </g>
+
+      <!-- external constellation labels -->
+      <g class="mono" font-size="8.5" fill="#52647a">
+        <text x="632" y="174">DATA</text>
+        <text x="939" y="104">SECURITY</text>
+        <text x="1080" y="249">PRODUCT</text>
+        <text x="1090" y="507">OPERATIONS</text>
+        <text x="839" y="603">BUSINESS</text>
+        <text x="618" y="503">DESIGN</text>
+        <text x="603" y="338">QA</text>
+      </g>
+
+      <!-- AI delivery stream -->
+      <g class="sans">
+        <path d="M1030 226 C1092 201 1125 218 1148 245 C1160 260 1163 278 1152 290" fill="none" stroke="#a78bfa" stroke-opacity=".23" stroke-width="12" filter="url(#soft)"/>
+        <path d="M1030 226 C1092 201 1125 218 1148 245 C1160 260 1163 278 1152 290" fill="none" stroke="#a78bfa" stroke-width="1.8" stroke-dasharray="4 8" class="stream"/>
+        <text x="1052" y="203" font-size="9" letter-spacing=".13em" fill="#c4b5fd">AI DELIVERY STREAM</text>
+        <text x="1052" y="216" font-size="8.5" fill="#64748b">LLM → AGENTS → WORKFLOWS</text>
+      </g>
+    </g>
+
+    <!-- HEALTH SIGNAL -->
+    <g class="sans" transform="translate(600 545)">
+      <text x="0" y="0" class="tiny">PROJECT HEALTH SIGNAL</text>
+      <g transform="translate(0 15)">
+        <rect x="0" y="0" width="435" height="61" rx="13" fill="#071321" stroke="#1c3449"/>
+        <circle cx="40" cy="31" r="20" fill="#071827" stroke="#315f83"/>
+        <circle cx="40" cy="31" r="13" fill="none" stroke="#1e4865"/>
+        <g class="scan">
+          <path d="M40 31L40 12 A19 19 0 0 1 54 19Z" fill="#67e8f9" opacity=".35"/>
+        </g>
+        <circle cx="40" cy="31" r="3" fill="#67e8f9" filter="url(#glow)"/>
+        <text x="72" y="22" class="module">SCOPE</text>
+        <text x="136" y="22" class="module">TIME</text>
+        <text x="190" y="22" class="module">RISK</text>
+        <text x="246" y="22" class="module">DEPENDENCY</text>
+        <text x="354" y="22" class="module">VALUE</text>
+        <g fill="#334155">
+          <circle cx="83" cy="42" r="3.5"/><circle cx="147" cy="42" r="3.5"/><circle cx="201" cy="42" r="3.5"/><circle cx="305" cy="42" r="3.5"/><circle cx="377" cy="42" r="3.5"/>
+        </g>
+        <g>
+          <circle cx="83" cy="42" r="3.5" fill="#34d399"><animate attributeName="r" values="3.5;6;3.5" dur="2.2s" repeatCount="indefinite"/></circle>
+          <circle cx="147" cy="42" r="3.5" fill="#60a5fa"><animate attributeName="r" values="3.5;6;3.5" dur="2.7s" begin="-.6s" repeatCount="indefinite"/></circle>
+          <circle cx="201" cy="42" r="3.5" fill="#f59e0b"><animate attributeName="r" values="3.5;5.5;3.5" dur="3.1s" begin="-1s" repeatCount="indefinite"/></circle>
+          <circle cx="305" cy="42" r="3.5" fill="#a78bfa"><animate attributeName="r" values="3.5;6;3.5" dur="2.9s" begin="-.3s" repeatCount="indefinite"/></circle>
+          <circle cx="377" cy="42" r="3.5" fill="#34d399"><animate attributeName="r" values="3.5;6;3.5" dur="2.5s" begin="-1.4s" repeatCount="indefinite"/></circle>
+        </g>
+      </g>
+    </g>
+
+    <!-- timeline -->
+    <g class="sans" transform="translate(58 615)">
+      <text x="0" y="0" class="tiny">DELIVERY LIFECYCLE</text>
+      <line x1="155" y1="-4" x2="1080" y2="-4" stroke="#1e293b" stroke-width="2"/>
+      <g fill="none" stroke="#334155" stroke-width="1">
+        <circle cx="190" cy="-4" r="6" fill="#0b1728"/>
+        <circle cx="370" cy="-4" r="6" fill="#0b1728"/>
+        <circle cx="550" cy="-4" r="6" fill="#0b1728"/>
+        <circle cx="730" cy="-4" r="6" fill="#0b1728"/>
+        <circle cx="910" cy="-4" r="6" fill="#0b1728"/>
+        <circle cx="1080" cy="-4" r="6" fill="#0b1728"/>
+      </g>
+      <g font-size="9.5" fill="#64748b" font-weight="600" letter-spacing=".08em">
+        <text x="190" y="17" text-anchor="middle">DISCOVER</text>
+        <text x="370" y="17" text-anchor="middle">PLAN</text>
+        <text x="550" y="17" text-anchor="middle">ALIGN</text>
+        <text x="730" y="17" text-anchor="middle">EXECUTE</text>
+        <text x="910" y="17" text-anchor="middle">MONITOR</text>
+        <text x="1080" y="17" text-anchor="middle">DELIVER</text>
+      </g>
+      <rect x="155" y="-7" width="160" height="6" rx="3" fill="url(#accent)" opacity=".75">
+        <animate attributeName="x" values="155;915;155" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- footer -->
+    <g class="sans">
+      <text x="1125" y="646" font-size="10.5" text-anchor="end" font-weight="750" letter-spacing=".15em" fill="#38bdf8">TECHNICAL PROJECT COORDINATION</text>
+      <text x="1125" y="660" font-size="10" text-anchor="end" fill="#64748b">Plan • Coordinate • Execute • Deliver</text>
+    </g>
+  </g>
+</svg>
