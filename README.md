@@ -1,20 +1,25 @@
 <p align="center">
-  <img src="product-manager-profile-card-animated.svg" width="1200" alt="Abhishek Jaiswal - AI Product Manager">
+  <img src="abhishek_project_delivery_engine.svg" width="1200" alt="Abhishek Jaiswal - Project Manager">
 </p>
+
 
 
 <h1 align="center">Hi 👋, I'm Abhishek Jaiswal
 
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=AI+Product+Manager;Technical+Product+Manager;Product+Manager+%7C+AI+%26+Technical+Products;Product+Strategy+%7C+Product+Discovery;0%E2%86%921+Product+Development+%7C+MVPs;PRDs+%7C+User+Research+%7C+Roadmapping;Product+Analytics+%7C+KPIs+%7C+Data-Driven+Decisions;GTM+Strategy+%7C+Competitive+Analysis;Stakeholder+Management+%7C+Cross-Functional+Collaboration;Generative+AI+%7C+LLMs+%7C+Agentic+AI;Building+Products+That+Solve+Real+Problems..." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Technical+Project+Manager;Project+Coordinator+%7C+Technology+%26+AI+Projects;Project+Planning+%7C+Execution+%7C+Delivery;Project+Coordination+%7C+Milestones+%7C+Dependencies;Agile+%7C+Scrum+%7C+Project+Delivery;Risk+Management+%7C+Issue+Resolution+%7C+Mitigation;Stakeholder+Management+%7C+Cross-Functional+Collaboration;AI+%26+GenAI+Project+Delivery;Cloud+Migration+%7C+Digital+Transformation;Program+Coordination+%7C+Governance+%7C+Reporting;Data-Driven+Project+Decisions+%7C+KPIs;Turning+Technology+Plans+Into+Successful+Delivery..." />
 </p>
+
 
 <p align="center">
   <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
 </p>
 
+
+
 # <h1 align="center">💫 About Me
-🚀 I’m currently working on 0→1 AI & technical products, focusing on product discovery, strategy, user research, roadmapping, and building solutions around real user problems.<br>🤝 **I’m looking to collaborate on AI/technical products, open-source projects, product strategy, 0→1 ideas, user research, and innovative solutions to real-world problems.**<br>🧭 **I’m looking for help with product discovery, validating ideas, building better AI products, and learning from experienced product builders and open-source communities.**<br>📚 **I’m currently learning AI Product Management, product strategy, user research, product analytics, SQL, Generative AI, LLMs, and agentic AI.**<br>💬 **Ask me about AI Product Management, 0→1 product ideas, product strategy, Generative AI, technical products, open source, or building products from scratch.**<br>🎯 **Fun fact:** I can spend hours turning a messy problem into a clear product idea—and somehow end up making a PRD for it. 😄<br>
+🚀 I am currently working on technical and AI-focused project management projects, including ☁️ enterprise cloud migration, 🤖 GenAI implementation, 🏦 digital banking transformation, and 🌍 multi-country ERP implementation. I’m also building projects around 📊 AI-powered analytics, 🧩 product development, and 📋 end-to-end project delivery to strengthen my technical project and program management skills.<br>🤝 I am looking to collaborate on 🚀 technical project & program management, 🤖 AI/GenAI implementations, ☁️ cloud transformation, 📊 data & analytics projects, and 🌍 open-source initiatives. I’m especially interested in working with people who enjoy solving real-world problems, improving project delivery, and building scalable technology solutions.<br>🧭 I am looking for help with improving my skills in 🚀 technical project & program management, 🤖 AI/GenAI project delivery, ☁️ cloud transformation, 📊 data-driven decision-making, and 📈 building scalable, real-world technology projects. I’m also open to learning from experienced professionals and collaborating on challenging projects.<br>📚 I am currently learning 🚀 Technical Project & Program Management, 🤖 AI/GenAI, ☁️ Cloud & Digital Transformation, 📊 Data Analytics, 🔄 Agile & Scrum, and 🧩 modern tools and practices for effective technology project delivery.<br>💬 Ask me about 🚀 Technical Project & Program Management, 🤖 AI/GenAI projects, ☁️ Cloud & Digital Transformation, 📊 Data & Analytics, 📋 Agile project delivery, and 🌍 building real-world technology projects.<br>🤖 I enjoy turning complex technology ideas into structured, practical projects — and I’m always looking for the next challenge to build, learn, and improve. 🚀
 
 
 <div align="center">
@@ -22,13 +27,9 @@
 </div>
 
 
-<p align="center">
-  <img src="gemini2-svg.svg"
-       width="900"
-       alt="AI PM Platform">
-</p>
 
 <a href="https://u8views.com/github/Abhijais4896"><img src="https://u8views.com/api/v1/github/profiles/126854907/views/day-week-month-total-count.svg"></a>
+
 
 <p align="center">
   <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
@@ -42,7 +43,9 @@
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Abhishek_4896)
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhishek.77647@gmail.com)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UC8OjnWUtC8FGX0On8j18HCQ)
-[![Product Hunt](https://img.shields.io/badge/Product%20Hunt-%23DA552F.svg?logo=Product%20Hunt&logoColor=white)](https://www.producthunt.com/@abhishek_4896) 
+[![Product Hunt](https://img.shields.io/badge/Product%20Hunt-%23DA552F.svg?logo=Product%20Hunt&logoColor=white)](https://www.producthunt.com/@abhishek_4896)
+
+
 
 - 👨‍💻 All of my projects are available at [https://github.com/Abhijais4896](https://github.com/Abhijais4896)
 
@@ -59,9 +62,12 @@
   <img src="ai-neon-divider.svg" width="100%">
 </p>
 
+ 
 
-# <h1 align="center">💻 Tech Stack
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Objective-C](https://img.shields.io/badge/OBJECTIVE--C-%233A95E3.svg?style=for-the-badge&logo=apple&logoColor=white) ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Alibaba Cloud](https://img.shields.io/badge/AlibabaCloud-%23FF6701.svg?style=for-the-badge&logo=alibabacloud&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white) ![Meta](https://img.shields.io/badge/Meta-%230467DF.svg?style=for-the-badge&logo=Meta&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) ![OpenGL](https://img.shields.io/badge/OpenGL-white?logo=OpenGL&style=for-the-badge) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Packer](https://img.shields.io/badge/packer-%23E7EEF0.svg?style=for-the-badge&logo=packer&logoColor=%2302A8EF) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white) ![Splunk](https://img.shields.io/badge/splunk-%23000000.svg?style=for-the-badge&logo=splunk&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white) ![Crowdin](https://img.shields.io/badge/Crowdin-2E3340.svg?style=for-the-badge&logo=Crowdin&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white) ![PlayStation Network](https://img.shields.io/badge/PSN-%230070D1.svg?style=for-the-badge&logo=Playstation&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![Puppeteer](https://img.shields.io/badge/Puppeteer-%2340B5A4.svg?style=for-the-badge&logo=Puppeteer&logoSize=auto&logoColor=black) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) ![Jasmine](https://img.shields.io/badge/-Jasmine-%238A4182?style=for-the-badge&logo=Jasmine&logoColor=white) ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e) ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white) ![CircleCI](https://img.shields.io/badge/circleci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366) ![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Inkscape](https://img.shields.io/badge/Inkscape-e0e0e0?style=for-the-badge&logo=inkscape&logoColor=080A13) ![Adobe Audition](https://img.shields.io/badge/Adobe%20Audition-9999FF.svg?style=for-the-badge&logo=Adobe%20Audition&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![Appwrite](https://img.shields.io/badge/Appwrite-%23FD366E.svg?style=for-the-badge&logo=appwrite&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![PlanetScale](https://img.shields.io/badge/planetscale-%23000000.svg?style=for-the-badge&logo=planetscale&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=plastic&logo=go&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=plastic&logo=kotlin&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=plastic&logo=graphql&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=plastic&logo=powershell&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=plastic&logo=gnu-bash&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=plastic&logo=windows-terminal&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=plastic&logo=microsoftazure&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=plastic&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=plastic&logo=oracle&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=plastic&logo=anaconda&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=plastic&logo=angularjs&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=plastic&logo=apachespark&logoColor=black) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=plastic&logo=nVIDIA&logoColor=green) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=plastic&logo=apachehadoop&logoColor=black) ![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=plastic&logo=apachehive&logoColor=black) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=plastic&logo=apachekafka) ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=plastic&logo=apollo-graphql) ![Expo](https://img.shields.io/badge/expo-1C1E24?style=plastic&logo=expo&logoColor=#D04A37) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=plastic&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=plastic&logo=fastapi) ![Fastify](https://img.shields.io/badge/fastify-%23000000.svg?style=plastic&logo=fastify&logoColor=white) ![Filament](https://img.shields.io/badge/Filament-FFAA00?style=plastic&logoColor=%23000000) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=plastic&logo=ejs&logoColor=black) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=plastic&logo=react%20query&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=plastic&logo=react-router&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=plastic&logo=reacthookform&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=plastic&logo=rabbitmq&logoColor=white) ![Radix UI](https://img.shields.io/badge/radix%20ui-161618.svg?style=plastic&logo=radix-ui&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=plastic&logo=opencv&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=plastic&logo=nestjs&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=plastic&logo=JSON%20web%20tokens) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=plastic&logo=streamlit&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=plastic&logo=three.js&logoColor=white) ![Type-graphql](https://img.shields.io/badge/-TypeGraphQL-%23C04392?style=plastic) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=plastic&logo=vite&logoColor=white) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=plastic&logo=web3.js&logoColor=white) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=plastic&logo=webpack&logoColor=black) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=plastic&logo=Apache%20Airflow&logoColor=white) ![Apache Ant](https://img.shields.io/badge/Apache%20Ant-A81C7D?style=plastic&logo=Apache%20Ant&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=plastic&logo=Apache%20Maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=plastic&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=plastic&logo=nginx&logoColor=white) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=plastic&logo=apache-cassandra&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white) ![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=plastic&logo=sketch&logoColor=black) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=plastic&logo=blender&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=plastic&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=plastic&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=plastic&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=plastic&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=plastic&logo=Keras&logoColor=white) ![CircleCI](https://img.shields.io/badge/circleci-%23161616.svg?style=plastic&logo=circleci&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=plastic&logo=playwright&logoColor=white) ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=plastic&logo=cypress&logoColor=058a5e) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=plastic&logo=selenium&logoColor=white) ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=plastic&logo=babel&logoColor=black) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=plastic&logo=jira&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=plastic&logo=kubernetes&logoColor=white)
+
+
 
 
 <p align="center">
@@ -72,126 +78,197 @@
 
 <h1 align="center">💼 Work Experience</h1>
 
-<table align="center">
-<tr>
-
-<!-- ═════════════════════ ALFIDO TECH ═════════════════════ -->
-<td width="50%" valign="top">
-
-<h2>🤖 Business Analytics Intern</h2>
-
-<h3>Alfido Tech</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/Internship-8B5CF6?style=flat-square">
-  <img src="https://img.shields.io/badge/Jan_2026-July_2026-4F46E5?style=flat-square">
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=36BCF7&center=true&vCenter=true&width=650&lines=Technical+Project+%26+Program+Management;AI-Powered+Technology+Solutions;Business+Analytics+%26+Product+Strategy;Learn+%7C+Build+%7C+Deliver" alt="Animated professional tagline" />
 </p>
 
-<p>
-📍 <b>Hyderabad, India · Remote</b>
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Coordination-2563EB?style=for-the-badge&logo=target&logoColor=white" />
+  <img src="https://img.shields.io/badge/Business-Analytics-0F766E?style=for-the-badge&logo=googleanalytics&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-Technology-7C3AED?style=for-the-badge&logo=probot&logoColor=white" />
 </p>
 
-<hr>
-
-<p>
-Collected and organized business requirements from team discussions and converted them into user stories and task lists for the
-development team.
-● Used Excel/Google Sheets to clean and organize business data, prepared weekly reports, and tracked basic product and business
-metrics.
-● Reviewed 100+ customer feedback and support records to identify common issues and shared findings with the team to support
-product improvements.
-</p>
-
-<h4>🚀 What I Worked On</h4>
-
-<p>
-🔹 Requirements Gathering<br>
-🔹 Business & Process Analysis<br>
-🔹 Stakeholder Discussions<br>
-🔹 Requirements Documentation<br>
-🔹 Feature Discussions<br>
-🔹 Testing & Feedback
-</p>
-
-<h4>🧰 Core Skills</h4>
-
-<p>
- <img src="https://img.shields.io/badge/Product_Strategy-111827?style=flat-square">
-  <img src="https://img.shields.io/badge/Product_Discovery-2563EB?style=flat-square">
-  <img src="https://img.shields.io/badge/User_Research-0F766E?style=flat-square">
-  <img src="https://img.shields.io/badge/0%E2%86%921_Product_Development-7C3AED?style=flat-square">
-
-
-<h4>💡 Product-Relevant Skills</h4>
-
-<p>
-📊 Data-driven thinking · 🔍 Problem analysis · 📈 Model evaluation
-</p>
-
-</td>
-
-
-<!-- ═════════════════════ CODTECH ═════════════════════ -->
-<td width="50%" valign="top">
-
-<h2>📊 Machine Learning Intern</h2>
-
-<h3>CODTECH IT SOLUTIONS</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/Internship-06B6D4?style=flat-square">
-  <img src="https://img.shields.io/badge/Jun_2025-Dec_2025-0891B2?style=flat-square">
-</p>
-
-<p>
-📍 <b>Hyderabad, India · Remote</b>
-</p>
-
-<hr>
-
-<p>
-Cleaned and prepared datasets using Python and Pandas, handled missing values and basic outliers, and created features for
-machine learning models.
-● Trained and compared classification and regression models using Scikit-learn and evaluated them using metrics such as accuracy,
-precision, recall, and RMSE.
-● Worked on model experiments and documented results in Jupyter notebooks; improved the best model's validation accuracy from
-78% to 85% through feature selection and parameter tuning.
-</p>
-
-<h4>🚀 What I Worked On</h4>
-
-<p>
-🔹 Exploratory Data Analysis<br>
-🔹 Data Cleaning & Preprocessing<br>
-🔹 Feature Engineering<br>
-🔹 ML Model Development<br>
-🔹 Model Comparison & Evaluation<br>
-🔹 Hyperparameter Tuning
-</p>
-
-<h4>🧰 Technical Skills</h4>
-
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
-<img src="https://img.shields.io/badge/Machine_Learning-111827?style=flat-square">
-<img src="https://img.shields.io/badge/EDA-2563EB?style=flat-square">
-<img src="https://img.shields.io/badge/Feature_Engineering-7C3AED?style=flat-square">
-
-</p>
-
-<h4>💡 Product-Relevant Skills</h4>
-
-<p>
-📊 Data-driven thinking · 🔍 Problem analysis · 📈 Model evaluation
-</p>
-
-</td>
-
-</tr>
+<table>
+  <tr>
+    <th colspan="2" align="center">🚀 PROFESSIONAL EXPERIENCE</th>
+  </tr>
+  <tr>
+    <td width="30%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/01-PRODUCT%20MANAGEMENT-7C3AED?style=for-the-badge" />
+      <br /><br />
+      <b>Junior Product Manager</b>
+      <br />
+      <sub>E-commerce</sub>
+      <br /><br />
+      <a href="https://www.linkedin.com/in/abhishekjaiswal076/">
+        <img src="https://img.shields.io/badge/Company-Yuva%20Intern-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+      </a>
+      <br /><br />
+      <img src="https://img.shields.io/badge/Sep%202026-Present-16A34A?style=flat-square" />
+      <br />
+      <sub>📍 Remote · Noida, India</sub>
+      <br /><br />
+      <img src="https://img.shields.io/badge/Internship-Experience-64748B?style=flat-square" />
+    </td>
+    <td valign="top">
+      **🎯 Focus: Product Discovery · Customer Experience · Feature Coordination**
+      <ul>
+        <li>🛍️ Supported analysis of user needs and friction points across the e-commerce journey, from product discovery to checkout.</li>
+        <li>📝 Helped document product requirements, user stories, and feature ideas while coordinating implementation details with design and development teams.</li>
+        <li>📊 Reviewed product views, add-to-cart rates, checkout completion, and user feedback to identify shopping experience improvements.</li>
+      </ul>
+      **🧰 Skills**
+      <br /><br />
+      <img src="https://img.shields.io/badge/Product%20Management-7C3AED?style=flat-square" />
+      <img src="https://img.shields.io/badge/Requirements-2563EB?style=flat-square" />
+      <img src="https://img.shields.io/badge/Product%20Metrics-0891B2?style=flat-square" />
+      <img src="https://img.shields.io/badge/Coordination-0F766E?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr /></td>
+  </tr>
+  <tr>
+    <td width="30%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/02-BUSINESS%20ANALYTICS-0F766E?style=for-the-badge" />
+      <br /><br />
+      <b>Business Analytics Intern</b>
+      <br /><br />
+      <a href="https://www.linkedin.com/company/100012344/">
+        <img src="https://img.shields.io/badge/Alfido%20Tech-Company-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+      </a>
+      <br /><br />
+      <img src="https://img.shields.io/badge/Jan%202026-Jul%202026-64748B?style=flat-square" />
+      <br />
+      <sub>📍 Remote · Hyderabad, India</sub>
+      <br /><br />
+      <img src="https://img.shields.io/badge/6%20Months-Internship-64748B?style=flat-square" />
+    </td>
+    <td valign="top">
+      **🎯 Focus: Business Intelligence · KPI Tracking · Reporting**
+      <ul>
+        <li>🔍 Worked with business and product teams to understand requirements, document processes, and translate business needs into actionable team tasks.</li>
+        <li>📈 Analyzed operational data using Excel and SQL, tracking order volume, conversion rates, and turnaround time to identify trends and recurring issues.</li>
+        <li>📑 Prepared recurring reports and dashboards to reduce manual reporting effort and improve weekly business update turnaround.</li>
+      </ul>
+      **🧰 Skills**
+      <br /><br />
+      <img src="https://img.shields.io/badge/Business%20Analysis-0F766E?style=flat-square" />
+      <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
+      <img src="https://img.shields.io/badge/SQL-2563EB?style=flat-square" />
+      <img src="https://img.shields.io/badge/KPI%20Reporting-0891B2?style=flat-square" />
+      <img src="https://img.shields.io/badge/Dashboards-7C3AED?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr /></td>
+  </tr>
+  <tr>
+    <td width="30%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/03-MACHINE%20LEARNING-2563EB?style=for-the-badge" />
+      <br /><br />
+      <b>Machine Learning Intern</b>
+      <br /><br />
+      <a href="https://www.linkedin.com/company/106324146/">
+        <img src="https://img.shields.io/badge/CODTECH-IT%20Solutions-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+      </a>
+      <br /><br />
+      <img src="https://img.shields.io/badge/Jun%202025-Dec%202025-64748B?style=flat-square" />
+      <br />
+      <sub>📍 Remote · Hyderabad, India</sub>
+      <br /><br />
+      <img src="https://img.shields.io/badge/6%20Months-Internship-64748B?style=flat-square" />
+    </td>
+    <td valign="top">
+      **🎯 Focus: Data Preparation · Model Evaluation · Experimentation**
+      <ul>
+        <li>🧹 Prepared datasets using Python and pandas, addressing missing values, duplicates, outliers, and basic feature engineering.</li>
+        <li>🧠 Trained and compared classification and regression models using scikit-learn and metrics such as precision, recall, F1-score, and RMSE.</li>
+        <li>📋 Documented experiments and model results while identifying opportunities to improve data quality and model performance.</li>
+      </ul>
+      **🧰 Skills**
+      <br /><br />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+      <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+      <img src="https://img.shields.io/badge/Model%20Evaluation-2563EB?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr /></td>
+  </tr>
+  <tr>
+    <td width="30%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/04-BACKEND%20DEVELOPMENT-0891B2?style=for-the-badge" />
+      <br /><br />
+      <b>Backend Developer Intern</b>
+      <br /><br />
+      <a href="https://www.linkedin.com/company/99291041/">
+        <img src="https://img.shields.io/badge/InnoByte-Services-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+      </a>
+      <br /><br />
+      <img src="https://img.shields.io/badge/Sep%202024-1%20Month-64748B?style=flat-square" />
+      <br />
+      <sub>📍 Remote · New Delhi, India</sub>
+    </td>
+    <td valign="top">
+      **🎯 Focus: API Development · Database Operations · Testing**
+      <ul>
+        <li>⚙️ Assisted in developing and testing Python backend APIs, including request handling, validation, and basic CRUD operations.</li>
+        <li>🗄️ Worked with databases to store, retrieve, and update application data while helping troubleshoot common API and database issues.</li>
+        <li>🧪 Tested API endpoints, fixed bugs, and documented implementation details in coordination with the development team.</li>
+      </ul>
+      **🧰 Skills**
+      <br /><br />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/REST%20APIs-2563EB?style=flat-square" />
+      <img src="https://img.shields.io/badge/Databases-0F766E?style=flat-square" />
+      <img src="https://img.shields.io/badge/API%20Testing-7C3AED?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr /></td>
+  </tr>
+  <tr>
+    <td width="30%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/05-DATA%20SCIENCE-DB2777?style=for-the-badge" />
+      <br /><br />
+      <b>Data Science Intern</b>
+      <br /><br />
+      <a href="https://www.linkedin.com/company/97200402/">
+        <img src="https://img.shields.io/badge/Slash%20Mark-IT%20Solutions-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+      </a>
+      <br /><br />
+      <img src="https://img.shields.io/badge/May%202024-Jun%202024-64748B?style=flat-square" />
+      <br />
+      <sub>📍 Remote · Telangana, India</sub>
+    </td>
+    <td valign="top">
+      **🎯 Focus: Exploratory Data Analysis · Visualization · Model Experiments**
+      <ul>
+        <li>🧹 Cleaned and explored datasets using Python, pandas, and NumPy to assess data quality, distributions, and emerging patterns.</li>
+        <li>📊 Performed exploratory data analysis and created visualizations with Matplotlib and Seaborn to communicate findings.</li>
+        <li>🔬 Assisted with feature preparation and machine learning experiments, comparing model results using appropriate evaluation metrics and documenting findings.</li>
+      </ul>
+      **🧰 Skills**
+      <br /><br />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+      <img src="https://img.shields.io/badge/EDA-2563EB?style=flat-square" />
+      <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" />
+      <img src="https://img.shields.io/badge/Seaborn-0891B2?style=flat-square" />
+    </td>
+  </tr>
 </table>
 
-<br>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,50:7C3AED,100:06B6D4&height=4&section=footer" width="100%" alt="Gradient divider" />
+  <br /><br />
+  <b>🌱 Continuous Learning · 🤝 Cross-Functional Collaboration · 🚀 Practical Problem-Solving</b>
+  <br />
+  <i>Connecting business requirements, analytical insights, and technology delivery.</i>
+</p>
+
 
 
 <p align="center">
@@ -200,340 +277,144 @@ precision, recall, and RMSE.
 
 
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                    PRODUCT PROJECTS                        -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 
-<h1 align="center">🚀 Product Management Projects</h1>
+<h1 align="center">🚀 Portfolio Projects</h1>
 
 <p align="center">
-  <i>Exploring real-world problems through product discovery, strategy, UX, and 0→1 product development.</i>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=1000&center=true&vCenter=true&width=700&lines=Enterprise+Technology+Projects;AI+%26+Digital+Transformation;Planning+%7C+Delivery+%7C+Execution" />
 </p>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏦 Digital Banking Transformation
+
+**Digital Transformation Program**
+
+📅 `2026`   🌐 `Enterprise`
+
+> **Objective:** Transform the digital banking journey and improve customer experience.
+
+**⚡ Project Work**
+
+* 🧭 Mapped onboarding, authentication, payments & support journeys.
+* 🗂️ Defined transformation workstreams, milestones & ownership.
+* 📊 Established adoption, transaction & onboarding KPIs.
+
+**🔑 Core Areas**
+
+`Digital Transformation` `Process Mapping`
+`Program Planning` `KPI Management` `Stakeholder Coordination`
 
 <br>
 
-<table align="center">
-<tr>
-
-<!-- ═══════════════════ AI CUSTOMER SUPPORT ═══════════════════ -->
-
-<td width="50%" valign="top">
-
-<h2>💬 AI Customer Support Agent</h2>
-
-<p>
-<img src="https://img.shields.io/badge/AI_Product-6366F1?style=flat-square">
-<img src="https://img.shields.io/badge/Customer_Experience-0891B2?style=flat-square">
-<img src="https://img.shields.io/badge/Automation-7C3AED?style=flat-square">
-</p>
-
-<p>
-<a href="YOUR_REPO_URL">
-<img src="https://img.shields.io/badge/🔗_View_Project-18181B?style=for-the-badge">
+<a href="https://www.linkedin.com/in/abhishekjaiswal076/details/projects/edit/forms/1988153459/">
+<img src="https://img.shields.io/badge/🔗%20View%20Project-0A66C2?style=for-the-badge" />
 </a>
-</p>
-
-<hr>
-
-<p>
-Designed an AI-powered customer support solution focused on reducing repetitive work and helping support teams respond to customers more efficiently.
-</p>
-
-<h4>🎯 Product Focus</h4>
-
-<p>
-🔹 Customer intent detection<br>
-🔹 Support email workflows<br>
-🔹 Automated response drafting<br>
-🔹 Human escalation workflows<br>
-🔹 Support efficiency
-</p>
-
-<h4>🧠 PM Skills</h4>
-
-<p>
-<code>Product Discovery</code>
-<code>User Journey</code>
-<code>Workflow Design</code><br>
-<code>Requirements</code>
-<code>Prioritization</code>
-<code>UX Thinking</code>
-</p>
 
 </td>
 
-
-<!-- ═══════════════════ AI RECRUITMENT ═══════════════════ -->
-
 <td width="50%" valign="top">
 
-<h2>👥 AI Recruitment & CRM</h2>
+### ☁️ Enterprise Cloud Migration
 
-<p>
-<img src="https://img.shields.io/badge/HR_Tech-2563EB?style=flat-square">
-<img src="https://img.shields.io/badge/AI_Product-7C3AED?style=flat-square">
-<img src="https://img.shields.io/badge/CRM-0891B2?style=flat-square">
-</p>
+**Cloud Transformation Project**
 
-<p>
-<a href="YOUR_REPO_URL">
-<img src="https://img.shields.io/badge/🔗_View_Project-18181B?style=for-the-badge">
-</a>
-</p>
+📅 `2026`   🌐 `Enterprise`
 
-<hr>
+> **Objective:** Plan and coordinate a phased migration of enterprise applications, data & infrastructure.
 
-<p>
-Designed an AI-powered recruitment CRM to simplify candidate management, hiring pipelines, recruiter workflows, and communication.
-</p>
+**⚡ Project Work**
 
-<h4>🎯 Product Focus</h4>
+* 🗺️ Created scope, milestones, dependencies & migration phases.
+* 📋 Built trackers for tasks, risks, issues & delivery status.
+* 🛡️ Developed communication plan & enterprise risk register.
 
-<p>
-🔹 Candidate management<br>
-🔹 Hiring pipeline design<br>
-🔹 Recruiter workflows<br>
-🔹 Candidate search<br>
-🔹 AI-assisted recruitment
-</p>
+**🔑 Core Areas**
 
-<h4>🧠 PM Skills</h4>
-
-<p>
-<code>Product Strategy</code>
-<code>Discovery</code>
-<code>PRDs</code><br>
-<code>User Journeys</code>
-<code>Feature Prioritization</code>
-<code>Workflow Design</code>
-</p>
-
-</td>
-
-</tr>
-
-<tr>
-
-<!-- ═══════════════════ AI DEVOPS ═══════════════════ -->
-
-<td width="50%" valign="top">
-
-<h2>⚙️ AI-Powered DevOps Team</h2>
-
-<p>
-<img src="https://img.shields.io/badge/Technical_Product-0F766E?style=flat-square">
-<img src="https://img.shields.io/badge/AIOps-2563EB?style=flat-square">
-<img src="https://img.shields.io/badge/Developer_Tools-7C3AED?style=flat-square">
-</p>
-
-<p>
-<a href="YOUR_REPO_URL">
-<img src="https://img.shields.io/badge/🔗_View_Project-18181B?style=for-the-badge">
-</a>
-</p>
-
-<hr>
-
-<p>
-Designed an AI-powered DevOps platform to help engineering teams detect incidents, investigate issues, identify root causes, and automate repetitive operational tasks.
-</p>
-
-<h4>🎯 Product Focus</h4>
-
-<p>
-🔹 Incident detection<br>
-🔹 Root-cause analysis<br>
-🔹 Troubleshooting workflows<br>
-🔹 Automated remediation<br>
-🔹 Human + AI collaboration
-</p>
-
-<h4>🧠 PM Skills</h4>
-
-<p>
-<code>Technical Product Management</code>
-<code>Product Discovery</code><br>
-<code>Workflow Design</code>
-<code>Prioritization</code>
-<code>Technical Requirements</code>
-</p>
-
-</td>
-
-
-<!-- ═══════════════════ FINANCE SAAS ═══════════════════ -->
-
-<td width="50%" valign="top">
-
-<h2>💰 AI-Powered Finance SaaS</h2>
-
-<p>
-<img src="https://img.shields.io/badge/FinTech-059669?style=flat-square">
-<img src="https://img.shields.io/badge/SaaS-2563EB?style=flat-square">
-<img src="https://img.shields.io/badge/AI_Product-7C3AED?style=flat-square">
-</p>
-
-<p>
-<a href="YOUR_REPO_URL">
-<img src="https://img.shields.io/badge/🔗_View_Project-18181B?style=for-the-badge">
-</a>
-</p>
-
-<hr>
-
-<p>
-Designed a personal finance SaaS concept focused on making income and expense tracking simpler while helping users understand their spending.
-</p>
-
-<h4>🎯 Product Focus</h4>
-
-<p>
-🔹 Receipt scanning<br>
-🔹 Expense categorization<br>
-🔹 Financial summaries<br>
-🔹 Spending insights<br>
-🔹 CSV data export
-</p>
-
-<h4>🧠 PM Skills</h4>
-
-<p>
-<code>Product Strategy</code>
-<code>User Research</code>
-<code>User Journey</code><br>
-<code>Feature Prioritization</code>
-<code>UX Thinking</code>
-<code>Metrics</code>
-</p>
-
-</td>
-
-</tr>
-
-<tr>
-
-<!-- ═══════════════════ ECOMMERCE ═══════════════════ -->
-
-<td width="50%" valign="top">
-
-<h2>🛒 Multi-Vendor E-commerce</h2>
-
-<p>
-<img src="https://img.shields.io/badge/E--commerce-2563EB?style=flat-square">
-<img src="https://img.shields.io/badge/Marketplace-0891B2?style=flat-square">
-<img src="https://img.shields.io/badge/AI_Features-7C3AED?style=flat-square">
-</p>
-
-<p>
-<a href="YOUR_REPO_URL">
-<img src="https://img.shields.io/badge/🔗_View_Project-18181B?style=for-the-badge">
-</a>
-</p>
-
-<hr>
-
-<p>
-Designed a multi-vendor marketplace covering customer, seller, and admin workflows across the complete buying and selling journey.
-</p>
-
-<h4>🎯 Product Focus</h4>
-
-<p>
-🔹 Vendor onboarding<br>
-🔹 Product management<br>
-🔹 Orders & payments<br>
-🔹 Customer support<br>
-🔹 Admin workflows
-</p>
-
-<h4>🧠 PM Skills</h4>
-
-<p>
-<code>Product Strategy</code>
-<code>Customer Journey</code>
-<code>Marketplace Design</code><br>
-<code>Requirements</code>
-<code>Prioritization</code>
-<code>AI Product Thinking</code>
-</p>
-
-</td>
-
-
-<!-- ═══════════════════ PM CAPABILITIES ═══════════════════ -->
-
-<td width="50%" valign="middle" align="center">
-
-<h2>🧩 Product Toolkit</h2>
-
-<p>
-<img src="https://img.shields.io/badge/Product_Strategy-4F46E5?style=for-the-badge">
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/Product_Discovery-6366F1?style=flat-square">
-<img src="https://img.shields.io/badge/User_Research-0891B2?style=flat-square">
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/PRDs-7C3AED?style=flat-square">
-<img src="https://img.shields.io/badge/Roadmapping-2563EB?style=flat-square">
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/Prioritization-059669?style=flat-square">
-<img src="https://img.shields.io/badge/Product_Analytics-0F766E?style=flat-square">
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/GTM_Strategy-DC2626?style=flat-square">
-<img src="https://img.shields.io/badge/Competitive_Analysis-D97706?style=flat-square">
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/0→1_Development-9333EA?style=flat-square">
-<img src="https://img.shields.io/badge/AI_Product-4F46E5?style=flat-square">
-</p>
+`Cloud Migration` `Project Planning`
+`Risk Management` `Dependency Tracking` `Business Continuity`
 
 <br>
 
-<p>
-<b>Problem → Discovery → Strategy →<br>
-Solution → Launch → Measurement</b>
-</p>
+<a href="https://www.linkedin.com/in/abhishekjaiswal076/details/projects/edit/forms/123311897/">
+<img src="https://img.shields.io/badge/🔗%20View%20Project-0A66C2?style=for-the-badge" />
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 Enterprise GenAI Adoption
+
+**AI Implementation Program**
+
+📅 `2026`   🤖 `GenAI`
+
+> **Objective:** Build a structured framework for enterprise GenAI adoption and implementation.
+
+**⚡ Project Work**
+
+* 🔎 Evaluated & prioritized GenAI use cases.
+* 🚀 Designed pilot → testing → training → rollout roadmap.
+* 🛡️ Established AI governance for privacy, security & responsible AI.
+
+**🔑 Core Areas**
+
+`GenAI Strategy` `AI Governance`
+`Use-Case Prioritization` `Implementation Roadmap` `Change Adoption`
+
+<br>
+
+<a href="https://www.linkedin.com/in/abhishekjaiswal076/details/projects/edit/forms/1988024912/">
+<img src="https://img.shields.io/badge/🔗%20View%20Project-0A66C2?style=for-the-badge" />
+</a>
 
 </td>
 
+<td width="50%" valign="top">
+
+### 🌍 Global ERP Implementation
+
+**Multi-Country Rollout Program**
+
+📅 `2026`   🌐 `Global`
+
+> **Objective:** Plan a multi-country ERP implementation from requirements through go-live.
+
+**⚡ Project Work**
+
+* 🗓️ Designed phased rollout across requirements, migration, testing & training.
+* 🤝 Coordinated country-specific requirements & dependencies.
+* ✅ Built go-live readiness framework covering UAT, training & support.
+
+**🔑 Core Areas**
+
+`ERP Implementation` `Global Rollout`
+`UAT` `Change Management` `Go-Live Planning`
+
+<br>
+
+<a href="https://www.linkedin.com/in/abhishekjaiswal076/details/projects/edit/forms/1988066878/">
+<img src="https://img.shields.io/badge/🔗%20View%20Project-0A66C2?style=for-the-badge" />
+</a>
+
+</td>
 </tr>
 </table>
 
 <br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-AI_Product_Management-6366F1?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Focus-Technical_Product_Management-0891B2?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Focus-0→1_Products-7C3AED?style=for-the-badge">
+  <img src="https://img.shields.io/badge/🎯%20PROJECT%20LIFECYCLE-DEFINE%20→%20PLAN%20→%20EXECUTE%20→%20MONITOR%20→%20DELIVER-7C3AED?style=for-the-badge" />
 </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p align="center">
+  <i>Building portfolio projects around enterprise technology, AI adoption, digital transformation and structured project delivery.</i>
+</p>
 
 
 
@@ -542,7 +423,8 @@ Solution → Launch → Measurement</b>
 </p>
 
 
-<h1 align="center">🛡️Published Products</h1>
+
+<h1 align="center">🛡️Published Projects</h1>
 
 <table>
 <tr>
@@ -579,6 +461,7 @@ Solution → Launch → Measurement</b>
 <p align="center">
   <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
 </p>
+
 
 
 
@@ -632,10 +515,14 @@ Solution → Launch → Measurement</b>
 
 
 
-# <h1 align="center">📊 GitHub Stats
-![](https://github-readme-stats.shion.dev/api?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+
+
+# <h1 align="center">📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://streak-stats.demolab.com/?user=Abhijais4896&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abhijais4896&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+
 
 
 <p align="center">
@@ -643,13 +530,8 @@ Solution → Launch → Measurement</b>
 </p>
 
 
-# <h1 align="center">🏆 GitHub Trophies
+# <h1 align="center">🏆 Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Abhijais4896&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-
-<p align="center">
-  <img src="gemini4-svg.svg" width="100%" alt="Cloud Trophy">
-</p>
 
 
 
@@ -662,14 +544,14 @@ Solution → Launch → Measurement</b>
 ### <h1 align="center">✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### <h1 align="center">🔝 Top Contributed Repo
+
+
+### <h1 align="center">🔝 Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Abhijais4896&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 <p align="center">
-  <a href="https://github.com/OpenHands/openhands">
-    <img src="openhands.svg" width="120" alt="OpenHands" style="margin-right: 120px;">
-  </a><a href="https://github.com/makeplane/plane">
-    <img src="plane.svg" width="120" alt="Plane">
+  <a href="https://github.com/opf/openproject">
+    <img src="openproject.svg" width="400" alt="openproject" style="margin-right: 120px;">
   </a>
 </p>
 
@@ -691,3 +573,5 @@ Solution → Launch → Measurement</b>
 <p align="center">
   <img src="kubernetes-multicloud-infrastructure-divider.svg" width="100%" alt="Kubernetes Multi-Cloud Infrastructure">
 </p>
+
+
