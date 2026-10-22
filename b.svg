@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+<title id="title">3D animated blue shark emoji</title><desc id="desc">A glossy blue cartoon shark with a spiky grin and a torn paper music note, inside a circular ocean badge.</desc>
+<defs>
+ <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8f5ff"/></linearGradient>
+ <radialGradient id="ocean" cx=".48" cy=".32" r=".8"><stop stop-color="#2189ff"/><stop offset=".55" stop-color="#0751c6"/><stop offset="1" stop-color="#162e91"/></radialGradient>
+ <linearGradient id="skin" x1=".2" y1="0" x2=".7" y2="1"><stop stop-color="#d8f8ff"/><stop offset=".28" stop-color="#83d9ff"/><stop offset=".65" stop-color="#398bd9"/><stop offset="1" stop-color="#174aaf"/></linearGradient>
+ <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#c9e9ff"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur in="SourceAlpha" stdDeviation="5"/><feOffset dy="6"/><feComponentTransfer><feFuncA type="linear" slope=".38"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="blur"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<circle cx="160" cy="160" r="151" fill="#fff"/><circle cx="160" cy="160" r="140" fill="url(#rim)"/><circle cx="160" cy="160" r="130" fill="url(#ocean)"/>
+<g fill="#a9d8ff" opacity=".35"><circle cx="50" cy="160" r="8" filter="url(#blur)"/><circle cx="248" cy="105" r="10" filter="url(#blur)"/><circle cx="229" cy="218" r="5"/><circle cx="87" cy="88" r="4"/><circle cx="69" cy="211" r="4"/></g>
+<ellipse cx="160" cy="253" rx="80" ry="12" fill="#00185d" opacity=".35" filter="url(#blur)"/>
+<g filter="url(#shadow)" id="shark">
+ <!-- tail and fins -->
+ <path d="M142 214 Q101 216 70 263 Q86 218 91 178 Q108 190 142 196Z" fill="url(#skin)" stroke="#327ac8" stroke-width="2"/>
+ <path d="M178 214 Q219 216 250 263 Q234 218 229 178 Q212 190 178 196Z" fill="url(#skin)" stroke="#327ac8" stroke-width="2"/>
+ <path d="M140 91 Q148 52 158 28 Q168 52 175 91Z" fill="url(#skin)" stroke="#6bb9f4" stroke-width="2"/>
+ <path d="M117 201 Q85 183 79 149 Q68 119 91 92 Q112 64 160 59 Q208 64 229 92 Q252 119 241 149 Q235 183 203 201 L185 225 L135 225Z" fill="url(#skin)" stroke="#70c3f6" stroke-width="3"/>
+ <!-- face highlights -->
+ <path d="M101 113 Q112 82 145 75" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+ <ellipse cx="111" cy="111" rx="8" ry="12" fill="#fff"/><ellipse cx="209" cy="111" rx="8" ry="12" fill="#fff"/>
+ <ellipse cx="112" cy="112" rx="5" ry="8" fill="#293c80"/><ellipse cx="208" cy="112" rx="5" ry="8" fill="#293c80"/>
+ <circle cx="114" cy="109" r="2.5" fill="#fff"/><circle cx="210" cy="109" r="2.5" fill="#fff"/>
+ <ellipse cx="136" cy="132" rx="3" ry="5" fill="#0e4d9d"/><ellipse cx="184" cy="132" rx="3" ry="5" fill="#0e4d9d"/>
+ <!-- mouth -->
+ <path d="M100 144 Q160 176 220 144 Q214 184 160 194 Q106 184 100 144Z" fill="#112f64" stroke="#164887" stroke-width="3"/>
+ <path d="M108 150 L122 169 L133 155 L145 174 L158 158 L171 174 L184 155 L197 169 L212 150 Q202 179 160 184 Q118 179 108 150Z" fill="#fff"/>
+ <path d="M124 181 Q160 190 196 181 Q181 202 160 202 Q139 202 124 181Z" fill="#ff6d9a"/>
+ <!-- paper music note -->
+ <path d="M130 181 L198 188 L185 248 L106 239 L117 220Z" fill="#f8fcff" stroke="#c4e5ff" stroke-width="2"/>
+ <path d="M130 196 L130 221 Q126 231 117 225 Q111 220 118 214 Q124 211 130 215 M130 196 L159 201 L159 226 Q155 235 146 230 Q141 225 148 220 Q153 218 159 222 M130 196 L159 190" fill="none" stroke="#183b73" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+ <circle cx="129" cy="196" r="4" fill="#183b73"/><circle cx="159" cy="190" r="4" fill="#183b73"/>
+</g>
+<g fill="#dbeaff" opacity=".95"><path d="M90 244 L104 250 L87 255 L93 249 L83 247Z"/><path d="M221 236 L238 240 L224 247 L229 241 L217 240Z"/><path d="M199 219 L211 222 L201 228Z"/></g>
+<path d="M147 44 Q150 34 155 31" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+<style>
+#shark{transform-box:fill-box;transform-origin:center;animation:swim 3.2s ease-in-out infinite}
+@keyframes swim{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-4px) rotate(1deg)}}
+</style>
+<g id="shark" opacity="0"><circle cx="160" cy="160" r="1"/></g>
+<circle cx="160" cy="160" r="139" fill="none" stroke="#fff" stroke-width="3" opacity=".7"/>
+</svg>

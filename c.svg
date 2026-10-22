@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+<title id="title">3D animated YOLO rainbow badge</title><desc id="desc">Chunky glossy YOLO lettering with white bevels and floating chevrons over pastel rainbow stripes.</desc>
+<defs>
+ <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f5f4ff"/></linearGradient>
+ <linearGradient id="pink" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ff9ca4"/><stop offset="1" stop-color="#ff6f87"/></linearGradient>
+ <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ef83ce"/><stop offset="1" stop-color="#a54ec5"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#74dff0"/><stop offset="1" stop-color="#2797b8"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffe8a3"/><stop offset="1" stop-color="#e8b55c"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur in="SourceAlpha" stdDeviation="5"/><feOffset dx="1" dy="7"/><feComponentTransfer><feFuncA type="linear" slope=".28"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="circle"><circle cx="160" cy="160" r="130"/></clipPath>
+</defs>
+<circle cx="160" cy="160" r="151" fill="#fff"/><circle cx="160" cy="160" r="140" fill="url(#rim)"/>
+<g clip-path="url(#circle)">
+ <rect x="25" y="28" width="270" height="65" fill="#ffe4a1"/>
+ <rect x="25" y="93" width="270" height="65" fill="#ff9b91"/>
+ <rect x="25" y="158" width="270" height="65" fill="#f3a7dc"/>
+ <rect x="25" y="223" width="270" height="65" fill="#8ed8e6"/>
+ <path d="M25 90 Q90 72 160 91 T295 90" fill="none" stroke="#fff" stroke-width="4" opacity=".3"/>
+ <ellipse cx="162" cy="239" rx="90" ry="14" fill="#6b4985" opacity=".2" filter="url(#shadow)"/>
+ <!-- floating arrows -->
+ <g filter="url(#shadow)" stroke="#fff" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" fill="none">
+  <path d="M61 178 L48 192 L62 205"/><path d="M256 99 L271 112 L258 126"/>
+ </g>
+ <g fill="none" stroke="#c17aa9" stroke-width="2" opacity=".4"><path d="M61 178 L48 192 L62 205"/><path d="M256 99 L271 112 L258 126"/></g>
+ <!-- 3D block lettering -->
+ <g filter="url(#shadow)" stroke-linejoin="round" stroke-linecap="round" id="letters">
+  <!-- Y -->
+  <path d="M75 107 L91 95 L116 123 L132 99 L148 110 L122 151 L126 184 L105 187 L100 153Z" fill="#fff" stroke="#fff" stroke-width="12"/>
+  <path d="M78 106 L94 94 L119 122 L135 98 L151 109 L125 150 L129 182 L108 185 L103 152Z" fill="url(#pink)" stroke="#fff" stroke-width="5"/>
+  <path d="M88 104 L96 99 L116 124" fill="none" stroke="#ffd6df" stroke-width="4"/>
+  <!-- O top -->
+  <path d="M145 92 Q163 76 184 89 Q203 103 194 124 Q185 144 164 140 Q143 136 140 116 Q137 101 145 92Z" fill="url(#purple)" stroke="#fff" stroke-width="10"/>
+  <path d="M151 99 Q163 89 176 97 Q186 105 180 118 Q174 129 162 125 Q150 122 150 111 Q149 104 151 99Z" fill="#fff"/>
+  <path d="M149 96 Q161 86 176 94" fill="none" stroke="#ffd4f2" stroke-width="4"/>
+  <!-- L -->
+  <path d="M119 158 L142 156 L146 194 L176 190 L179 211 L126 216Z" fill="#fff" stroke="#fff" stroke-width="10"/>
+  <path d="M119 158 L142 156 L146 194 L176 190 L179 211 L126 216Z" fill="url(#purple)" stroke="#fff" stroke-width="4"/>
+  <path d="M128 164 L135 163 L138 196" fill="none" stroke="#f6c8f0" stroke-width="4"/>
+  <!-- O bottom right -->
+  <path d="M180 151 Q199 139 217 152 Q236 166 226 187 Q218 207 197 203 Q177 200 174 180 Q172 162 180 151Z" fill="url(#blue)" stroke="#fff" stroke-width="10"/>
+  <path d="M187 160 Q198 152 210 160 Q220 168 214 181 Q208 191 197 187 Q186 184 186 173 Q185 166 187 160Z" fill="#fff"/>
+  <path d="M184 157 Q197 148 211 157" fill="none" stroke="#d5fbff" stroke-width="4"/>
+  <!-- tiny shine dots -->
+  <circle cx="99" cy="107" r="3" fill="#fff"/><circle cx="159" cy="97" r="3" fill="#fff"/><circle cx="195" cy="157" r="3" fill="#fff"/>
+ </g>
+ <g fill="#fff" opacity=".95"><path d="M83 225 l11 3 -10 6 2 -5 -8 -2Z"/><path d="M239 216 l10 3 -9 6 2 -5 -7 -2Z"/></g>
+</g>
+<circle cx="160" cy="160" r="139" fill="none" stroke="#fff" stroke-width="3" opacity=".8"/>
+<style>
+#letters{transform-box:fill-box;transform-origin:center;animation:pop 3s ease-in-out infinite}
+@keyframes pop{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-3px) rotate(-1deg)}}
+</style>
+</svg>
