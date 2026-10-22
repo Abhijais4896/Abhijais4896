@@ -511,8 +511,8 @@
 ![](https://github-contributor-stats.vercel.app/api?username=Abhijais4896&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 <p align="center">
-  <a href="https://github.com/opf/openproject">
-    <img src="openproject.svg" width="400" alt="openproject" style="margin-right: 120px;">
+  <a href="[https://github.com/Decision-Management-Community/dm-community](https://github.com/Decision-Management-Community/dm-community)">
+    <img src="dm.svg" width="400" alt="dm" style="margin-right: 120px;">
   </a>
 </p>
 
