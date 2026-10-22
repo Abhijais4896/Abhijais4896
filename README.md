@@ -512,7 +512,7 @@
 
 <p align="center">
   <a href="[https://github.com/Decision-Management-Community/dm-community](https://github.com/Decision-Management-Community/dm-community)">
-    <img src="dm.svg" width="400" alt="dm" style="margin-right: 120px;">
+    <img src="dm.svg" width="200" alt="dm" style="margin-right: 120px;">
   </a>
 </p>
 
