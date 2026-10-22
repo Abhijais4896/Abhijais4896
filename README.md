@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="marketing-profile-card.svg" width="1200" alt="Abhishek Jaiswal - Project Manager">
+  <img src="digital_marketing_profile.svg" width="1200" alt="Abhishek Jaiswal - Project Manager">
 </p>
 
 
