@@ -491,9 +491,17 @@
 </p>
 
 
-# <h1 align="center">🏆 Trophies
+# <h1 align="center">🏆 Achievements
 ![](https://github-profile-trophy.vercel.app/?username=Abhijais4896&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
+
+<p align="center">
+  <img src="a.svg" width="150" alt="Animated 3D Cowboy Emoji" />
+  &nbsp;&nbsp;
+  <img src="b.svg" width="150" alt="Animated 3D Shark Emoji" />
+  &nbsp;&nbsp;
+  <img src="c.svg" width="150" alt="Animated 3D YOLO Rainbow Badge" />
+</p>
 
 
 
