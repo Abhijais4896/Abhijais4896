@@ -114,9 +114,9 @@
     <td valign="top">
       <b>🎯 Focus: Market Research · Product Positioning · Go-to-Market Strategy</b>
       <ul>
-        <li>🔎 Conducted competitor research and analyzed customer needs to identify market trends, product positioning opportunities, and potential differentiators.</li>
-        <li>🎯 Supported product messaging and go-to-market activities by developing value propositions, documenting feature benefits, and aligning communication with target audience needs.</li>
-        <li>📣 Collaborated on product marketing materials and reviewed user feedback and engagement insights to identify opportunities to improve product adoption and customer communication.</li>
+        <li>🔎 Developed end-to-end product positioning and messaging strategies for an AI-powered marketing intelligence product, defining target audiences, customer pain points, value propositions, and key differentiators.</li>
+        <li>🎯 Conducted competitive product analysis and go-to-market planning, evaluating competitor positioning, features, pricing, and market opportunities while creating launch strategies, channel plans, timelines, and KPI frameworks.</li>
+        <li>📣 Created a comprehensive sales enablement kit, including product pitch materials, demonstration scripts, FAQs, objection-handling frameworks, and customer-focused sales communication to support the complete product marketing lifecycle.</li>
       </ul>
       <b>🧰 Skills</b>
       <br /><br />
